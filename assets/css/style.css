@@ -7,6 +7,23 @@
 }
 
 body {
-    font-family: manrope, sans-serif;
+    font-family: Manrope, sans-serif;
     font-weight: 400px;
+    background-color: #f2f1f4;
+    color: black;
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    color: #494454;
+    letter-spacing: 1px;
+}
+
+#logo {
+    font-family: Shadows Into Light; sans-serif;
+    color: #191970;
+    font-size: 300%;
+    letter-spacing: 4px;
+    float: left;
 }
