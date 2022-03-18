@@ -107,6 +107,11 @@ h2 {
     transform: translateY(-50%);
 }
 
+#about-us {
+    height: 1000px;
+    width: 100%;
+}
+
 #right-about {
     height: 1000px;
     width: 50%;
@@ -152,3 +157,8 @@ h2 {
     text-align: right;
 }
 
+#bakery-menu {
+    height: 1000px;
+    width: 100%;
+    background-color: pink;
+}
