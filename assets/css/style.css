@@ -102,20 +102,53 @@ h2 {
     margin-right: auto;
 }
 
-#bakery-image {
-    height: 1200px;
-    width: 50%;
-    float: right;
-    background-color: red;
-    position: relative;
-}
-
-#bakery-image-style {
-    border-radius: 30px;
-    position: absolute;
-}
-
 .vertical-center {
     top: 50%;
     transform: translateY(-50%);
 }
+
+#right-about {
+    height: 1000px;
+    width: 50%;
+    float: right;
+    background-color: red;
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#bakery-image {
+    border-radius: 30px;
+    position: absolute;
+}
+
+#left-about {
+    height: 1000px;
+    width: 50%;
+    float: left;
+    background-color: grey;
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#text-about {
+    background-color: green;
+    height: 500px;
+    width: 900px;
+    position: absolute;
+}
+
+#text-about h2 {
+    font-size: 250%;
+    padding: 5%;
+    text-align: right;
+}
+
+#text-about p {
+    font-size: 250%;
+    padding: 5%;
+    line-height: 60px;
+    text-align: right;
+}
+
