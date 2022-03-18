@@ -21,7 +21,7 @@ h2 {
 }
 
 #logo {
-    font-family: Shadows Into Light; sans-serif;
+    font-family: Shadows Into Light, sans-serif;
     color: #191970;
     font-size: 300%;
     letter-spacing: 4px;
@@ -58,6 +58,10 @@ h2 {
     border-bottom: 2px solid #494454;
 }
 
+#main-image {
+    position: relative;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -65,4 +69,35 @@ h2 {
 
 .image {
     background: no-repeat center center;
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Shadows Into Light, sans-serif;
+    letter-spacing: 4px;
+
+    width: 700px;
+    height: 150px;
+
+    padding: 20px;
+
+    background-color: rgba(255, 255, 255, .5);
+
+    position: absolute;
+
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+#cover-text, #cover-text h2 {
+    color: #494454;
+    font-family: Shadows Into Light, sans-serif;
+}
+
+.center {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
