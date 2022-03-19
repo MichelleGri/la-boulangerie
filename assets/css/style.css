@@ -140,19 +140,19 @@ h2 {
 
 #text-about {
     background-color: green;
-    height: 500px;
-    width: 900px;
+    height: 50%;
+    width: 70%;
     position: absolute;
 }
 
 #text-about h2 {
-    font-size: 250%;
+    font-size: 200%;
     padding: 5%;
     text-align: right;
 }
 
 #text-about p {
-    font-size: 250%;
+    font-size: 200%;
     padding: 5%;
     line-height: 60px;
     text-align: right;
