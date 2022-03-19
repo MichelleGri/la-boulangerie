@@ -115,7 +115,7 @@ header {
 }
 
 #right-about {
-    height: 1000px;
+    height: 900px;
     width: 50%;
     float: right;
     position: relative;
@@ -129,7 +129,7 @@ header {
 }
 
 #left-about {
-    height: 1000px;
+    height: 900px;
     width: 50%;
     float: left;
     position: relative;
@@ -155,25 +155,20 @@ header {
 }
 
 #bakery-menu {
-    height: 1000px;
+    height: 700px;
     width: 100%;
-    margin-top: 0;
-    padding-top: 0;
+    background-color: pink;
 }
 
 #bakery-menu h2 {
     font-size: 250%;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #bakery-menu div{
-    margin-right: 2%;
-    margin-left: 2%;
     display: inline-block;
-    
-    /* height: 500px;
-    width: 20.7%; */
 }
 
 .image {
@@ -184,6 +179,9 @@ header {
     position: relative;
     height: 500px;
     width: 20.7%;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 500px;
 }
 
 .overlay {
@@ -195,7 +193,8 @@ header {
     height: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 30px;
 }
 
 .container:hover .overlay {
@@ -203,15 +202,16 @@ header {
 }
 
 .text {
-    color: white;
-    font-size: 20px;
+    color: #494454;
+    font-size: 400%;
     position: absolute;
     top: 50%;
     left: 50%;
+    text-align: center;
     -webkit-transform: translate(-50% -50%);
     -ms-transform: translate-(-50% -50%);
     transform: translate(-50% -50%);
-    text-align:center;
+    
 }
 
 
