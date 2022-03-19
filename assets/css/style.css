@@ -182,11 +182,9 @@ header {
 
 .container {
     position: relative;
-    height: 500px;
     width: 20.7%;
     margin-right: 2%;
     margin-left: 2%;
-    height: 500px;
 }
 
 .overlay {
@@ -196,6 +194,7 @@ header {
     left: 0;
     right: 0;
     height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(255, 255, 255, .5);
@@ -208,17 +207,13 @@ header {
 
 .text {
     color: #494454;
-    font-size: 400%;
+    font-size: 0.2vw;
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    -webkit-transform: translate(-50% -50%);
-    -ms-transform: translate-(-50% -50%);
-    transform: translate(-50% -50%);
-    
 }
-
 
 #footer {
     height: 200px;
