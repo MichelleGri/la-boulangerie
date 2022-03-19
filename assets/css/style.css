@@ -68,27 +68,20 @@ h2 {
     width: 100%;
 }
 
-.image {
-    background: no-repeat center center;
-}
-
 #cover-text {
     font-size: 200%;
     font-family: Shadows Into Light, sans-serif;
     letter-spacing: 4px;
+    background-color: rgba(255, 255, 255, .5);
+    text-align: center;
 
     width: 700px;
     height: 150px;
-
     padding: 20px;
-
-    background-color: rgba(255, 255, 255, .5);
-
-    position: absolute;
-
     border-radius: 30px;
 
-    text-align: center;
+    position: absolute;
+    bottom: 5px;
 }
 
 #cover-text, #cover-text h2 {
@@ -111,6 +104,8 @@ h2 {
 #about-us {
     height: 1000px;
     width: 100%;
+    margin-top: 7%;
+    margin-bottom: 3%;
 }
 
 #right-about {
@@ -118,13 +113,12 @@ h2 {
     width: 50%;
     float: right;
     position: relative;
-    margin-top: 10%;
-    margin-bottom: 3%;
 }
 
 #bakery-image {
     border-radius: 30px;
     position: absolute;
+    left: 70px;
 }
 
 #left-about {
@@ -132,19 +126,17 @@ h2 {
     width: 50%;
     float: left;
     position: relative;
-    margin-top: 10%;
-    margin-bottom: 3%;
 }
 
 #text-about {
     height: 50%;
-    width: 70%;
+    width: 40%;
     position: absolute;
+    right: 70px;
 }
 
 #text-about h2 {
     font-size: 200%;
-    padding: 5%;
     text-align: right;
 }
 
@@ -169,12 +161,52 @@ h2 {
 }
 
 #bakery-menu div{
-    height: 500px;
-    width: 20.7%;
     margin-right: 2%;
     margin-left: 2%;
     display: inline-block;
+    
+    /* height: 500px;
+    width: 20.7%; */
 }
+
+.image {
+    border-radius: 30px;
+}
+
+.container {
+    position: relative;
+    height: 500px;
+    width: 20.7%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50% -50%);
+    -ms-transform: translate-(-50% -50%);
+    transform: translate(-50% -50%);
+    text-align:center;
+}
+
 
 #footer {
     height: 200px;
@@ -198,3 +230,4 @@ h2 {
     padding: 5%; 
     color: #494454;
 }
+
