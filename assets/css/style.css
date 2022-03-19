@@ -70,7 +70,6 @@ header {
     position: relative;
     height: 600px;
     width: 100%;
-    background-color: red;
 }
 
 #hero-image {
@@ -111,10 +110,8 @@ header {
 }
 
 #about-us {
-    height: 1000px;
+    height: 900px;
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 3%;
 }
 
 #right-about {
@@ -128,6 +125,7 @@ header {
     border-radius: 30px;
     position: absolute;
     left: 70px;
+    margin-top: 5%;
 }
 
 #left-about {
