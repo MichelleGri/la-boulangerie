@@ -20,6 +20,11 @@ h2 {
     letter-spacing: 2px;
 }
 
+header {
+    height: 100px;
+    width: 100%;
+}
+
 #logo {
     font-family: Shadows Into Light, sans-serif;
     color: #191970;
@@ -27,12 +32,14 @@ h2 {
     letter-spacing: 4px;
     float: left;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
+    margin-top: 10px;
 }
 
 #menu, #logo {
@@ -61,16 +68,19 @@ h2 {
 
 #main-image {
     position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: red;
 }
 
 #hero-image {
-    height: 600px;
-    width: 100%;
+    position: absolute;
 }
 
 #cover-text {
     font-size: 200%;
     font-family: Shadows Into Light, sans-serif;
+    color: #494454;
     letter-spacing: 4px;
     background-color: rgba(255, 255, 255, .5);
     text-align: center;
@@ -81,11 +91,10 @@ h2 {
     border-radius: 30px;
 
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
 }
 
-#cover-text, #cover-text h2 {
-    color: #494454;
+#cover-text h2 {
     font-family: Shadows Into Light, sans-serif;
 }
 
@@ -104,7 +113,7 @@ h2 {
 #about-us {
     height: 1000px;
     width: 100%;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-bottom: 3%;
 }
 
