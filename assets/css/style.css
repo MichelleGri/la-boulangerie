@@ -180,3 +180,26 @@ h2 {
     background-color: orange;
     display: inline-block;
 }
+
+#footer {
+    height: 200px;
+    margin: 2%;
+}
+
+#footer div {
+    width: 33%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 5%; 
+    color: #494454;
+}
