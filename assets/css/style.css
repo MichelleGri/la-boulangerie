@@ -157,7 +157,6 @@ header {
 #bakery-menu {
     height: 700px;
     width: 100%;
-    background-color: pink;
 }
 
 #bakery-menu h2 {
@@ -216,8 +215,10 @@ header {
 }
 
 #footer {
-    height: 200px;
-    margin: 2%;
+    height: 250px;
+    width: 100%;
+    background-color: #191970;
+    opacity: .7;
 }
 
 #footer div {
@@ -225,6 +226,7 @@ header {
     float: left;
     text-align: center;
     line-height: 40px;
+    padding-top: 2%;
 }
 
 #footer li {
@@ -235,6 +237,9 @@ header {
     font-size: 300%;
     margin: 1%;
     padding: 5%; 
-    color: #494454;
+    color: white;
 }
 
+#footer h2, h3{
+    color: white;
+}
