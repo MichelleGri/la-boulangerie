@@ -270,7 +270,36 @@ span {
 }
 
 #contact-us {
+    position: relative;
     height: 600px;
     width: 100%;
+    clear: both;
+    top: 0;
+    bottom: 0;
 }
+
+#contact-us img {
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+#contact-us-form {
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    background-color: #494454;
+    top: 0;
+    bottom: 0;
+}
+
+#map {
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    background-color: pink;
+    top: 50%;
+}
+
+
 
