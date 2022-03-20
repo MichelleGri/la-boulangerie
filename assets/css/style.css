@@ -261,6 +261,10 @@ span {
     column-gap: 0;
     margin: 5%;
 }
-#gallery-image img {
+
+#gallery-images > img {
     border-radius: 30px;
+    max-width: 100%;
+    height: auto;
 }
+
