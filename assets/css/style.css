@@ -253,3 +253,14 @@ span {
 #footer h2, h3{
     color: white;
 }
+
+#gallery-images {
+    clear: both;
+    line-height: 50px;
+    column-count: 4;
+    column-gap: 0;
+    margin: 5%;
+}
+#gallery-image img {
+    border-radius: 30px;
+}
