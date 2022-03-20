@@ -263,9 +263,14 @@ span {
 }
 
 #gallery-images > img {
-    border-radius: 30px;
+    border-radius: 20px;
     max-width: 100%;
     height: auto;
     border: 10px solid lightgrey;
+}
+
+#contact-us {
+    height: 600px;
+    width: 100%;
 }
 
