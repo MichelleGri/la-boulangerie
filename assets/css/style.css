@@ -266,5 +266,6 @@ span {
     border-radius: 30px;
     max-width: 100%;
     height: auto;
+    border: 10px solid lightgrey;
 }
 
