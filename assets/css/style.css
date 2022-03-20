@@ -25,6 +25,11 @@ header {
     width: 100%;
 }
 
+span {
+    color:#191970;
+    font-weight: bold;
+}
+
 #logo {
     font-family: Shadows Into Light, sans-serif;
     color: #191970;
@@ -97,6 +102,10 @@ header {
     font-family: Shadows Into Light, sans-serif;
 }
 
+#cover-text h3 {
+    color:#494454;
+}
+
 .center {
     left: 0;
     right: 0;
@@ -150,7 +159,7 @@ header {
 #text-about p {
     font-size: 1.5vw;
     padding: 5%;
-    line-height: 60px;
+    line-height: 50px;
     text-align: right;
 }
 
