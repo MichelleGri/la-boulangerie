@@ -25,6 +25,7 @@ body {
 header {
     height: 100px;
     width: 100%;
+    background-color: pink;
 }
 
 /* h2 {
@@ -40,55 +41,46 @@ p {
     color: black;
 }
 
-
 span {
     color:#191970;
     font-weight: bold;
 }
 
+.active {
+    border-bottom: 2px solid #494454;
+}
+
 #logo {
     font-family: Shadows Into Light, sans-serif;
     color: #191970;
-    font-size: 300%;
+    font-size: 250%;
     letter-spacing: 4px;
     float: left;
     margin-left: 20px;
-    margin-top: 0.5%;
-}
-
-#menu {
-    font-size: 100%;
-    letter-spacing: 0.1vw;
-    float: right;
-    margin-top: 0.5%;
-
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
-    color: #494454;
-    text-decoration: none;
-}
-
-#menu, #logo {
     line-height: 75px;
 }
 
-#menu li {
+#nav-menu {
+    float: right;
+    line-height: 75px;
+}
+
+#nav-menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+#nav-menu a {
     text-decoration: none;
     color: #494454;
-    font-size: 150%;
+    font-size: 130%;
+    letter-spacing: 2px;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
 }
 
-#menu a:hover {
-    border-bottom: 2px solid #494454;
-}
-
-.active {
+#nav-menu a:hover {
     border-bottom: 2px solid #494454;
 }
 
@@ -96,27 +88,38 @@ span {
     position: relative;
     height: 600px;
     width: 100%;
+    background-color: grey;
 }
 
 #hero-image {
-    position: absolute;
+    height: 600px;
+    width: 100%;
+    position: absolute;  
 }
 
 #cover-text {
-    font-size: 1.3vw;
+    width: 30%;
+    height: 15%;
+    padding: 20px;
+    border-radius: 30px;
+
+    font-size: 120%;
     font-family: Shadows Into Light, sans-serif;
     color: #494454;
     letter-spacing: 4px;
     background-color: rgba(255, 255, 255, .5);
     text-align: center;
 
-    width: 700px;
-    height: 150px;
-    padding: 20px;
-    border-radius: 30px;
-
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
+    /* top: 30px;
+align-content: center; */
+
+    /* right: 150px; */
+
+    /* right: auto;
+    left: auto; */
+    
 }
 
 #cover-text h2 {
