@@ -323,6 +323,7 @@ align-content: center; */
     top: 0;
     bottom: 0;
     clear: both;
+    opacity: 0.8;
 }
 
 #contact-us-form {
