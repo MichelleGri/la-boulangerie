@@ -100,9 +100,8 @@ span {
 
 #main-image {
     position: relative;
-    height: 352px;
+    height: 351px;
     width: 100%;
-    background-color: grey;
 }
 
 #hero-image {
@@ -157,9 +156,9 @@ align-content: center; */
 }
 
 #bakery-image {
-    border-radius: 30px;
+    border-radius: 10px;
     position: absolute;
-    margin: 5%;
+    margin: 10% 5%;
     opacity: 0.7;
 }
 
@@ -194,7 +193,7 @@ align-content: center; */
 }
 
 #bakery-menu {
-    height: 500px;
+    height: 600px;
     width: 100%;
     top: 0;
 }
@@ -202,7 +201,7 @@ align-content: center; */
 #bakery-menu h2 {
     font-size: 250%;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 4%;
 }
 
@@ -216,7 +215,7 @@ align-content: center; */
 }
 
 .image {
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .scale {
@@ -242,7 +241,7 @@ align-content: center; */
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(255, 255, 255, .5);
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .container:hover .overlay {
