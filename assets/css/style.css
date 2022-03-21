@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&family=Shadows+Into+Light&display=swap');
 
+
+:root {
+    background-color:#f2f1f4;
+    max-width: 1500px;
+    margin: 0.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,23 +15,31 @@
 
 body {
     font-family: Manrope, sans-serif;
-    font-weight: 400px;
-    background-color: #f2f1f4;
-    color: black;
-}
-
-h2 {
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
-    color: #494454;
     letter-spacing: 2px;
-    text-decoration: none;
+    /* background-color: #f2f1f4;
+    color: black; */
+    /* font-size: 2vw; */
+    /* font-weight: 400px; */
 }
 
 header {
     height: 100px;
     width: 100%;
 }
+
+/* h2 {
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    color: #494454;
+    letter-spacing: 2px;
+    text-decoration: none;
+} */
+
+p {
+    font-family: Manrope, sans-serif;
+    color: black;
+}
+
 
 span {
     color:#191970;
@@ -34,18 +49,23 @@ span {
 #logo {
     font-family: Shadows Into Light, sans-serif;
     color: #191970;
-    font-size: 2vw;
+    font-size: 300%;
     letter-spacing: 4px;
     float: left;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 0.5%;
 }
 
 #menu {
-    font-size: 0.8vw;
-    letter-spacing: 2px;
+    font-size: 100%;
+    letter-spacing: 0.1vw;
     float: right;
-    margin-top: 10px;
+    margin-top: 0.5%;
+
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    color: #494454;
+    text-decoration: none;
 }
 
 #menu, #logo {
@@ -278,43 +298,54 @@ span {
     bottom: 0;
 }
 
-#contact-us img {
+/* #contact-us-image {
     position: relative;
+} */
+
+
+#contact-us-image {
+    position: absolute;
     top: 0;
     bottom: 0;
+    clear: both;
 }
 
 #contact-us-form {
     position: absolute;
-    height: 50%;
-    width: 30%;
-    background-color: lightgreen;
+    height: 500px;
+    width: 500px;
+    float: left;
     top: 0;
     bottom: 0;
     line-height: 30px;
     margin: 5%;
     padding: 3%;
-    float: left;
+    background-color: lightgreen;
 }
 
 #map {
-    position: ab;
-    height: 50%;
-    width: 30%;
-    background-color: pink;
+    position: absolute;
+    height: 500px;
+    width: 500px;
     float: right;
-    margin: 5%;
     top: 0;
     bottom: 0;
+    margin: 5%;
+    padding: 3%;
+    background-color: pink;
 }
 
 input {
     width: 50%;
-    height: 5%;
+    height: 7%;
     border: 1px solid #494454;
     border-radius: 10px;
 }
 
 label {
     font-size: 120%;
+}
+
+#feedback {
+    height: 50%;
 }
