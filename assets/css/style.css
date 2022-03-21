@@ -285,7 +285,11 @@ align-content: center; */
     color: white;
 }
 
-#footer h2, h3{
+#footer h2 {
+    color: white;
+}
+
+#footer h3 {
     color: white;
 }
 
@@ -345,6 +349,12 @@ align-content: center; */
     letter-spacing: 4px;
 }
 
+h3 {
+    color: #494454;
+    /* font-size: 170%; */
+    letter-spacing: 2px;
+}
+
 #map {
     position: absolute;
     height: 800px;
@@ -363,10 +373,6 @@ align-content: center; */
     padding-top: 5%;
 }
 
-#contact-us-details h3 {
-    color: #494454;
-}
-
 input {
     width: 90%;
     height: 35px;
@@ -374,7 +380,6 @@ input {
     border-radius: 5px;
     font-size: 100%;
     padding-left: 10px;
-    
 }
 
 label {
@@ -388,7 +393,29 @@ label {
     height: 170px;
 }
 
+.submit-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #494454;
+    color: white;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #494454;
+}
+
 #google-map {
     border: 2px solid black;
     overflow: hidden;
+}
+
+#sign-up {
+    height: auto;
+    width: auto;
+    clear: both;
 }
