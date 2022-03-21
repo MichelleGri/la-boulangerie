@@ -271,7 +271,7 @@ span {
 
 #contact-us {
     position: relative;
-    height: 600px;
+    height: 1000px;
     width: 100%;
     clear: both;
     top: 0;
@@ -287,19 +287,34 @@ span {
 #contact-us-form {
     position: absolute;
     height: 50%;
-    width: 70%;
-    background-color: #494454;
+    width: 30%;
+    background-color: lightgreen;
+    top: 0;
+    bottom: 0;
+    line-height: 30px;
+    margin: 5%;
+    padding: 3%;
+    float: left;
+}
+
+#map {
+    position: ab;
+    height: 50%;
+    width: 30%;
+    background-color: pink;
+    float: right;
+    margin: 5%;
     top: 0;
     bottom: 0;
 }
 
-#map {
-    position: absolute;
-    height: 50%;
-    width: 70%;
-    background-color: pink;
-    top: 50%;
+input {
+    width: 50%;
+    height: 5%;
+    border: 1px solid #494454;
+    border-radius: 10px;
 }
 
-
-
+label {
+    font-size: 120%;
+}
