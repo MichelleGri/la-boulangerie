@@ -37,12 +37,12 @@ header {
 
 p {
     font-family: Manrope, sans-serif;
-    color: black;
+    color: #494454;
 }
 
 span {
     color:#191970;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .active {
@@ -142,49 +142,58 @@ align-content: center; */
 }
 
 #about-us {
-    height: 900px;
+    height: 600px;
     width: 100%;
 }
 
 #right-about {
-    height: 900px;
+    height: 600px;
     width: 50%;
     float: right;
     position: relative;
+    /* background-color: green; */
 }
 
 #bakery-image {
     border-radius: 30px;
     position: absolute;
-    left: 70px;
-    margin-top: 5%;
+    /* left: 5%; */
+    margin: 5%;
+    opacity: 0.8;
 }
 
 #left-about {
-    height: 900px;
+    height: 600px;
     width: 50%;
     float: left;
     position: relative;
+    /* background-color: blue; */
 }
 
 #text-about {
     height: 50%;
-    width: 50%;
+    width: 70%;
     position: absolute;
-    right: 70px;
-    line-height: 40px;
+    /* margin: 5%; */
+    /* line-height: 40px; */
+    /* background-color: #494454; */
+    padding: 2%;
+    margin-left: 15%;
+    color: #494454;
 }
 
 #text-about h2 {
-    font-size: 1.5vw;
+    font-size: 200%;
     text-align: right;
+    line-height: 50px;
 }
 
 #text-about p {
-    font-size: 1.5vw;
-    padding: 5%;
+    font-size: 150%;
+    /* padding: 5%; */
     /* line-height: 50px; */
     text-align: right;
+    line-height: 40px;
 }
 
 #bakery-menu {
