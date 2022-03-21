@@ -5,6 +5,8 @@
     background-color: #e0e0e0;
     max-width: 1500px;
     margin: 0.5%;
+    margin: 0 auto;
+    float: none;
 }
 
 * {
@@ -16,6 +18,7 @@
 body {
     font-family: Manrope, sans-serif;
     letter-spacing: 2px;
+    max-width: 100%;
     /* background-color: #f2f1f4;
     color: black; */
     /* font-size: 2vw; */
@@ -257,7 +260,7 @@ align-content: center; */
 }
 
 #footer {
-    height: 250px;
+    height: 200px;
     width: 100%;
     background-color: #494454;
     /* opacity: .7; */
@@ -268,7 +271,8 @@ align-content: center; */
     float: left;
     text-align: center;
     line-height: 40px;
-    padding-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #footer li {
@@ -298,7 +302,7 @@ align-content: center; */
     border-radius: 20px;
     max-width: 100%;
     height: auto;
-    border: 10px solid lightgrey;
+    /* border: 5px solid grey; */
 }
 
 #contact-us {
