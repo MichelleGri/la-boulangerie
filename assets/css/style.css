@@ -2,7 +2,7 @@
 
 
 :root {
-    background-color: #e0e0e0;
+    /* background-color: #e0e0e0; */
     max-width: 1500px;
     margin: 0.5%;
     margin: 0 auto;
@@ -19,6 +19,7 @@ body {
     font-family: Manrope, sans-serif;
     letter-spacing: 2px;
     max-width: 100%;
+    background-color: #f0f0f0;
     /* background-color: #f2f1f4;
     color: black; */
     /* font-size: 2vw; */
@@ -261,7 +262,8 @@ align-content: center; */
 #footer {
     height: 200px;
     width: 100%;
-    background-color: #494454;
+    background-color: #606060;
+    /* background-color: #494454; */
     /* opacity: .7; */
 }
 
@@ -307,9 +309,10 @@ align-content: center; */
     height: auto;
     /* border: 5px solid grey; */
 }
+
 #contact-us {
     position: relative;
-    height: 1030px;
+    height: 1200px;
     width: 100%;
     clear: both;
     top: 0;
@@ -325,14 +328,14 @@ align-content: center; */
     position: relative;
     top: 0;
     bottom: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* clear: both; */
     /* opacity: 0.8; */
 }
 
 #contact-us-form {
     position: absolute;
-    height: 800px;
+    height: 900px;
     width: 25%;
     float: left;
     top: 0;
@@ -357,7 +360,7 @@ h3 {
 
 #map {
     position: absolute;
-    height: 800px;
+    height: 900px;
     width: 40%;
     float: right;
     top: 0;
@@ -414,8 +417,18 @@ label {
     overflow: hidden;
 }
 
-#sign-up {
-    height: auto;
-    width: auto;
-    clear: both;
+/* #sign-up {
+    font-size: small;
+    margin-right: auto;
+} */
+
+.radio-input {
+    height: 15px;
+    width: 15px;
+    margin-right: 10%;
+
 }
+
+/* .radio-label {
+    line-height: 120px;
+} */
