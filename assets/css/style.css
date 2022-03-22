@@ -407,7 +407,15 @@ label {
     font-size: 120%;
     font-weight: bold;
     color: #494454;
+}
 
+textarea {
+    border: 1px solid #494454;
+    border-radius: 5px;
+    font-size: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Manrope;
 }
 
 #feedback {
