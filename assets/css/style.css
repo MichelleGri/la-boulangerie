@@ -319,30 +319,59 @@ align-content: center; */
     bottom: 0;
 }
 
-/* #contact-us-image {
-    position: relative;
-} */
-
-
 #contact-us-image {
     position: relative;
     top: 0;
     bottom: 0;
-    /* overflow: hidden; */
-    /* clear: both; */
-    /* opacity: 0.8; */
 }
 
-#contact-us-form {
+#left-div {
     position: absolute;
-    height: 900px;
-    width: 25%;
+    float: left;
+    height: 1200px;
+    width: 40%;
+    top: 0;
+    left: 0;
+    background-color: pink;
+}
+
+#right-div {
+    position: absolute;
+    float: right;
+    height: 1200px;
+    width: 60%;
+    top: 0;
+    right: 0;
+    background-color: lightseagreen;
+}
+
+#left-white-bg {
+    position: absolute;
+    height: 1000px;
+    width: 90%;
     float: left;
     top: 0;
-    margin: 5% 10% 30%;
-    padding: 3%;
-    line-height: 30px;
+    margin: 10% 5% 10% 5%;
     background-color: rgba(255, 255, 255, 0.8);
+    /* padding: 3%;
+    */
+}
+
+#right-div-bg {
+    position: absolute;
+    height: 1000px;
+    width: 90%;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 10% 5% 10% 5%;
+    /* padding: 3%; */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#form {
+    margin: 10%;
+    line-height: 30px; 
 }
 
 #contact-us h2 {
@@ -354,20 +383,12 @@ align-content: center; */
 
 h3 {
     color: #494454;
-    /* font-size: 170%; */
     letter-spacing: 2px;
 }
 
+
 #map {
-    position: absolute;
-    height: 900px;
-    width: 40%;
-    float: right;
-    top: 0;
-    right: 0;
-    margin: 5% 10% 30%;
-    padding: 3%;
-    background-color: rgba(255, 255, 255, 0.7);
+    margin: 10%;
 }
 
 #contact-us-details {
@@ -397,11 +418,13 @@ label {
 }
 
 .submit-button {
-    margin-top: 20px;
+    height: 60px;
+    width: 200px;
+    margin-top: 4%;
     border-radius: 10px;
     padding: 15px 30px 15px 30px;
     text-align: center;
-    font-size: 100%;
+    font-size: 130%;
     background-color: #494454;
     color: white;
     display: block;
@@ -417,18 +440,9 @@ label {
     overflow: hidden;
 }
 
-/* #sign-up {
-    font-size: small;
-    margin-right: auto;
-} */
-
 .radio-input {
     height: 15px;
     width: 15px;
     margin-right: 10%;
 
 }
-
-/* .radio-label {
-    line-height: 120px;
-} */
