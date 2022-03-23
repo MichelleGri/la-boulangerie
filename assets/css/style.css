@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&family=Shadows+Into+Light&display=swap');
 
 
-:root {
-    /* background-color: #e0e0e0; */
-    max-width: 1500px;
-    margin: 0.5%;
-    margin: 0 auto;
-    float: none;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +8,13 @@
 }
 
 body {
+    max-width: 1400px;
+    margin: 0.5% auto;
+    /* margin: 0 auto; */
+    float: none;
     font-family: Manrope, sans-serif;
     letter-spacing: 2px;
-    max-width: 100%;
+    /* max-width: 100%; */
     background-color: #f0f0f0;
     /* background-color: #f2f1f4;
     color: black; */
@@ -251,7 +247,7 @@ align-content: center; */
 
 .text {
     color: #494454;
-    font-size: 0.2vw;
+    /* font-size: 100%; */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -260,19 +256,17 @@ align-content: center; */
 }
 
 #footer {
-    height: 200px;
+    height: 180px;
     width: 100%;
     background-color: #606060;
-    /* background-color: #494454; */
-    /* opacity: .7; */
 }
 
 #footer div {
     width: 33%;
     float: left;
     text-align: center;
-    line-height: 40px;
-    padding-top: 1%;
+    line-height: 30px;
+    padding-top: 2%;
     padding-bottom: 1%;
 }
 
@@ -281,7 +275,7 @@ align-content: center; */
 }
 
 #footer i {
-    font-size: 300%;
+    font-size: 280%;
     margin: 1%;
     padding: 5%; 
     color: white;
@@ -289,10 +283,12 @@ align-content: center; */
 
 #footer h2 {
     color: white;
+    font-size: 130%;
 }
 
 #footer h3 {
     color: white;
+    font-size: 100%;
 }
 
 #gallery-images {
@@ -322,7 +318,7 @@ align-content: center; */
 #contact-us-image {
     position: relative;
     top: 0;
-    align-items: center;
+    overflow: hidden;
     /* bottom: 0; */
 }
 
@@ -449,4 +445,43 @@ textarea {
     height: 15px;
     width: 15px;
     margin-right: 10%;
+}
+
+@media screen and (max-width: 1300px) {
+
+#bakery-image {
+        margin: 4% 2% auto auto;
+}
+
+#bakery-menu {
+        width: 80%;
+        height: 450px;
+        margin: 0 auto;
+}
+
+#bakery-menu img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#bakery-menu h2 {
+    font-size: 190%;
+}
+
+#gallery-images {
+    column-gap: 2%;
+}
+
+
+}
+
+@media screen and (max-width: 950px) {
+
+
 }
