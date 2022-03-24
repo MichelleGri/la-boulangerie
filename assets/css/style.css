@@ -321,19 +321,19 @@ align-content: center; */
     /* border: 5px solid grey; */
 }
 
-#contact-us {
+/* #contact-us {
     position: relative;
-    min-height: 70rem;
+    min-height: 68.75rem;
     width: 100%;
     top: 0;
-}
+} */
 
 #contact-us-image {
     background-image: url("../images/pancakes.jpg");
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover;
-    min-height: 70rem;
+    height: 80rem;
 }
 
 #left-white-bg {
@@ -342,7 +342,7 @@ align-content: center; */
     width: 35%;
     float: left;
     top: 0;
-    margin: 3.75rem 2rem;
+    margin: 10rem 2rem;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
 }
@@ -354,7 +354,7 @@ align-content: center; */
     float: right;
     top: 0;
     right: 0;
-    margin: 3.75rem 2rem;
+    margin: 10rem 2rem;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
 }
@@ -486,20 +486,22 @@ textarea {
     margin-top: 2%;
 }
 
-#bakery-menu h2 {
-    font-size: 190%;
-}
-
 #gallery-images {
     column-gap: 2%;
 }
-
-#contact-us {
-    height: 1130px;
 }
 
+#contact-us-image {
+    /* background-image: url("../images/pancakes.jpg");
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover; */
+    min-height: 80rem;
 }
 
+
+}
+/*
 @media screen and (max-width: 1270px) {
 
 #left-white-bg {
@@ -513,4 +515,4 @@ textarea {
     border-radius: 10px;
 }
 
-}
+} */
