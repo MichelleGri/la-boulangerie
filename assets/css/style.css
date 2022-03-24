@@ -387,11 +387,15 @@ align-content: center; */
     font-size: 170%;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 h3 {
     color: #494454;
     letter-spacing: 2px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #map {
@@ -400,8 +404,23 @@ h3 {
 
 #contact-us-details {
     color: #494454; 
-    line-height: 30px;
-    padding-top: 8%;
+    /* line-height: 30px; */
+    padding-top: 2rem;
+    /* font-size: 1rem; */
+}
+
+#contact-us-details h2 {
+    text-transform: none;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+#contact-us-details > p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 1.5rem;
 }
 
 input {
@@ -411,6 +430,7 @@ input {
     border-radius: 5px;
     font-size: 100%;
     padding-left: 10px;
+    margin-bottom: 2rem;
 }
 
 label {
