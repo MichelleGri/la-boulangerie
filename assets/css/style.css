@@ -356,7 +356,7 @@ align-content: center; */
 
 #left-white-bg {
     position: absolute;
-    height: 1000px;
+    height: 60rem;
     width: 90%;
     float: left;
     top: 0;
@@ -367,7 +367,7 @@ align-content: center; */
 
 #right-white-bg {
     position: absolute;
-    height: 1000px;
+    height: 60rem;
     width: 90%;
     float: right;
     top: 0;
