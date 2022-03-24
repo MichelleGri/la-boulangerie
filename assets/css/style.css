@@ -16,7 +16,7 @@ body {
     background-color: #f0f0f0;
     position: relative;
     padding-bottom: 180px;
-    min-height: 100vh;
+    /*min-height: 100vh; */
     /* font-size: 2vw; */
     /* font-weight: 400px; */
 }
@@ -258,9 +258,10 @@ align-content: center; */
     height: 180px;
     width: 100%;
     background-color: #606060;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     position: absolute;
     bottom: 0;
+    /* margin-top: 0; */
     /* top: 0;
     left: 0;
     right: 0;
@@ -333,7 +334,8 @@ align-content: center; */
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover;
-    min-height: 70rem;
+    height: 70rem;
+    /* min-height: 75rem; */
 }
 
 #left-white-bg {
@@ -407,7 +409,6 @@ h3 {
     letter-spacing: 2px;
 }
 
-
 #contact-us-details > p {
     font-size: 1rem;
     font-weight: bold;
@@ -440,9 +441,9 @@ textarea {
     font-family: Manrope;
 }
 
-#feedback {
+/* #feedback {
     height: 170px;
-}
+} */
 
 .submit-button {
     height: 60px;
@@ -499,30 +500,17 @@ textarea {
 #gallery-images {
     column-gap: 2%;
 }
+
+/* #contact-us-image {
+    min-height: 75rem; */
 }
 
-#contact-us-image {
-    /* background-image: url("../images/pancakes.jpg");
-    background-position: center center;
-    background-repeat: no repeat;
-    background-size: cover; */
-    /* min-height: 80rem;
-} */
-
-
 }
-/*
+
 @media screen and (max-width: 1270px) {
 
-#left-white-bg {
-    position: absolute;
-    height: 1000px;
-    width: 90%;
-    float: left;
-    top: 0;
-    margin: 70px 10px 50px 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+textarea cols {
+    cols: 30;
 }
 
-} */
+}
