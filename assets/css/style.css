@@ -314,20 +314,17 @@ align-content: center; */
 
 #contact-us {
     position: relative;
-    height: 1200px;
+    min-height: 1200px;
     width: 100%;
     top: 0;
 }
 
 #contact-us-image {
     background-image: url("../images/pancakes.jpg");
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
     min-height: 1200px;
-    width: 100%;
-    position: absolute;
-    /* position: relative;
-    top: 0;
-    overflow: hidden; */
-    /* bottom: 0; */
 }
 
 #left-div {
