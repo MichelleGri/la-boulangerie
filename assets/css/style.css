@@ -323,7 +323,7 @@ align-content: center; */
 
 #contact-us {
     position: relative;
-    min-height: 1200px;
+    min-height: 70rem;
     width: 100%;
     top: 0;
 }
@@ -333,26 +333,8 @@ align-content: center; */
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover;
-    min-height: 1200px;
+    min-height: 70rem;
 }
-
-/* #left-div {
-    position: absolute;
-    float: left;
-    height: 1200px;
-    width: 40%;
-    top: 0;
-    left: 0;
-}
-
-#right-div {
-    position: absolute;
-    float: right;
-    height: 1200px;
-    width: 60%;
-    top: 0;
-    right: 0;
-} */
 
 #left-white-bg {
     position: absolute;
