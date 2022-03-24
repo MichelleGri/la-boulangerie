@@ -333,7 +333,7 @@ align-content: center; */
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover;
-    height: 80rem;
+    min-height: 70rem;
 }
 
 #left-white-bg {
@@ -364,7 +364,7 @@ align-content: center; */
     line-height: 30px; 
 }
 
-#contact-us h2 {
+#form h2 {
     color: #494454;
     font-size: 170%;
     text-transform: uppercase;
@@ -384,6 +384,15 @@ h3 {
     margin: 60px;
 }
 
+#map h2 {
+    color: #494454;
+    font-size: 170%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 #contact-us-details {
     color: #494454; 
     /* line-height: 30px; */
@@ -397,6 +406,7 @@ h3 {
     font-size: 1.5rem;
     letter-spacing: 2px;
 }
+
 
 #contact-us-details > p {
     font-size: 1rem;
@@ -496,8 +506,8 @@ textarea {
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover; */
-    min-height: 80rem;
-}
+    /* min-height: 80rem;
+} */
 
 
 }
