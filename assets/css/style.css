@@ -9,20 +9,20 @@
 
 body {
     max-width: 1500px;
-    margin: 0.5% auto;
+    margin: 0.005rem auto;
     float: none;
     font-family: Manrope, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     background-color: #f0f0f0;
     position: relative;
-    padding-bottom: 180px;
+    padding-bottom: 11.25rem;
     /*min-height: 100vh; */
     /* font-size: 2vw; */
     /* font-weight: 400px; */
 }
 
 header {
-    height: 90px;
+    height: 5.625rem;
     width: 100%;
 }
 
