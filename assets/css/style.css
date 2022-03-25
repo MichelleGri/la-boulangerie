@@ -501,16 +501,34 @@ textarea {
     column-gap: 2%;
 }
 
-/* #contact-us-image {
-    min-height: 75rem; */
-}
+/* #left-white-bg {
+    margin: auto;
+    float: none;
+} */
+
+/* #contact-us {
+    width: 100%;
+    display: block;
+} */
+
+
+#left-white-bg {
+    float: none;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-@media screen and (max-width: 1270px) {
-
-textarea cols {
-    cols: 30;
+#right-white-bg {
+    margin-top: 75rem;
+    float: none;
+    
 }
 
+#contact-us-image {
+    height: 135rem;
+    /* min-height: 75rem; */
+}
 }
