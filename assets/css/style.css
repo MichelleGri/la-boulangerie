@@ -99,7 +99,7 @@ p {
     text-align: right;
     letter-spacing: 0.15rem;
     margin: 2rem 0;
-    /* background-color: pink; */
+    
 }
 
 #about-us p {
@@ -135,7 +135,7 @@ span {
 
 #bakery-menu {
     width: 100%;
-    /* background-color: green; */
+    
     margin-top: 0;
     margin-bottom: 4rem;
 }
@@ -414,64 +414,80 @@ textarea {
     font-size: 1.4rem;
     line-height: 2.4rem;
 }
-
-/* @media screen and (max-width: 1330px) {
-
-#text-about {
-    margin-right: 1rem;
-    margin-left: 1rem:
-}
-    
-#bakery-image {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
 }
 
-@media screen and (max-width: 1280px) {
-
-
-}
-} */
-
-
-
-
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1233px) {
 
 #bakery-image {
-        margin: 4% 2% auto auto;
+width: 35rem;
 }
 
-#bakery-menu {
-        width: 80%;
-        height: 450px;
-        margin: 0 auto;
+#about-us {
+    height: 30rem;
 }
 
-#bakery-menu img {
-    width: 100%;
-    height: auto;
+#bakery-menu h2 {
+    font-size: 2.2rem;
 }
 
 .container {
-    margin-right: 2%;
-    margin-left: 1%;
-    margin-top: 2%;
+    width: 18%;
+    margin-right: 2.3rem;
+    margin-left: 2.3rem;
 }
 
-#gallery-images {
-    column-gap: 2%;
+.text {
+    font-size: 2rem;
+}
 }
 
-#left-white-bg {
+@media screen and (max-width: 1168px) {
+
+#about-us {
+    height: 48rem;
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+}
+
+#about-us p {
+    font-weight: 600;
+}
+
+#text-about {
+margin: 0 auto;
+float: none;
+text-align: left;
+}
+
+#bakery-image {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
     float: none;
-    margin: 5rem auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 }
 
-#right-white-bg {
+@media screen and (max-width: 1107px) {
+
+.mq-div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 5rem;
     float: none;
-    margin: 5rem auto;
 }
 
-} */
+#bakery-menu {
+    width: 60%;
+    float: none;
+    margin: auto;
+}
+
+.container {
+    width: 38%;
+
+}
+
+}
