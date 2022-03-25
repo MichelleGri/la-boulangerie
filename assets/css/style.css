@@ -334,36 +334,38 @@ align-content: center; */
 
 #contact-us {
     width: 80rem;
-    margin: 3rem auto;
+    margin: 2rem auto;
 }
-
 
 .contact-us {
     height: 60rem;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.9);
     text-align: left;
-    padding: 2rem;
-
+    padding: 0.5rem;
 }
 
 #left-white-bg {
-    position: absolute;
-    height: 60rem;
-    width: 35%;
+    width: 30rem;
     float: left;
+    
+    /* position: absolute;
+    height: 60rem;
     top: 0;
-    margin: 10rem 2rem;
+    margin: 10rem 2rem; */
 }
 
 #right-white-bg {
-    position: absolute;
+    width: 45rem;
+    float: right;
+  
+
+    /* position: absolute;
     height: 60rem;
     width: 55%;
-    float: right;
     top: 0;
     right: 0;
-    margin: 10rem 2rem;
+    margin: 10rem 2rem; */
 }
 
 #form {
