@@ -214,6 +214,7 @@ span {
     font-size: 1.1rem;
     font-weight: 500;
     padding: 0.05rem;
+    letter-spacing: 0.15rem;
 }
 
 #footer div {
@@ -221,7 +222,7 @@ span {
     float: left;
     text-align: center;
     line-height: 1.875rem;
-    padding-top: 0.02rem;
+    padding-top: 1rem;
     padding-bottom: 0.01rem;
 }
 
@@ -240,12 +241,6 @@ span {
     color: white;
     font-size: 1.3rem;
     padding: 0.3rem;
-
-}
-
-#footer h3 {
-    color: white;
-    font-size: 100%;
 }
 
 #gallery-images {
