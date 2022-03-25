@@ -86,16 +86,16 @@ p {
     border-bottom: 0.125rem solid #494454;
 }
 
-#main-image {
+/* #main-image {
     position: relative;
     height: 351px;
     width: 100%;
-}
+} */
 
 #hero-image {
     height: 600px;
     width: 100%;
-    position: absolute;  
+    /* position: absolute; */
 }
 
 #about-us {
