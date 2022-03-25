@@ -16,9 +16,6 @@ body {
     background-color: #f0f0f0;
     position: relative;
     padding-bottom: 11.25rem;
-    /*min-height: 100vh; */
-    /* font-size: 2vw; */
-    /* font-weight: 400px; */
 }
 
 header {
@@ -39,10 +36,8 @@ p {
     color: #494454;
 }
 
-
-
 .active {
-    border-bottom: 2px solid #494454;
+    border-bottom: 0.125rem solid #494454;
 }
 
 .center {
@@ -60,11 +55,11 @@ p {
 #logo {
     font-family: Shadows Into Light, sans-serif;
     color: #191970;
-    font-size: 250%;
-    letter-spacing: 4px;
+    font-size: 2.5rem;
+    letter-spacing: 0.25rem;
     float: left;
-    margin-left: 20px;
-    line-height: 75px;
+    margin-left: 1.25rem;
+    line-height: 4.6875rem;
 }
 
 #nav-menu {
