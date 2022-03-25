@@ -64,26 +64,26 @@ p {
 
 #nav-menu {
     float: right;
-    line-height: 75px;
+    line-height: 4.6875rem;
 }
 
 #nav-menu li {
     float: left;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 
 #nav-menu a {
     text-decoration: none;
     color: #494454;
-    font-size: 120%;
-    letter-spacing: 2px;
+    font-size: 1.2rem;
+    letter-spacing: 0.125rem;
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
 }
 
 #nav-menu a:hover {
-    border-bottom: 2px solid #494454;
+    border-bottom: 0.125rem solid #494454;
 }
 
 #main-image {
