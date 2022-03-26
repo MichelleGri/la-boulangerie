@@ -137,41 +137,6 @@ span {
     font-weight: 1000;
 }
 
-#bakery-menu {
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 2rem;
-
-}
-
-#bakery-menu h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    /* padding-bottom: 3rem; */
-}
-
-#bakery-menu a {
-    text-decoration: none;
-    color: #494454;
-}
-
-/* #bakery-menu div{
-    display: inline-block;
-} */
-
-#menu-container {
-    width: 100%;
-    /* display: inline-block; */
-    background-color: grey;
-    /* left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-}
-
 .image {
     border-radius: 10px;
 }
@@ -181,27 +146,53 @@ span {
     height: auto;
 }
 
+#bakery-menu {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    background-color: orange;
+    /* position: relative; */
+}
+
+#bakery-menu h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#bakery-menu a {
+    text-decoration: none;
+    color: #494454;
+}
+
+#menu-container {
+    width: 100%;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+}
+
 .container {
     position: relative;
     width: 18%;
     display: inline-block;
     padding: 3rem;
-   
-    
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    width: 11rem;
+    height: 11rem;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(255, 255, 255, .85);
-    border-radius: 10px;
+    position: absolute;
+    display: inline-block;
+    padding: 3rem;
+    margin: 0 auto;
 }
 
 .container:hover .overlay {
