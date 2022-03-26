@@ -91,21 +91,20 @@ p {
 }
 
 #about-us-section {
-    height: 35rem;
     width: 100%;
-    background-color: pink;
-}
-
-#about-us {
     color: #494454;
     font-size: 1.5rem;
     line-height: 3.125rem;
     text-align: right;
     letter-spacing: 0.15rem;
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
-#about-us p {
+#about-us-section div {
+    display: inline-block;
+}
+
+#about-us-section p {
     font-size: 1.7rem;
     line-height: 2.6rem;
     margin-top: 2.5rem;
@@ -115,21 +114,15 @@ p {
 
 #bakery-image {
     border-radius: 0.625rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-right: 8rem;
     opacity: 0.7;
-    float: right;
+    margin-left: 4.7rem;
+    margin-right: 4.7rem;
 }
 
 #text-about {
     width: 30rem;
-    float: left;
-    margin-top: 6rem;
-    margin-right: 2rem;
-    margin-left: 8rem;
-    background-color: green;
+    margin-left: 4.7rem;
+    margin-right: 4.7rem;
 }
 
 span {
@@ -150,7 +143,6 @@ span {
     width: 100%;
     margin-top: 0;
     margin-bottom: 2rem;
-    background-color: orange;
     /* position: relative; */
 }
 
@@ -165,8 +157,7 @@ span {
 }
 
 #menu-container {
-    width: 100%;
-    background-color: grey;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -400,13 +391,39 @@ textarea {
 
 @media screen and (max-width: 1430px) {
 
+#bakery-image {
+    width: 40%;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+}
+
+#text-about {
+    width: 30%;
+}
+
+#text-about h2 {
+    font-size: 2rem;
+    margin-right: 0;
+}
+
+
+
+/* .container {
+    width: 14%;
+    align-items: center;
+} */
+
+    
+/*
 #bakery-menu {
     margin: 0 auto;
 }
 
 .container {
     width: 18%;
-}
+} */
 
 /*#about-us {
     max-width: 80%;
@@ -415,11 +432,7 @@ textarea {
     /* padding: 0; */
 }
 
-/* #bakery-image {
-    width: 40%;
-    margin: 0 auto;
-}
-
+/* 
 #text-about {
     width: 30%;
     margin-right: 0;
@@ -431,8 +444,6 @@ textarea {
 }
  */
 
-
-}
 /* #text-about {
     margin-right: 2rem;
     margin-left: 2rem;
