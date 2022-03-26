@@ -90,16 +90,19 @@ p {
     width: 100%;
 }
 
-#about-us {
+#about-us-section {
     height: 35rem;
     width: 100%;
+    background-color: pink;
+}
+
+#about-us {
     color: #494454;
     font-size: 1.5rem;
     line-height: 3.125rem;
     text-align: right;
     letter-spacing: 0.15rem;
     margin: 2rem 0;
-    
 }
 
 #about-us p {
@@ -126,6 +129,7 @@ p {
     margin-top: 6rem;
     margin-right: 2rem;
     margin-left: 8rem;
+    background-color: green;
 }
 
 span {
@@ -135,15 +139,15 @@ span {
 
 #bakery-menu {
     width: 100%;
-    
     margin-top: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+
 }
 
 #bakery-menu h2 {
     font-size: 2.5rem;
     text-align: center;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
 }
 
 #bakery-menu a {
@@ -151,8 +155,21 @@ span {
     color: #494454;
 }
 
-#bakery-menu div{
+/* #bakery-menu div{
     display: inline-block;
+} */
+
+#menu-container {
+    width: 100%;
+    /* display: inline-block; */
+    background-color: grey;
+    /* left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
 }
 
 .image {
@@ -166,9 +183,11 @@ span {
 
 .container {
     position: relative;
-    width: 20.7%;
-    margin-right: 1.8rem;
-    margin-left: 1.8rem;
+    width: 18%;
+    display: inline-block;
+    padding: 3rem;
+   
+    
 }
 
 .overlay {
@@ -384,11 +403,46 @@ textarea {
     margin-right: 10%;
 }
 
-/* media queries */
+/* Media queries */
+
+/* For larger to medium screen size from 1430px wide and down */
 
 @media screen and (max-width: 1430px) {
 
+#bakery-menu {
+    margin: 0 auto;
+}
+
+.container {
+    width: 18%;
+}
+
+/*#about-us {
+    max-width: 80%;
+    margin: 0 auto; */
+    /* background-color: pink; */
+    /* padding: 0; */
+}
+
+/* #bakery-image {
+    width: 40%;
+    margin: 0 auto;
+}
+
 #text-about {
+    width: 30%;
+    margin-right: 0;
+    background-color: green;
+
+#bakery-menu {
+    max-width: 100%;
+    background-color: green;
+}
+ */
+
+
+}
+/* #text-about {
     margin-right: 2rem;
     margin-left: 2rem;
 }
@@ -480,14 +534,31 @@ text-align: left;
 }
 
 #bakery-menu {
-    width: 60%;
+    width: 50%;
     float: none;
     margin: auto;
+    background-color: pink;
 }
 
 .container {
-    width: 38%;
+    width: 35%;
 
 }
 
 }
+
+@media screen and (max-width: 1016px) {
+
+#bakery-menu {
+    width: 50%;
+}
+
+.container {
+    width: 34%;
+}
+
+#mq-div h3 {
+    font-size: 2rem;
+
+}
+} */
