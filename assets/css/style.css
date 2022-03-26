@@ -116,18 +116,11 @@ p {
     border-radius: 0.625rem;
     opacity: 0.7;
     margin-right: 5rem;
-    /* margin-left: 4.7rem;
-    margin-right: 4.7rem; */
 }
 
 #text-about {
     width: 30rem;
     margin-right: 6rem;
-    
-    /* display: block; */
-    /* margin: 0 auto; */
-    /* margin-left: 4.7rem;
-    margin-right: 4.7rem; */
 }
 
 span {
@@ -148,7 +141,6 @@ span {
     width: 100%;
     margin-top: 0;
     margin-bottom: 2rem;
-    /* position: relative; */
 }
 
 #bakery-menu h2 {
@@ -162,7 +154,6 @@ span {
 }
 
 #menu-container {
-    /* width: fit-content; */
     width: 100%;
     height: auto;
     margin-left: auto;
@@ -180,7 +171,6 @@ span {
 
 .overlay {
     width: 20%;
-    /* height: 11rem; */
     left: 0;
     right: 0;
     border-radius: 10px;
@@ -190,7 +180,6 @@ span {
     position: absolute;
     display: inline-block;
     padding: 2rem;
-    /* margin: 0 auto; */
 }
 
 .container:hover .overlay {
@@ -394,35 +383,52 @@ textarea {
 
 /* Media queries */
 
-/* For larger to medium screen size from 1413px wide and down */
+/* For larger to medium screen size from 1360px wide and down */
 
-@media screen and (max-width: 1413px) {
+@media screen and (max-width: 1360px) {
+
+#menu-container {
+    /* width: 100%; */
+    margin: 0 6rem;
+}
+
+.container {
+    width: 40%;
+    padding: 2rem;
+}
+}
+
+@media screen and (max-width: 1290px) {
+
+#about-us-section {
+    text-align: center;
+}
 
 #text-about {
     display: block;
+    margin-top: 10rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#bakery-image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+}
+
+
+
+    /* #text-about {
+    display: block;
     margin: 0 auto;
 }
-}
+} */
 
 
 
-/* #bakery-image {
-    width: 40%;
-    margin-left: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 0;
-}
-
-#text-about {
-    width: 30%;
-}
-
-#text-about h2 {
-    font-size: 2rem;
-    margin-right: 0;
-}
- */
 
 
 /* .container {
