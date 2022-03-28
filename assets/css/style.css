@@ -405,8 +405,20 @@ textarea {
 #bakery-image {
     float: none;
     margin: auto;
+    width: 36rem;
 }
 
+#menu-container {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.container {
+    margin: 0 auto;
+    display: inline-block;
+    width: 45%;
+}
 
 }
 
