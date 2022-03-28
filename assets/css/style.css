@@ -419,6 +419,24 @@ textarea {
     display: inline-block;
     width: 45%;
 }
+}
+
+@media screen and (max-width: 1072px) {
+
+#footer p {
+    font-size: 0.9rem;
+}
+
+#footer h2 {
+    font-size: 1.2rem;
+}
+
+#footer i {
+    font-size: 2.3rem;
+}
+
 
 }
+
+
 
