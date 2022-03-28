@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&family=Shadows+Into+Light&display=swap');
 
 
+/* set default margin/padding/border to 0/none, and boxsizing to border-box*/
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 }
+
+/* General styling applied to multiple elements */
 
 body {
     max-width: 1500px;
@@ -19,38 +23,29 @@ body {
     padding-bottom: 11.25rem;
 }
 
-header {
-    height: 5.625rem;
-    width: 100%;
-}
-
-/* h2 {
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
-    color: #494454;
-    letter-spacing: 2px;
-    text-decoration: none;
-} */
-
 p {
     font-family: Manrope, sans-serif;
     color: #494454;
 }
 
+.image {
+    border-radius: 10px;
+}
+
+.scale {
+    max-width: 100%;
+    height: auto;
+}
+
+/* headings and logo */
+
+header {
+    height: 5.625rem;
+    width: 100%;
+}
+
 .active {
     border-bottom: 0.125rem solid #494454;
-}
-
-.center {
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.vertical-center {
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 #logo {
@@ -87,9 +82,13 @@ p {
     border-bottom: 0.125rem solid #494454;
 }
 
+/* hero image */
+
 #hero-image {
     width: 100%;
 }
+
+/* styling for about-us section */
 
 #about-us-section {
     width: 100%;
@@ -97,10 +96,8 @@ p {
 }
 
 #about-us-content {
-    display: flex;
-    width: 80rem;
-    height: 35rem;
-    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
 }
 
 #about-us-content p {
@@ -114,17 +111,21 @@ p {
 #bakery-image {
     border-radius: 0.625rem;
     opacity: 0.7;
-    width: 100%;
+    width: 39.063rem;
+    float: right;
+    margin-right: 7rem;
+    height: 31.25rem;
 }
 
 #text-about {
-    width: 50rem;
-    margin: auto 6rem;
+    width: 30rem;
+    margin-left: 8rem;
     color: #494454;
     font-size: 1.5rem;
     line-height: 3.125rem;
     text-align: right;
     letter-spacing: 0.15rem;
+    float: left;
 }
 
 span {
@@ -132,14 +133,7 @@ span {
     font-weight: 1000;
 }
 
-.image {
-    border-radius: 10px;
-}
-
-.scale {
-    max-width: 100%;
-    height: auto;
-}
+/* styling for bakery menu section */
 
 #bakery-menu {
     width: 100%;
@@ -160,7 +154,6 @@ span {
 #menu-container {
     position: relative;
     display: table-cell;
-
 }
 
 .container {
@@ -198,6 +191,8 @@ span {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/* footer styling */
 
 #footer {
     height: 11.25rem;
@@ -242,6 +237,9 @@ span {
     padding: 0.3rem;
 }
 
+/* Gallery page styling */
+
+
 #gallery-images {
     clear: both;
     line-height: 50px;
@@ -255,6 +253,8 @@ span {
     max-width: 100%;
     height: auto;
 }
+
+/* Contact Us page styling */
 
 #contact-us-image {
     background-image: url("../images/pancakes.jpg");
@@ -311,9 +311,7 @@ h3 {
 
 #contact-us-details {
     color: #494454; 
-    /* line-height: 30px; */
     padding-top: 2rem;
-    /* font-size: 1rem; */
 }
 
 #contact-us-details h2 {
@@ -386,37 +384,13 @@ textarea {
 
 /* Media queries */
 
-/* For larger to medium screen size from 1360px wide and down */
-
-/* @media screen and (max-width: 1360px) {
-
-#menu-container {
-    margin: 0 6rem;
-}
-
-.container {
-    width: 40%;
-    padding: 2rem;
-}
-}
+/* For larger to medium screen size from 1290px wide and down */
 
 @media screen and (max-width: 1290px) {
 
-#about-us-section {
-    text-align: center;
-}
+    /* #hero-image {
+        max-width: 1200px;
+    } */
 
-#text-about {
-    display: block;
-    margin-top: 10rem;
-    padding: 0;
-    background-color: pink;
 }
-
-#bakery-image {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-}
-} */
 
