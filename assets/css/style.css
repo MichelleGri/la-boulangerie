@@ -384,13 +384,29 @@ textarea {
 
 /* Media queries */
 
-/* For larger to medium screen size from 1290px wide and down */
+/* For larger to medium screen size from 1370px wide and down */
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1370px) {
 
-    /* #hero-image {
-        max-width: 1200px;
-    } */
+#about-us-content {
+    display: block;
+    width: 100%;
+}
+
+#text-about {
+    float: none;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#bakery-image {
+    float: none;
+    margin: auto;
+}
+
 
 }
 
