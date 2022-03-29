@@ -419,6 +419,20 @@ textarea {
 }
 }
 
+@media screen and (max-width: 880px) {
+
+#nav-menu {
+    float: left;
+    clear: both;
+    margin-left: 1.25rem;
+}
+
+#gallery-images {
+    margin-top: 5rem;
+}
+}
+
+
 @media screen and (max-width: 1000px) {
 
 #gallery-images {
@@ -429,6 +443,7 @@ textarea {
 @media screen and (max-width: 1260px) {
 
 #contact-us {
+    width: 100%;
     display: block;
 }
 
