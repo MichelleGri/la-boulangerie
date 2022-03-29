@@ -266,12 +266,12 @@ span {
 }
 
 #contact-us {
-    width: 80rem;
+    width: 76rem;
     margin: 2rem auto;
 }
 
 .contact-us {
-    height: 56rem;
+    height: 58rem;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.9);
     text-align: left;
@@ -291,7 +291,7 @@ span {
 }
 
 #left-white-bg {
-    width: 25rem;
+    width: 28rem;
     float: left;
 }
 
