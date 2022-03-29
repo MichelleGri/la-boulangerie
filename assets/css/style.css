@@ -426,6 +426,24 @@ textarea {
 }
 }
 
+@media screen and (max-width: 1260px) {
+
+#contact-us {
+    display: block;
+}
+
+#left-white-bg {
+    float: none;
+    margin: 3rem auto;
+}
+
+#right-white-bg {
+    float: none;
+    margin: 3rem auto;
+}
+
+}
+
 @media screen and (max-width: 1072px) {
 
 #footer p {
