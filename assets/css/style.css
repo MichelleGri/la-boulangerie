@@ -241,10 +241,8 @@ span {
 
 
 #gallery-images {
-    clear: both;
     line-height: 50px;
     column-count: 4;
-    column-gap: 0;
     margin: 3%;
 }
 
@@ -421,6 +419,13 @@ textarea {
 }
 }
 
+@media screen and (max-width: 1000px) {
+
+#gallery-images {
+    column-count: 3;
+}
+}
+
 @media screen and (max-width: 1072px) {
 
 #footer p {
@@ -434,8 +439,6 @@ textarea {
 #footer i {
     font-size: 2.3rem;
 }
-
-
 }
 
 
