@@ -114,21 +114,15 @@ header {
 #bakery-image {
     border-radius: 0.625rem;
     opacity: 0.7;
-    width: 39.063rem;
-    float: right;
-    margin-right: 7rem;
-    height: 31.25rem;
 }
 
 #text-about {
     width: 30rem;
-    margin-left: 8rem;
     color: #494454;
     font-size: 1.5rem;
     line-height: 3.125rem;
     text-align: right;
     letter-spacing: 0.15rem;
-    float: left;
 }
 
 span {
