@@ -409,12 +409,49 @@ textarea {
 .text {
     font-size: 2rem;
 }
+}
 
-#bakery-image {
+@media screen and (max-width: 880px) {
+
+#nav-menu {
+    float: left;
+    clear: both;
+    margin-left: 1.25rem;
+}
+
+#gallery-images {
+    margin-top: 5rem;
+}
+}
+
+@media screen and (max-width: 780px) {
+
+#menu-container {
+    width: 85%;
+}
+}
+
+/* @media screen and (max-width: 640px) {
+
+#text-about {
+    width: 30%;
+} */
+
+
+/* #about-us-content {
+    width: 50%;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+} */
 
 }
 
-}
 
 
 /* For larger to medium screen size from 1370px wide and down */
@@ -498,17 +535,7 @@ textarea {
 }
 }
 
-@media screen and (max-width: 880px) {
 
-#nav-menu {
-    float: left;
-    clear: both;
-    margin-left: 1.25rem;
-}
-    
-#gallery-images {
-    margin-top: 5rem;
-}
 }
 
 @media screen and (max-width: 921px) {
