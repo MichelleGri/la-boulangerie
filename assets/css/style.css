@@ -198,6 +198,8 @@ span {
     margin: 0 auto;
     position: absolute;
     bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #footer p {
@@ -209,12 +211,9 @@ span {
 }
 
 #footer div {
-    width: 33%;
-    float: left;
     text-align: center;
     line-height: 1.875rem;
     padding-top: 1rem;
-    padding-bottom: 0.01rem;
 }
 
 #footer li {
@@ -449,8 +448,6 @@ h2 {
 p {
     font-size: 1rem;
 } */
-
-}
 
 
 
