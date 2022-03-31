@@ -430,6 +430,37 @@ textarea {
 }
 }
 
+@media screen and (max-width: 600px) {
+
+#about-us-content p {
+    font-size: 1.4rem;
+}
+
+#text-about {
+    font-size: 1.2rem;
+}
+
+#bakery-image {
+    width: 80%;
+}
+
+#menu-container {
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#bakery-menu h2 {
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 1.6rem;
+}
+
+}
+
+
 /* @media screen and (max-width: 640px) {
 
 #text-about {
