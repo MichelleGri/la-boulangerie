@@ -192,7 +192,7 @@ span {
 /* footer styling */
 
 #footer {
-    height: 12rem;
+    height: 11rem;
     width: 100%;
     background-color: #606060;
     margin: 0 auto;
@@ -396,18 +396,6 @@ textarea {
     width: 70%;
     margin: 0 auto;
 }
-
-/* #footer p {
-    font-size: 0.9rem;
-}
-
-#footer h2 {
-    font-size: 1.2rem;
-}
-
-#footer i {
-    font-size: 2.3rem;
-} */
 }
 
 @media screen and (max-width: 990px) {
@@ -455,6 +443,18 @@ textarea {
 #menu-container {
     width: 85%;
 }
+
+#footer p {
+    font-size: 0.9rem;
+}
+
+#footer h2 {
+    font-size: 1.2rem;
+}
+
+#footer i {
+    font-size: 2.3rem;
+}
 }
 
 @media screen and (max-width: 650px) {
@@ -484,6 +484,7 @@ textarea {
 .text {
     font-size: 1.6rem;
 }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -513,152 +514,17 @@ textarea {
 #menu-container {
     width: 55%;
 }
+
+#footer p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
 }
 
-@media screen and (max-width: 490px) {
-
-#hero-image {
-    margin: 0 auto;
-}
-}
-
-
-
-@media screen and (max-width: 445px) {
-
-
-
-
-/* #nav-menu li {
-    font-size: 1rem;
-    margin-right: 1.2rem;
-    }
-} */
-
-/* @media screen and (max-width: 300px) {
-
-#nav-menu li {
-    font-size: 0.6rem;
-    margin-right: 1.2rem;
-}
-
-} */
-
-
-
-/* @media screen and (max-width: 640px) {
-
-#text-about {
-    width: 30%;
-} */
-
-
-/* #about-us-content {
-    width: 50%;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-p {
-    font-size: 1rem;
-} */
-
-
-
-/* For larger to medium screen size from 1370px wide and down */
-
-/* @media screen and (max-width: 1370px) {
-
-#about-us-content {
-    display: block;
-    width: 100%;
-}
-
-#text-about {
-    float: none;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-#bakery-image {
-    float: none;
-    margin: auto;
-    width: 36rem;
-}
-
-#menu-container {
-    display: block;
-    margin: 0 auto;
-    width: 55%;
-}
-
-.container {
-    margin: 0 auto;
-    display: inline-block;
-    width: 45%;
-}
-}
-
-
-
-
-@media screen and (max-width: 1000px) {
-
-#gallery-images {
-    column-count: 3;
-}
-}
-
-@media screen and (max-width: 1260px) {
-
-#contact-us {
-    width: 100%;
-    display: block;
-}
-
-#left-white-bg {
-    float: none;
-    margin: 3rem auto;
-}
-
-#right-white-bg {
-    float: none;
-    margin: 3rem auto;
-}
-
-}
-
-@media screen and (max-width: 1072px) {
-
-
-}
-
-
-}
-
-@media screen and (max-width: 921px) {
-
-#footer div {
-    width: 24%;
-} */
-
-
-/* p {
-        font-size: 0.7rem;
-}
-    
 #footer h2 {
-        font-size: 1rem;
-}
-    
-#footer i {
-        font-size: 2rem;
-} */
-    
+    font-size: 1rem;
 }
 
+#footer i {
+    font-size: 2rem;
+}
+}
