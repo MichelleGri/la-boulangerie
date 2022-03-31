@@ -192,7 +192,7 @@ span {
 /* footer styling */
 
 #footer {
-    height: 11.25rem;
+    height: 12rem;
     width: 100%;
     background-color: #606060;
     margin: 0 auto;
@@ -396,6 +396,18 @@ textarea {
     width: 70%;
     margin: 0 auto;
 }
+
+/* #footer p {
+    font-size: 0.9rem;
+}
+
+#footer h2 {
+    font-size: 1.2rem;
+}
+
+#footer i {
+    font-size: 2.3rem;
+} */
 }
 
 @media screen and (max-width: 990px) {
@@ -408,6 +420,21 @@ textarea {
 .text {
     font-size: 2rem;
 }
+
+
+/* @media screen and (max-width: 912px) {
+
+#footer p {
+    font-size: 0.8rem;
+}
+
+#footer h2 {
+    font-size: 1rem;
+}
+
+#footer i {
+    font-size: 2rem;
+} */
 }
 
 @media screen and (max-width: 850px) {
@@ -608,17 +635,7 @@ p {
 
 @media screen and (max-width: 1072px) {
 
-#footer p {
-    font-size: 0.9rem;
-}
 
-#footer h2 {
-    font-size: 1.2rem;
-}
-
-#footer i {
-    font-size: 2.3rem;
-}
 }
 
 
