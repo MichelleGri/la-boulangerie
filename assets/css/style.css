@@ -59,23 +59,23 @@ header {
 }
 
 #nav-menu {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     line-height: 4.6875rem;
 }
 
 #nav-menu li {
-    float: left;
     list-style-type: none;
     margin-right: 1.875rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.125rem;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
 }
 
 #nav-menu a {
     text-decoration: none;
     color: #494454;
-    font-size: 1.2rem;
-    letter-spacing: 0.125rem;
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
 }
 
 #nav-menu a:hover {
@@ -457,8 +457,34 @@ textarea {
 .text {
     font-size: 1.6rem;
 }
+}
+
+@media screen and (max-width: 500px) {
+
+#nav-menu {
+    float: left
+}
+
+#nav-menu a {
+    font-size: 1rem;
+}
+
+#nav-menu li {
+    line-height: 3rem;
+    font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 300px) {
+
+#nav-menu a {
+    font-size: 1rem;
+
 
 }
+
+}
+
 
 
 /* @media screen and (max-width: 640px) {
