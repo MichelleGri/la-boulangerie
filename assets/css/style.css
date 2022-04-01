@@ -86,6 +86,7 @@ header {
 
 #hero-image {
     width: 100%;
+    height: auto;
 }
 
 /* styling for about-us section */
@@ -112,6 +113,8 @@ header {
 }
 
 #bakery-image {
+    width: 39rem;
+    height: 31.2rem;
     border-radius: 0.625rem;
     opacity: 0.7;
 }
@@ -149,15 +152,16 @@ span {
 }
 
 #menu-container {
-    position: relative;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-   
+    justify-items: center;
+    padding: 2rem;
 }
 
-.container {
-    position: relative;
-    padding: 2rem;
+#menu-container img {
+    width: 280px;
+    height: 280px;
+    border-radius: 0.625rem;
 }
 
 .overlay {
@@ -175,7 +179,7 @@ span {
     left: 0;
 }
 
-.container:hover .overlay {
+.menu-container img:hover .overlay {
     opacity: 1;
 }
 
@@ -378,7 +382,7 @@ textarea {
 
 /* Media queries */
 
-/* For screen size from 1100px and down*/
+/* For screen size from 1250px and down*/
 
 @media screen and (max-width: 1250px) {
 
@@ -401,9 +405,7 @@ textarea {
 #right-white-bg {
     width: 28.75rem;
 }
-
 }
-
 
 @media screen and (max-width: 1100px) {
 
@@ -416,11 +418,11 @@ textarea {
     text-align: center;
 }
 
-#menu-container {
+/* #menu-container {
     grid-template-columns: 1fr 1fr;
     width: 70%;
     margin: 0 auto;
-}
+} */
 }
 
 @media screen and (max-width: 990px) {
@@ -508,13 +510,14 @@ textarea {
     font-size: 1rem;
 }
 
+#about-us-content {
+    width: 35%;
+    height: 40rem;
+}
+
 #text-about {
     font-size: 1.1rem;
     width: 200%;
-}
-
-#about-us-content {
-    width: 35%;
 }
 
 #about-us-content p {
@@ -528,6 +531,11 @@ textarea {
 #menu-container {
     width: 55%;
 }
+
+.container {
+    width: 55%
+}
+
 
 #footer p {
     font-size: 0.8rem;
