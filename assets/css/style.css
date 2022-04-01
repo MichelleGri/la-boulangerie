@@ -15,12 +15,15 @@
 body {
     max-width: 1500px;
     margin: 0.005rem auto;
-    float: none;
     font-family: Manrope, sans-serif;
-    letter-spacing: 0.125rem;
     background-color: #f0f0f0;
     position: relative;
     padding-bottom: 11.25rem;
+}
+
+h2 {
+    font-family: Manrope, sans-serif;
+    letter-spacing: 0.125rem;
 }
 
 p {
@@ -29,7 +32,7 @@ p {
 }
 
 .image {
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .scale {
@@ -84,6 +87,12 @@ header {
 
 /* hero image */
 
+#hero-image-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
 #hero-image {
     width: 100%;
     height: auto;
@@ -113,14 +122,14 @@ header {
 }
 
 #bakery-image {
-    width: 39rem;
-    height: 31.2rem;
+    width: 80%;
+    height: auto;
     border-radius: 0.625rem;
     opacity: 0.7;
 }
 
 #text-about {
-    width: 30rem;
+    width: 70%;
     color: #494454;
     font-size: 1.5rem;
     line-height: 3.125rem;
@@ -160,8 +169,8 @@ span {
 }
 
 .menu-image{
-    width: 280px;
-    height: 280px;
+    width: 90%;
+    height: auto;
     border-radius: 0.625rem;
     position: relative;
 }
@@ -172,8 +181,8 @@ span {
 }
 
 .overlay {
-    width: 280px;
-    height: 280px;
+    width: 90%;
+    height: auto;
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
@@ -406,15 +415,9 @@ textarea {
     float: none;
     margin: 2rem auto;
 }
-
-@media screen and (max-width: 730px) {
-
-#right-white-bg {
-    width: 28.75rem;
-}
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1140px) {
 
 #about-us-content {
     grid-template-columns: 1fr;
@@ -423,20 +426,21 @@ textarea {
 
 #text-about {
     text-align: center;
+    width: 50%;
 }
 
-/* #menu-container {
+#bakery-image {
+    width: 50%
+}
+
+#menu-container {
     grid-template-columns: 1fr 1fr;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
-} */
 }
 
-@media screen and (max-width: 990px) {
-
-#about-us-content {
- width: 50%;
- margin: 0 auto;
+.grid-container {
+    padding: 2rem;
 }
 
 .text {
@@ -452,16 +456,22 @@ textarea {
     margin-left: 1.25rem;
 }
 
+#menu-container {
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: 0 auto;
+}
+
 #gallery-images {
     margin-top: 5rem;
+}
+
+#gallery-images {
+    column-count: 3;
 }
 }
 
 @media screen and (max-width: 780px) {
-
-#menu-container {
-    width: 85%;
-}
 
 #footer p {
     font-size: 0.9rem;
@@ -474,39 +484,23 @@ textarea {
 #footer i {
     font-size: 2.3rem;
 }
-
-#gallery-images {
-    column-count: 3;
 }
 
+@media screen and (max-width: 730px) {
+
+#right-white-bg {
+    width: 28.75rem;
+}
+    
+.text {
+    font-size: 1.8rem;
+}
 }
 
 @media screen and (max-width: 650px) {
 
-#about-us-content p {
-    font-size: 1.4rem;
-}
-
-#text-about {
-    font-size: 1.2rem;
-}
-
-#bakery-image {
-    width: 80%;
-}
-
 #menu-container {
-    width: 45%;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-#bakery-menu h2 {
-    font-size: 2rem;
-}
-
-.text {
-    font-size: 1.6rem;
+    width: 60%;
 }
 }
 
@@ -517,32 +511,48 @@ textarea {
     font-size: 1rem;
 }
 
-#about-us-content {
-    width: 35%;
-    height: 40rem;
+#about-us-section {
+    margin: 2rem 0;
 }
 
 #text-about {
-    font-size: 1.1rem;
-    width: 200%;
+    width: 70%;
+    font-size: 1rem;
 }
 
 #about-us-content p {
-    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 #bakery-image {
-    width: 180%;
+    width: 60%;
+}
+
+#bakery-menu {
+    margin-bottom: 0;
 }
 
 #menu-container {
-    width: 55%;
+    width: 70%;
+    padding: 1.5rem;
 }
 
-.container {
-    width: 55%
+#bakery-menu h2 {
+    font-size: 2rem;
 }
 
+.grid-container {
+    align-items: center;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.menu-image {
+    width: 100%;
+}
 
 #footer p {
     font-size: 0.8rem;
@@ -559,5 +569,72 @@ textarea {
 
 #gallery-images {
     column-count: 2;
+}
+
+#contact-us h2 {
+    font-size: 1.6rem;
+}
+
+#left-white-bg {
+    width: 20rem;
+}
+
+#right-white-bg {
+    width: 20rem;
+}
+ label {
+     font-size: 1rem;
+ }
+
+#feedback {
+    width: 15rem;
+}
+
+
+}
+
+@media screen and (max-width: 445px) {
+
+#nav-menu li {
+    line-height: 3rem;
+    font-size: 0.8rem;
+}
+
+#footer {
+    height: 11.25rem;
+}
+
+#footer p {
+    font-size: 0.7rem;
+}
+
+#footer h2 {
+    font-size: 0.9rem;
+}
+
+#footer i {
+    display: block;
+    clear: both;
+    font-size: 1.5rem;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#gallery-images {
+    column-count: 1;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 395px) {
+#nav-menu li {
+    font-size: 0.6rem;
+}
+
+.text {
+    font-size: 1rem;
 }
 }
