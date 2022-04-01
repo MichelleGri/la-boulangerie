@@ -113,33 +113,33 @@ header {
     justify-items: center;
 }
 
-#about-us-content p {
-    font-size: 1.7rem;
-    line-height: 2.6rem;
-    margin-top: 2.5rem;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
-}
-
-#bakery-image {
-    width: 80%;
-    height: auto;
-    border-radius: 0.625rem;
-    opacity: 0.7;
-}
-
 #text-about {
     width: 70%;
-    color: #494454;
-    font-size: 1.5rem;
-    line-height: 3.125rem;
+}
+
+#text-about h2 {
+    font-size: 2.2rem;
+    line-height: 3.4rem;
     text-align: right;
-    letter-spacing: 0.15rem;
+}
+
+#text-about p {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    margin-top: 2.5rem;
+    letter-spacing: 0.1rem;
+    text-align: right;
 }
 
 span {
     color:#191970;
     font-weight: 1000;
+}
+
+#bakery-image {
+    width: 80%;
+    border-radius: 0.625rem;
+    opacity: 0.7;
 }
 
 /* styling for bakery menu section */
@@ -170,7 +170,6 @@ span {
 
 .menu-image{
     width: 90%;
-    height: auto;
     border-radius: 0.625rem;
     position: relative;
 }
@@ -182,13 +181,11 @@ span {
 
 .overlay {
     width: 90%;
-    height: auto;
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(255, 255, 255, .85);
     position: absolute;
-    padding: 2rem;
     top: 0;
     bottom: 0;
     right: 0;
@@ -200,7 +197,6 @@ span {
 }
 
 .text {
-    color: #494454;
     font-size: 2.5rem;
     position: absolute;
     left: 50%;
@@ -520,7 +516,7 @@ textarea {
     font-size: 1rem;
 }
 
-#about-us-content p {
+#text-about p {
     margin-top: 1rem;
     font-size: 1.2rem;
 }
