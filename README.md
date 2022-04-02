@@ -115,7 +115,7 @@ The footer is featured on all four pages of the website. It is identical on all 
 
 * Social Media – this part of the footer provides links to the bakery’s social media platforms – Facebook, Twitter, and Instagram. This encourages the user to stay connected and interact with the company. These pages enable the business to advertise the bakery and announce promotional offers, discounts, and events. The social media icons are clickable links to the relevant page which opens in a new tab.  As La Boulangerie is a fictional business, the links currently lead to the website homepage.
 
-### Gallery Page
+## Gallery Page
 
 The gallery page includes 14 photos relevant to the bakery, presented in a masonry style. This pages aims to give the user an idea of the bakery’s ambience and the products sold. It’s purpose is to convince the user to visit the bakery and have an enjoyable experience. The user is able to visualise the bakery and therefore set their expectations accordingly. 
 

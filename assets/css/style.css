@@ -507,6 +507,21 @@ textarea {
 .text {
     font-size: 1.8rem;
 }
+
+#footer p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+#footer h2 {
+    font-size: 1rem;
+}
+
+#footer i {
+    font-size: 2rem;
+    margin: 0.05rem;
+    padding: 0.8rem;
+}
 }
 
 /* For screen size from 650px and down*/
@@ -515,6 +530,19 @@ textarea {
 
 #menu-container {
     width: 60%;
+}
+
+#footer p {
+    font-size: 0.7rem;
+}
+
+#footer h2 {
+    font-size: 0.9rem;
+}
+
+#footer i {
+    font-size: 1.5rem;
+    padding: 0.6rem;
 }
 }
 
@@ -569,19 +597,6 @@ textarea {
     font-size: 1.5rem;
 }
 
-#footer p {
-    font-size: 0.8rem;
-    line-height: 1.5rem;
-}
-
-#footer h2 {
-    font-size: 1rem;
-}
-
-#footer i {
-    font-size: 2rem;
-}
-
 #gallery-images {
     column-count: 2;
 }
@@ -616,26 +631,18 @@ label {
     font-size: 0.8rem;
 }
 
-#footer {
-    height: 11.25rem;
-}
-
 #footer p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
 }
 
 #footer h2 {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 
 #footer i {
-    display: block;
-    clear: both;
-    font-size: 1.5rem;
-}
-
-#footer a {
-    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0.4rem;
 }
 
 #gallery-images {
@@ -656,19 +663,9 @@ label {
 .text {
     font-size: 1rem;
 }
-
-#footer p {
-    font-size: 0.6rem;
 }
 
-#footer h2 {
-    font-size: 0.7rem;
-}
-
-#footer i {
-    font-size: 1.4rem;
-}
-}
+/* For screen size from 350px and down*/
 
 @media screen and (max-width: 350px) {
 
