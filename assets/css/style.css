@@ -251,7 +251,6 @@ span {
 
 /* Gallery page styling */
 
-
 #gallery-images {
     line-height: 3.125rem;
     column-count: 4;
@@ -259,7 +258,7 @@ span {
 }
 
 #gallery-images > img {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     max-width: 100%;
     height: auto;
 }
@@ -284,7 +283,7 @@ span {
 
 .contact-us {
     height: 58rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: rgba(255, 255, 255, 0.9);
     text-align: left;
     padding: 2rem;
@@ -314,7 +313,7 @@ span {
 
 h3 {
     color: #494454;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -328,70 +327,70 @@ h3 {
     text-transform: none;
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
-#contact-us-details > p {
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 25px;
+#contact-us-details p {
+    font-size: 0.9rem;
+    font-weight: 800;
+    line-height: 1.5625rem;
     margin-bottom: 1.5rem;
 }
 
 input {
     width: 90%;
-    height: 35px;
-    border: 1px solid #494454;
-    border-radius: 5px;
+    height: 2.1875rem;
+    border: 0.0625rem solid #494454;
+    border-radius: 0.3125rem;
     font-size: 100%;
-    padding-left: 10px;
+    padding-left: 0.625rem;
     margin-bottom: 2rem;
 }
 
 label {
-    font-size: 120%;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: 800;
     color: #494454;
 }
 
 textarea {
     height: 10rem;
     width: 21.5rem;
-    border: 1px solid #494454;
-    border-radius: 5px;
-    font-size: 100%;
-    padding-left: 10px;
-    padding-top: 5px;
+    border: 0.0625rem solid #494454;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
     font-family: Manrope;
 }
 
 .submit-button {
-    height: 60px;
-    width: 200px;
-    margin-top: 4%;
-    border-radius: 10px;
-    padding: 15px 30px 15px 30px;
+    height: 3.75rem;
+    width: 12.5rem;
+    margin-top: 0.04rem;
+    border-radius: 0.625rem;
+    padding: 1rem;
     text-align: center;
-    font-size: 130%;
+    font-size: 1.3rem;
     background-color: #494454;
-    color: white;
+    color: #ffffff;
     display: block;
 }
 
 .submit-button:hover {
-    background-color: white;
+    background-color: #ffffff;
     color: #494454;
 }
 
 #google-map {
-    border: 2px solid black;
+    border: 0.125rem solid #000000;
     overflow: hidden;
 }
 
 .radio-input {
-    height: 15px;
-    width: 15px;
-    margin-right: 10%;
+    height: 0.9375rem;
+    width: 0.9375rem;
+    margin-right: 2rem;
 }
 
 /* Media queries */
