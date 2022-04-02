@@ -27,7 +27,7 @@ h2 {
 }
 
 p {
-    font-family: Manrope, sans-serif;
+    font-family: Poppins, sans-serif;
     color: #494454;
 }
 
@@ -218,18 +218,24 @@ span {
     grid-template-columns: repeat(3, 1fr);
 }
 
-#footer p {
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 0.05rem;
-    letter-spacing: 0.15rem;
-}
-
 #footer div {
     text-align: center;
     line-height: 1.875rem;
     padding-top: 1rem;
+}
+
+#footer h2 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+
+#footer p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.1rem;
+    letter-spacing: 0.15rem;
 }
 
 #footer li {
@@ -238,24 +244,18 @@ span {
 
 #footer i {
     font-size: 2.8rem;
-    margin: 1%;
-    padding: 5%; 
-    color: white;
-}
-
-#footer h2 {
-    color: white;
-    font-size: 1.3rem;
-    padding: 0.3rem;
+    margin: 0.07rem;
+    padding: 1rem; 
+    color: #ffffff;
 }
 
 /* Gallery page styling */
 
 
 #gallery-images {
-    line-height: 50px;
+    line-height: 3.125rem;
     column-count: 4;
-    margin: 3%;
+    margin: 0.03rem;
 }
 
 #gallery-images > img {
@@ -267,7 +267,7 @@ span {
 /* Contact Us page styling */
 
 #contact-us-image {
-    background-image: url("../images/pancakes.jpg");
+    background-image: url("../images/contact-us/pancakes.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,6 +355,8 @@ label {
 }
 
 textarea {
+    height: 10rem;
+    width: 21.5rem;
     border: 1px solid #494454;
     border-radius: 5px;
     font-size: 100%;
@@ -413,6 +415,8 @@ textarea {
 }
 }
 
+/* For screen size from 1140px and down*/
+
 @media screen and (max-width: 1140px) {
 
 #about-us-content {
@@ -451,6 +455,8 @@ textarea {
 }
 }
 
+/* For screen size from 850px and down*/
+
 @media screen and (max-width: 850px) {
 
 #nav-menu {
@@ -474,6 +480,8 @@ textarea {
 }
 }
 
+/* For screen size from 780px and down*/
+
 @media screen and (max-width: 780px) {
 
 #footer p {
@@ -489,6 +497,8 @@ textarea {
 }
 }
 
+/* For screen size from 730px and down*/
+
 @media screen and (max-width: 730px) {
 
 #right-white-bg {
@@ -500,12 +510,16 @@ textarea {
 }
 }
 
+/* For screen size from 650px and down*/
+
 @media screen and (max-width: 650px) {
 
 #menu-container {
     width: 60%;
 }
 }
+
+/* For screen size from 500px and down*/
 
 @media screen and (max-width: 500px) {
 
@@ -584,14 +598,17 @@ textarea {
 #right-white-bg {
     width: 20rem;
 }
- label {
+
+label {
      font-size: 1rem;
- }
+}
 
 #feedback {
     width: 15rem;
 }
 }
+
+/* For screen size from 445px and down*/
 
 @media screen and (max-width: 445px) {
 
@@ -627,14 +644,36 @@ textarea {
     width: 70%;
     margin: 0 auto;
 }
+}
 
+/* For screen size from 395px and down*/
 
 @media screen and (max-width: 395px) {
+
 #nav-menu li {
     font-size: 0.6rem;
 }
 
 .text {
     font-size: 1rem;
+}
+
+#footer p {
+    font-size: 0.6rem;
+}
+
+#footer h2 {
+    font-size: 0.7rem;
+}
+
+#footer i {
+    font-size: 1.4rem;
+}
+}
+
+@media screen and (max-width: 350px) {
+
+#nav-menu li {
+    font-size: 0.5rem;
 }
 }
