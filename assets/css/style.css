@@ -421,8 +421,15 @@ textarea {
 }
 
 #text-about {
-    text-align: center;
     width: 50%;
+}
+
+#text-about h2{
+    text-align: center;
+}
+
+#text-about p{
+    text-align: center;
 }
 
 #bakery-image {
@@ -513,12 +520,15 @@ textarea {
 
 #text-about {
     width: 70%;
-    font-size: 1rem;
+}
+
+#text-about h2{
+    font-size: 1.8rem;
 }
 
 #text-about p {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 #bakery-image {
@@ -544,10 +554,6 @@ textarea {
 
 .text {
     font-size: 1.5rem;
-}
-
-.menu-image {
-    width: 100%;
 }
 
 #footer p {
@@ -585,8 +591,6 @@ textarea {
 #feedback {
     width: 15rem;
 }
-
-
 }
 
 @media screen and (max-width: 445px) {
