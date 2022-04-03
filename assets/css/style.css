@@ -173,7 +173,7 @@ span {
     grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
     position: relative;
-    margin-top: 2rem;
+    margin: 3rem;
 }
 
 .menu-image{
@@ -195,7 +195,7 @@ span {
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
-    background-color: #CDDEEE;
+    background-color: rgb(255, 255, 255, .85);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -207,7 +207,7 @@ span {
 }
 
 .text {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     position: absolute;
     display: grid;
     text-align: center;
@@ -451,16 +451,8 @@ textarea {
 
 #menu-container {
     grid-template-columns: 1fr 1fr;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.grid-container {
-    padding: 2rem;
-}
-
-.overlay {
-    width: 80%;
+    width: 65%;
+    margin: 3rem auto;
 }
 
 .text {
@@ -480,8 +472,9 @@ textarea {
 
 #menu-container {
     grid-template-columns: 1fr;
-    width: 50%;
-    margin: 0 auto;
+    width: 35%;
+    margin: 3rem auto;
+    gap: 3rem;
 }
 
 #gallery-images {
@@ -543,7 +536,7 @@ textarea {
 @media screen and (max-width: 650px) {
 
 #menu-container {
-    width: 60%;
+    width: 37%;
 }
 
 #footer p {
@@ -595,16 +588,11 @@ textarea {
 }
 
 #menu-container {
-    width: 70%;
-    padding: 1.5rem;
+    width: 40%;
 }
 
 #bakery-menu h2 {
     font-size: 2rem;
-}
-
-.grid-container {
-    align-items: center;
 }
 
 .text {
