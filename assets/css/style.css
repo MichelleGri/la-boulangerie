@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&family=Shadows+Into+Light&display=swap');
 
 
+:root {
+    --midnight-blue: #191970;
+    --light-grey: #f0f0f0;
+    --medium-grey: #494454;
+    --medium-shade-grey: #606060;
+}
+
+
+
 /* set default margin/padding/border to 0/none, and boxsizing to border-box*/
 
 * {
@@ -24,6 +33,7 @@ body {
 h2 {
     font-family: Manrope, sans-serif;
     letter-spacing: 0.125rem;
+    color: #494454;
 }
 
 p {
@@ -210,7 +220,7 @@ span {
 #footer {
     height: 11rem;
     width: 100%;
-    background-color: #606060;
+    background-color: #CDDEEE;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
@@ -225,13 +235,11 @@ span {
 }
 
 #footer h2 {
-    color: #ffffff;
     font-size: 1.3rem;
     padding: 0.5rem;
 }
 
 #footer p {
-    color: #ffffff;
     font-size: 1.1rem;
     font-weight: 500;
     padding: 0.1rem;
@@ -243,10 +251,10 @@ span {
 }
 
 #footer i {
+    color: #494454;
     font-size: 2.8rem;
     margin: 0.07rem;
     padding: 1rem; 
-    color: #ffffff;
 }
 
 /* Gallery page styling */
