@@ -151,7 +151,17 @@ A ‘Customer Account’ page can be added that will enable the customers to log
 The main hero-image on the homepage has been included as it provides simple combination to the bakery’s unique selling points – fresh, unique, and quality. The brightly coloured fruits provide a vibrant energy, while the grey background adds depth to the overall website. The remaining images on the website are of paintings and drawings to provide character to the bakery. This also provides consistency for images throughout the website. 
 
 ### Colour Scheme
-The website includes a very simple colour scheme of blues and greys. White has also been used to highlight different parts of the website. As the colors in the images are vibrant and bright, it was best to use these two colors on other parts of the website. 
+The site was created with a very simple colour scheme of shades of blues and greys. It was important to use subtle colours on the site as the images are bright and vibrant. This ensures that the user is not overwhelmed by many and contrasting colours. A colour picker was used on this specific part of the hero image to select the colours. 
+
+Four colours were chosen for the colour palette using the website www.canva.com/colors. 
+
+Midnight blue (#191970) – this colour is used for the logo and to highlight certain phrases on the about-us section. 
+Grape (#494454) – this colour is used for text on the site. 
+Light blue-grey (#CDDEEE) – this colour is used for the footer background.
+White Smoke (#F0F0F0) – this colour is used for background of the whole site. 
+The suitability of these colours for accessibility and readability purposes was checked using two websites: https://webaim.org/resources/contrastchecker/ and https://imagecolorpicker.com/color-code.
+Here are the results which confirmed suitability of this colour palette.
+
 
 ### Typography
 The two main font styles used throughout the website are: Manrope and Poppins. The logo has been styled using the ‘Shadows Into Light’ font. All three fonts have been imported from Google Fonts into styles.css. The logo font aims to add style and distinctiveness to the bakery logo. Manrope and Poppins were chosen as they compliment each other and are easily legible. 
