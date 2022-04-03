@@ -171,13 +171,13 @@ span {
 #menu-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    gap: 2rem;
+    gap: 5rem;
     position: relative;
+    margin-top: 2rem;
 }
 
 .menu-image{
-    width: 90%;
+    width: 100%;
     border-radius: 0.625rem;
     position: relative;
 }
@@ -188,7 +188,10 @@ span {
 }
 
 .overlay {
-    width: 90%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
@@ -196,8 +199,7 @@ span {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
-    left: 0;
+    
 }
 
 .grid-container:hover .overlay {
@@ -207,9 +209,7 @@ span {
 .text {
     font-size: 2.5rem;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    display: grid;
     text-align: center;
 }
 
@@ -417,6 +417,10 @@ textarea {
 #right-white-bg {
     float: none;
     margin: 2rem auto;
+}
+
+.text {
+    font-size: 2rem;
 }
 }
 
