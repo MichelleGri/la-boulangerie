@@ -5,10 +5,8 @@
     --midnight-blue: #191970;
     --light-grey: #f0f0f0;
     --medium-grey: #494454;
-    --medium-shade-grey: #606060;
+    --blue-grey: #CDDEEE;
 }
-
-
 
 /* set default margin/padding/border to 0/none, and boxsizing to border-box*/
 
@@ -174,7 +172,7 @@ span {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    padding: 2rem;
+    gap: 2rem;
     position: relative;
 }
 
@@ -194,7 +192,7 @@ span {
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: #CDDEEE;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -455,6 +453,10 @@ textarea {
 
 .grid-container {
     padding: 2rem;
+}
+
+.overlay {
+    width: 80%;
 }
 
 .text {
