@@ -101,6 +101,10 @@ header {
     height: auto;
 }
 
+#hero-image-section h2 {
+    display: none;
+}
+
 #hero-image {
     width: 100%;
     height: auto;
@@ -199,7 +203,6 @@ span {
     position: absolute;
     top: 0;
     bottom: 0;
-    
 }
 
 .grid-container:hover .overlay {
@@ -261,6 +264,10 @@ span {
     line-height: 3.125rem;
     column-count: 4;
     margin: 0.03rem;
+}
+
+#gallery-images h2 {
+    display: none;
 }
 
 #gallery-images > img {
