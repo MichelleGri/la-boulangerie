@@ -48,9 +48,17 @@ p {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #494454;
+}
+
 /* headings and logo */
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 5.625rem;
     width: 100%;
 }
@@ -64,15 +72,22 @@ header {
     color: #191970;
     font-size: 2.5rem;
     letter-spacing: 0.25rem;
-    float: left;
     margin-left: 1.25rem;
-    line-height: 4.6875rem;
+}
+
+button {
+    font-size: 1rem;
+    background-color: #CDDEEE;
+    height: 3rem;
+    padding: 0.9rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 #nav-menu {
     display: flex;
     justify-content: flex-end;
-    line-height: 4.6875rem;
 }
 
 #nav-menu li {
@@ -82,11 +97,6 @@ header {
     letter-spacing: 0.125rem;
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
-}
-
-#nav-menu a {
-    text-decoration: none;
-    color: #494454;
 }
 
 #nav-menu a:hover {
