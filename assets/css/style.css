@@ -442,6 +442,10 @@ textarea {
     font-size: 2rem;
 }
 
+.menu-title {
+    font-family: Shadows Into Light, sans-serif;
+}
+
 .category {
     display: grid;
     height: 40rem;
