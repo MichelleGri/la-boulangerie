@@ -59,8 +59,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5.625rem;
-    width: 100%;
+    min-height: 5.625rem;
+    flex-wrap: wrap;
 }
 
 .active {
