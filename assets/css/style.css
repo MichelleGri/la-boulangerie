@@ -61,6 +61,8 @@ header {
     align-items: center;
     min-height: 5.625rem;
     width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .active {
@@ -734,5 +736,6 @@ label {
 
 #nav-menu li {
     font-size: 1rem;
+}
 }
 }
