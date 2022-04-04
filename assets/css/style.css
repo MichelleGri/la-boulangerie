@@ -60,7 +60,7 @@ header {
     justify-content: space-between;
     align-items: center;
     min-height: 5.625rem;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .active {
@@ -73,11 +73,6 @@ header {
     font-size: 2.5rem;
     letter-spacing: 0.25rem;
     margin-left: 1.25rem;
-}
-
-.button {
-    margin-left: auto;
-    margin-right: 3rem;
 }
 
 button {
@@ -97,12 +92,21 @@ button:hover {
     color: #494454;
 }
 
+#header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+
 #nav-menu {
     display: flex;
+    min-height: 5.625rem;
+    align-items: center;
     justify-content: flex-end;
 }
 
-#nav-menu li {
+#nav-menu li{
     list-style-type: none;
     margin-right: 1.875rem;
     font-size: 1.2rem;
@@ -457,6 +461,22 @@ textarea {
 
 @media screen and (max-width: 1140px) {
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#header-menu {
+    display: flex;
+    align-items: flex-end;
+    width: 90%;
+}
+
+#nav-menu {
+    margin-left: 1.5rem;
+}
+
 #about-us-content {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -493,11 +513,11 @@ textarea {
 
 @media screen and (max-width: 850px) {
 
-#nav-menu {
+/* #nav-menu {
     float: left;
     clear: both;
     margin-left: 1.25rem;
-}
+} */
 
 #menu-container {
     grid-template-columns: 1fr;
@@ -564,6 +584,10 @@ textarea {
 
 @media screen and (max-width: 650px) {
 
+#header-menu {
+    width: 98%;
+}
+
 #menu-container {
     width: 37%;
 }
@@ -582,14 +606,31 @@ textarea {
 }
 }
 
+@media screen and (max-width: 530px) {
+
+#header-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+#nav-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1rem;
+    align-items: start;
+}
+
+button {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
 /* For screen size from 500px and down*/
 
 @media screen and (max-width: 500px) {
-
-#nav-menu li {
-    line-height: 3rem;
-    font-size: 1rem;
-}
 
 #about-us-section {
     margin: 2rem 0;
@@ -657,11 +698,6 @@ label {
 
 @media screen and (max-width: 445px) {
 
-#nav-menu li {
-    line-height: 3rem;
-    font-size: 0.8rem;
-}
-
 #footer p {
     font-size: 0.6rem;
     line-height: 1rem;
@@ -687,20 +723,16 @@ label {
 
 @media screen and (max-width: 395px) {
 
-#nav-menu li {
-    font-size: 0.6rem;
-}
-
 .text {
     font-size: 1rem;
 }
 }
 
-/* For screen size from 350px and down*/
+/* For screen size from 360px and down*/
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
 
 #nav-menu li {
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 }
