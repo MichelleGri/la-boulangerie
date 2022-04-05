@@ -460,7 +460,7 @@ textarea {
 .category-list {
     display: grid;
     align-content: space-between;
-    box-shadow: 0rem 0rem 0.313rem 0.063rem #191970;
+    box-shadow: 0rem 0rem 0.313rem 0.063rem #494454;
     height: 40rem;
     border-radius: 0.625rem;
 }
@@ -478,6 +478,26 @@ th, td {
 
 td {
     padding-left: 6rem;
+}
+
+.order-online {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    height: 10rem;
+    box-shadow: 0rem 0rem 0.313rem 0.063rem #494454;
+    border-radius: 0.625rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    gap: 6rem;
+}
+
+.delivery {
+column-count: 3;
+border-radius: 0.625rem;
+max-width: 100%;
+height: auto;
+
 }
 
 
