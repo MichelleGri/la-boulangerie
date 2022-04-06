@@ -440,20 +440,29 @@ textarea {
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-    margin: 2rem 0;
+    margin: 3rem 0;
+}
+
+.menu-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-radius: 0.625rem;
+    width: 70%;
+    gap: 5rem;
+    margin: 0 auto;
 }
 
 .menu-title {
-    margin-left: 10rem;
-    margin-bottom: 1.5rem;
     font-size: 1.8rem;
+    margin-left: 2rem;
 }
 
 .category {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
     width: 70%;
 }
 
@@ -483,23 +492,28 @@ td {
 .order-online {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 70%;
-    height: 10rem;
-    box-shadow: 0rem 0rem 0.313rem 0.063rem #494454;
-    border-radius: 0.625rem;
-    margin: 1rem auto;
-    padding: 1rem;
-    gap: 6rem;
+    align-items: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .delivery {
-column-count: 3;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+align-items: center;
 border-radius: 0.625rem;
-max-width: 100%;
-height: auto;
-
+gap: 2.5rem;
+width: 75%;
+margin-left: 5rem;
 }
 
+.delivery img {
+    margin: 0.5rem;
+}
+
+.delivery h2 {
+    font-size: 1.3rem;
+}
 
 /* Media queries */
 
