@@ -6,7 +6,9 @@
 
 ***
 
-The La Boulangerie website advertises a fictional bakery business. Based in London, the business sells sweet and savoury baked goods, and cold and hot drinks. The target customers for the bakery are people looking for a wide variety of delicious freshly baked food in a single bakery, made from quality ingredients. La Boulangerie is a family-run business that prides in providing distinctly tasty food and beverages made from secret family recipes. Customers have the option to either ‘take away’ their order or there is seating available for customers who want to enjoy their food and/or beverages in the tranquil environment of the bakery. The website provides information regarding the wide range of products available, the bakery location, contact information (phone number, email address, and a form to send messages), and the business opening and closing days and times. 
+The La Boulangerie website advertises a fictional bakery business. Based in London, the business sells sweet and savoury baked goods, and cold and hot drinks. The target customers for the bakery are people looking for a wide variety of delicious freshly baked food in a single bakery, made from quality ingredients. La Boulangerie is a family-run business that prides in providing distinctly tasty food and beverages made from secret family recipes. Customers have the option to either ‘take away’ their order or there is seating available for customers who want to enjoy their food and/or beverages in the tranquil environment of the bakery. The website has links to home delivery services and also a click and collect service. 
+
+The website provides information regarding the wide range of products available, the bakery location, contact information (phone number, email address, and a form to send messages), and the business opening and closing days and times. 
 
 ***
 
