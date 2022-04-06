@@ -461,29 +461,28 @@ hr {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     border-radius: 0.625rem;
-    width: 70%;
-    gap: 5rem;
+    width: 75%;
+    gap: 10rem;
     margin: 0 auto;
 }
 
 .menu-title {
     font-size: 1.8rem;
-    margin-left: 2rem;
 }
 
 .category {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8rem;
+    gap: 7rem;
     margin: 1rem auto;
-    width: 70%;
+    width: 80%;
 }
 
 .category-list {
     display: grid;
     align-content: space-between;
     box-shadow: 0rem 0rem 0.313rem 0.063rem #494454;
-    height: 40rem;
+    height: auto;
     border-radius: 0.625rem;
 }
 
@@ -496,10 +495,6 @@ table {
 th, td {
     font-size: 1.2rem;
     letter-spacing: 0.05rem;
-}
-
-td {
-    padding-left: 6rem;
 }
 
 .order-online {
@@ -515,9 +510,7 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 align-items: center;
 border-radius: 0.625rem;
-gap: 2.5rem;
-width: 75%;
-margin-left: 5rem;
+gap: 2rem;
 }
 
 .delivery img {
@@ -556,6 +549,22 @@ margin-left: 5rem;
 /* For screen size from 1140px and down*/
 
 @media screen and (max-width: 1140px) {
+
+.delivery {
+    gap: 1rem;
+}
+
+.menu-title {
+    font-size: 1.5rem;
+}
+
+.delivery h2 {
+    font-size: 1rem;
+}
+
+.category {
+    gap: 5rem;
+}
 
 header {
     display: flex;
@@ -609,11 +618,9 @@ header {
 
 @media screen and (max-width: 850px) {
 
-/* #nav-menu {
-    float: left;
-    clear: both;
-    margin-left: 1.25rem;
-} */
+.menu-heading {
+    gap: 5rem;
+}
 
 #menu-container {
     grid-template-columns: 1fr;
@@ -635,6 +642,14 @@ header {
 
 @media screen and (max-width: 780px) {
 
+.delivery h2 {
+    font-size: 1rem;
+}
+
+.menu-heading {
+    gap: 1rem;
+}
+
 #footer p {
     font-size: 0.9rem;
 }
@@ -651,6 +666,20 @@ header {
 /* For screen size from 730px and down*/
 
 @media screen and (max-width: 730px) {
+
+.menu-heading {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.category {
+    width: 90%;
+    gap: 3rem;
+}
+
+.delivery h2 {
+    font-size: 1.3rem;
+}
 
 #right-white-bg {
     width: 28.75rem;
@@ -686,6 +715,12 @@ header {
 
 #menu-container {
     width: 37%;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
 }
 
 #footer p {
