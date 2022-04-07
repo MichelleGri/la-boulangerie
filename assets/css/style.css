@@ -518,6 +518,10 @@ gap: 2rem;
     font-size: 1.3rem;
 }
 
+#beverages {
+    margin-bottom: 3rem;
+}
+
 /* Media queries */
 
 /* For screen size from 1250px and down*/
