@@ -290,27 +290,45 @@ The bakery menu is located at the bottom of the landing page. It presents four i
 
 ### Menu page
 
-The menu page includes a list of products sold at the bakery and their prices. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the products and price list, without being overwhelmed by images or colours. Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the delivery service website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the contact us page.  
+The menu page includes a list of products sold at the bakery and their prices. As La Boulaungerie is a fictional business, the products and prices are invented. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the products and price list, without being overwhelmed by images or colours. 
+
+Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the delivery service website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the contact us page.  
+
+![Menu Page](README-files/menu-page.JPG)
 
 
+![Menu Page](README-files/menu-page1.JPG)
+
+
+![Menu Page](README-files/menu-page2.JPG)
+
+
+![Menu Page](README-files/menu-page3.JPG)
 
 
 ### Gallery Page
 
 The gallery page includes 14 photos relevant to the bakery, presented in a masonry style. This pages aims to give the user an idea of the bakery’s environment and the products sold. Its purpose is to convince the user to visit or order online from the bakery and have an enjoyable experience. The user is able to visualise the bakery and therefore set their expectations accordingly. 
 
+![Gallery Page](README-files/gallery-page.JPG)
+
 
 ### Contact Us Page
 
-The contact us page includes two panels. 
+The contact us page includes two panels. There is a background image of pancakes in watercolours. This gives the page a nice touch and adds interest. 
 
-#### Contact Us - left panel
+### Contact Us - left panel
 
 The left panel enables the user to complete a short and simple form with their name and contact details, and to send a message to the company. There is also a question that allows the user to either opt-in or opt-out to the mailing list to receive email newsletters, offers and vouchers. The name, phone number, and email address inputs are set to required so that the user is unable to send the message unless these fields have been completed. The message/feedback input field is set to optional. By default, the option to opt-in or opt-out of the mailing list is set to ‘No’. This is to avoid anyone being accidently added to the mailing list if they do not wish to do so. Sending a message will result in the user being informed that their message has been sent and someone will be in contact with them shortly. However, as this website is for educational purposes only, submitting a message currently leads to the formdump.codeinstitute.net page. 
 
-#### How to Find Us - right panel
+![Contact Us Page](README-files/contact-us-left.JPG)
+
+
+### How to Find Us - right panel
 
 The ‘How to Find Us’ panel is on the right side of the page and includes a google map of the bakery’s location, the bakery address, phone number, and email address. The map includes a ‘View larger map’ link that opens in a new tab where the user can input their own postcode to receive travel instructions to the bakery.
+
+![Contact Us Page](README-files/contact-us-right.JPG)
 
 
 ### Future pages and features 
