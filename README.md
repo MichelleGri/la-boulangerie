@@ -143,42 +143,55 @@ The footer and 'Order Online' button background colour (#CDDEEE) was checked aga
 ![Colour scheme](README-files/contrast-checker3.JPG)
 
 
+
 ### Typography
 
 Three fonts were imported from [Google Fonts](https://fonts.google.com/) into the style.css file. These include 'Shadows Into Light', 'Poppins', and 'Manrope'.
 
 
-Shadows Into Light – this font was used for the bakery Logo only. This font aims to add style and distinctiveness to the bakery logo. 
+
+[Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shadows+in) – this font was used for the bakery Logo only. This font aims to add style and distinctiveness to the bakery logo. 
+
 
 
 ![Font](README-files/shadows-into-light.JPG)
 
 
-Poppins – this font has been used for all headings on the website.
+
+[Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) – this font has been used for all headings on the website.
+
 
 
 ![Font](README-files/poppins.JPG)
 
 
-Manrope – this font has been used for all other text on the website.
+
+[Manrope](https://fonts.google.com/specimen/Manrope?query=manrope) – this font has been used for all other text on the website.
+
 
 
 ![Font](README-files/manrope.jpg)
 
 
-Manrope and Poppins were chosen for headings and other text as they compliment each other and are easily readable. 
 
-Letter spacing has been included to almost all text to increase readability of the text. 
+* Manrope and Poppins were chosen for headings and other text as they compliment each other and are easily readable. 
 
-All fonts have been set to default to sans-serif in case they are unable to load or be applied to the text. 
+* Letter spacing has been included to almost all text to increase readability of the text. 
 
-A variety of font sizes have been used throughout the website to ensure text is in proportion to other elements on the page, such as images. 
+* All fonts have been set to default to sans-serif in case they are unable to load or be applied to the text. 
+
+* A variety of font sizes have been used throughout the website to ensure text is in proportion to other elements on the page, such as images. 
+
 
 ### Imagery
 
-The main hero-image on the homepage has been included as it provides a simple combination to the bakery’s unique selling points – fresh, unique, prestige and quality. The brightly coloured fruits provide a vibrant energy, while the grey background adds depth to the overall website. The remaining images on the website are of paintings and drawings to provide character to the bakery. This also provides consistency of images throughout the website. 
+The main hero-image on the homepage has been included as it provides a simple combination to the bakery’s unique selling points – fresh, unique, prestige and quality. The brightly coloured fruits provide a vibrant energy, while the grey background adds depth to the overall website. 
+
+The remaining images on the website are of paintings and drawings to provide character to the bakery. This also provides consistency of images throughout the website. 
+
 Since La Boulangerie is a fictional bakery, the images on the gallery page were taken from free images websites. However, the idea is that the gallery will include images of the bakery’s outside and inside environment, its products, and its customers. These images will inform the user of the bakery’s ambience, environment, quality and tasty products, and satisfied customers. The gallery page may be updated on a regular basis to introduce new product images and brief descriptions. 
-To add style and subtlety throughout the website, the border of all images have been rounded. All images on the website have “alt” attributes. This is to ensure accessibility of the website, and enhance ‘search engine optimisation’. It ensures there is a description of the image if it fails to load, and screen readers can describe the image to the user. 
+
+To add style and subtlety throughout the website, the border of all images have been rounded. All images on the website have “alt” attributes. This is to ensure accessibility of the website, and enhance ‘search engine optimisation’. It also ensures there is a description of the image if it fails to load, and screen readers can describe the image to the user. 
 
 Image Links –
 
@@ -190,9 +203,11 @@ Contact Us
 
 
 ### Logo
+
 The logo was designed using the ‘Shadows Into Light’ font, imported from Google Fonts. This font gives a style and character to the logo to make it distinctive. The colour ‘midnight blue’ (#191970) was selected for the logo using the colour picker on the hero image. 
 
 ![Logo](README-files/logo.JPG)
+
 
 ### Call to Action
 
@@ -225,12 +240,15 @@ DevTools was used to test and create responsiveness of all pages on the website.
 
 ## Features
 
-### Existing Features
-
 ### Features on all pages
 
-#### Navigation Bar
-The navigation bar appears on all four pages of the website. This enables the user to easily move between pages without having to use the ‘back’ function. The navigation bar includes the bakery logo on the left side of the page, which returns to user to the homepage when clicked. There is an ‘order online’ button in the center of the header which enables the user to easily find out how to place an online order. This button is linked to the menu page. Links to all four pages of the website are at the right of the header: Home, Menu, Gallery, and Contact Us. The navigation bar and ‘order online’ button are responsive on multiple screen sizes, and move to under the logo on small screens, such as tablets and mobile devices. 
+#### Header 
+The header appears on all four pages of the website and includes the company logo, an 'order online' button and the wesbite navigation bar. The bakery logo is on the left side of the header, which returns to user to the homepage when clicked. There is an ‘order online’ button in the center which enables the user to easily find out how to place an online order. This button is linked to the menu page. The website navigation bar is on the right side of the header, which enables the user to easily move between pages without having to use the ‘back’ function. It includes inks to all four pages of the website: Home, Menu, Gallery, and Contact Us. The header is responsive on multiple screen sizes. The 'order online' button and the navigation bar move to under the logo on small screens, such as tablets and mobile devices. 
+
+
+![header](README-files/header.JPG)
+
+
 
 #### Footer
 The footer is featured on all four pages of the website. It is identical on all pages and appears at the bottom of the page. There are three sections included within the footer:
@@ -241,16 +259,34 @@ The footer is featured on all four pages of the website. It is identical on all 
 
 * Social Media – this part of the footer provides links to the bakery’s social media platforms – Facebook, Twitter, and Instagram. This encourages the user to stay connected and interact with the bakery. These pages enable the business to advertise the bakery and announce promotional offers, discounts, and events. The social media icons are clickable links to the relevant page which opens in a new tab.  As La Boulangerie is a fictional business, the links currently lead to the social media website homepage.
 
-### Homepage / Landing page
 
-#### Landing Page image
+![footer](README-files/footer.JPG)
+
+
+### Specific Features
+
+#### Homepage / Landing page
+
+##### Landing Page image 
 The landing page image is a photo of four cupcakes lined up horizontally. It aims to capture the visitors attention and encourage them to investigate further. The vibrant yet subtle colours on the main image, set against a light grey background colour, intend to entice the user to visit or order from the bakery. The fruits on the main image gives the impression of freshness and well-being. 
 
-#### About Us section
+
+![Homepage Image](README-files/homepage-image.JPG)
+
+
+##### About Us section
 Set in the middle of the page, this section aims to provide a little information about the bakery. It informs the user that the bakery is based in London and began operating in 1998. The ‘cakes and croissants’ and ‘sweet and savoury’ words have been highlighted in blue (the company logo colour) to place emphasis that the bakery is able to cater for the needs of people wanting to consume either sweet or salty baked goods. The bakery image on the right is a watercolour painting of the bakery from the outside. This aims to give the bakery a character and sense of ‘old-fashioned’ heritage. 
 
-#### Bakery Menu section
+
+![About Us Section](README-files/about-us-section.JPG)
+
+
+##### Bakery Menu section
 The bakery menu is located at the bottom of the landing page. It presents four images of different types of products sold at La Boulangerie: Breads and Savouries, Sweets and Desserts, Cakes, and Drinks. Each of the images and product categories link to the relevant part of the section on the main bakery Menu page. There is a hover effect on the bakery category images which aims to add interest in the website. The effect includes the names of the categories set on a white background with an opacity so that the image below is slightly visible on hover. 
+
+
+![Menu Section](README-files/menu-section.JPG)
+
 
 ### Menu page
 
