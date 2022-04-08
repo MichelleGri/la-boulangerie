@@ -9,8 +9,11 @@
 ## About
 
 The La Boulangerie website is based on a fictional bakery business in London. The website’s overall goal is to attract customers to the bakery and to make sales through online ordering. It aims to highlight the unique selling points of the bakery, make ordering easy and convenient, attract new customers, and encourage loyalty among existing customers. 
+
 La Boulangerie began operating in 1998 and is an independent family-run bakery. It sells breads, sweet and savoury baked goods, desserts, cakes, and cold and hot drinks. The bakery prides in providing distinctly tasty food and beverages made from secret family recipes.
+
 The target customers for the bakery are people looking for a wide variety of delicious freshly baked food in a single bakery, made from quality ingredients. Customers have the option to either ‘take away’ their order or there is seating available for customers who want to enjoy their food and/or beverages in the tranquil environment of the bakery. There is also an option to place orders online through popular delivery services – UberEats, Deliveroo, and Just Eat. To add convenience, a ‘click and collect’ service is also available, where customers are able to place orders online and collect it at the bakery.
+
 The website provides a brief introduction to the bakery; information regarding the wide range of products available and prices; ways to order online; social media links; the bakery’s location, contact information (phone number, email address, and a form to send messages), and the business opening and closing days and times.
 
 ***
@@ -108,22 +111,26 @@ The website consists of 4 separate pages
 
 ## Surface
 
-#### Colour Scheme
+### Colour Scheme
 The site was created with a very simple colour scheme of shades of blues and greys. It was important to use subtle colours on the site as the images are bright and vibrant. This ensures that the user is not overwhelmed by many and contrasting colours. A colour picker was used on this specific part of the hero image to select the colours:
 
 ![Colour image](README-files/colours-image.jpg)
 
-Four colours were chosen for the colour palette using the website www.canva.com/colors. 
+Four colours were chosen for the colour palette using the website [Canva](http://canva.com/colors). The image below displays the four colours with their HEX, RGB, and CMYK values. 
 
 ![Colour scheme](README-files/colour-scheme.jpg)
 
 Midnight blue (#191970) – this colour is used for the logo and to highlight certain phrases on the about-us section. It is also used for the box-shadow effect on the ‘Order Online’ button. 
-Grape (#494454) – this colour is used for text on the site. 
-Light blue-grey (#CDDEEE) – this colour is used for the footer background, and the ‘Order Online’ button background. 
-White Smoke (#F0F0F0) – this colour is used for background of the whole site. 
-The suitability of these colours for accessibility and readability purposes was checked using contrast checker tool on https://webaim.org/resources/contrastchecker/. 
 
-The main background colour (#F0F0F0) was checked against the main text colour (#494454).
+Grape (#494454) – this colour is used for text on the site. 
+
+Light blue-grey (#CDDEEE) – this colour is used for the footer background, and the ‘Order Online’ button background. 
+
+White Smoke (#F0F0F0) – this colour is used for background of the whole site. 
+
+The suitability of these colours for accessibility and readability purposes was checked using the contrast checker tool on the [WebAim](https://webaim.org/resources/contrastchecker/) website. 
+
+The main background colour (#F0F0F0) was checked against the main text colour (#494454). 
 
 ![Colour scheme](README-files/contrast-checker1.JPG)
 
@@ -136,9 +143,9 @@ The footer and 'Order Online' button background colour (#CDDEEE) was checked aga
 ![Colour scheme](README-files/contrast-checker3.JPG)
 
 
-#### Typography
+### Typography
 
-Three fonts were imported from Google Fonts into the style.css file. These include 'Shadows Into Light', 'Poppins', and 'Manrope'.
+Three fonts were imported from [Google Fonts](https://fonts.google.com/) into the style.css file. These include 'Shadows Into Light', 'Poppins', and 'Manrope'.
 
 
 Shadows Into Light – this font was used for the bakery Logo only. This font aims to add style and distinctiveness to the bakery logo. 
@@ -167,7 +174,7 @@ All fonts have been set to default to sans-serif in case they are unable to load
 
 A variety of font sizes have been used throughout the website to ensure text is in proportion to other elements on the page, such as images. 
 
-#### Imagery
+### Imagery
 
 The main hero-image on the homepage has been included as it provides a simple combination to the bakery’s unique selling points – fresh, unique, prestige and quality. The brightly coloured fruits provide a vibrant energy, while the grey background adds depth to the overall website. The remaining images on the website are of paintings and drawings to provide character to the bakery. This also provides consistency of images throughout the website. 
 Since La Boulangerie is a fictional bakery, the images on the gallery page were taken from free images websites. However, the idea is that the gallery will include images of the bakery’s outside and inside environment, its products, and its customers. These images will inform the user of the bakery’s ambience, environment, quality and tasty products, and satisfied customers. The gallery page may be updated on a regular basis to introduce new product images and brief descriptions. 
@@ -182,12 +189,12 @@ Gallery
 Contact Us
 
 
-#### Logo
+### Logo
 The logo was designed using the ‘Shadows Into Light’ font, imported from Google Fonts. This font gives a style and character to the logo to make it distinctive. The colour ‘midnight blue’ (#191970) was selected for the logo using the colour picker on the hero image. 
 
 ![Logo](README-files/logo.JPG)
 
-#### Call to Action
+### Call to Action
 
 The main call to action on the website is the ‘Order Online’ button on the header of every page. This leads the user to the menu page which gives further details on how to make a purchase. The button is designed using the light blue-grey (#CDDEEE) colour as its background, which is the same colour used for the footer background. The corners have been rounded - inline with the images on the website. The button outline colour is midnight-blue (#191970), which is the same colour as the Logo. There is a subtle box-shadow created that further emphasises the button. The text is all uppercase, in the colour grape (#494454), and the font-family is the set to default font Ariel (this font provides the best visibility for this specific feature). There is a hover effect that makes the background colour white on hover. The hover effect enables the user to clearly see that this is a link.
 
@@ -223,7 +230,7 @@ DevTools was used to test and create responsiveness of all pages on the website.
 ### Features on all pages
 
 #### Navigation Bar
-The navigation bar appears on all four pages of the website. This enables the user to easily move between pages without having to use the ‘back’ function. The navigation bar includes the bakery logo on the left side of the page, which returns to user to the homepage when clicked. There is an ‘order online’ button in the center of the header which enables the user to easily find out how to place an online order. This button is linked to the menu page. Links to all four pages of the website are at the right of the header: Home, Menu, Gallery, and Contact Us. The navigation bar and ‘order online’ button are responsive on multiple screen sizes, and move to under the logo on small screens, such as mobile devices. 
+The navigation bar appears on all four pages of the website. This enables the user to easily move between pages without having to use the ‘back’ function. The navigation bar includes the bakery logo on the left side of the page, which returns to user to the homepage when clicked. There is an ‘order online’ button in the center of the header which enables the user to easily find out how to place an online order. This button is linked to the menu page. Links to all four pages of the website are at the right of the header: Home, Menu, Gallery, and Contact Us. The navigation bar and ‘order online’ button are responsive on multiple screen sizes, and move to under the logo on small screens, such as tablets and mobile devices. 
 
 #### Footer
 The footer is featured on all four pages of the website. It is identical on all pages and appears at the bottom of the page. There are three sections included within the footer:
@@ -245,17 +252,17 @@ Set in the middle of the page, this section aims to provide a little information
 #### Bakery Menu section
 The bakery menu is located at the bottom of the landing page. It presents four images of different types of products sold at La Boulangerie: Breads and Savouries, Sweets and Desserts, Cakes, and Drinks. Each of the images and product categories link to the relevant part of the section on the main bakery Menu page. There is a hover effect on the bakery category images which aims to add interest in the website. The effect includes the names of the categories set on a white background with an opacity so that the image below is slightly visible on hover. 
 
-## Menu page
+### Menu page
 
 The menu page includes a list of products sold at the bakery and their prices. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the product and price list, without being overwhelmed by images or colours. Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the contact us page.  
 
 
-## Gallery Page
+### Gallery Page
 
 The gallery page includes 14 photos relevant to the bakery, presented in a masonry style. This pages aims to give the user an idea of the bakery’s environment and the products sold. Its purpose is to convince the user to visit or order online from the bakery and have an enjoyable experience. The user is able to visualise the bakery and therefore set their expectations accordingly. 
 
 
-## Contact Us Page
+### Contact Us Page
 
 The contact us page includes two panels. 
 
@@ -353,8 +360,7 @@ All individuals gave positive responses and a few highlighted some issues to be 
 
 * Remove order online button from menu page as it is not necessary. One person thought the link was not working as it was not directing to another page or section. This suggestion has been implemented. 
 
-* The click and collect links direct to the contact us page but there are no further instructions given on how to order. 
-*Note – This issue has not been resolved as it is not within the scope of the project at this stage. One method of resolving this issue would be to direct the user to a customer account page, where further instructions can be given on how to place an order. 
+* The click and collect links direct to the contact us page but there are no further instructions given on how to order. This issue has not been resolved as it is not within the scope of the project at this stage. One method of resolving this issue would be to direct the user to a customer account page, where further instructions can be given on how to place an order. 
 
 #### HTML Validator
 
@@ -435,18 +441,29 @@ Tutor Support – I would like to thank the various tutors at the Code Institute
 
 #### Media
 
-Kevin Powell – YouTube Channel – for providing valuable videos on various HTML and CSS topics, particularly CSS grid and flexbox
-Traversy Media – YouTube Channel – for providing informative videos on various HTMl and CSS topis – particularly CSS grid and flexbox
-Stack Overflow – for trouble shooting and resolving code issues
-Google Fonts – for fonts used throughout the website
-Font Awesome – for social media icons
-Canva – for choosing a colour scheme
+[Kevin Powell](https://www.youtube.com/kepowob) – YouTube Channel – for providing valuable videos on various HTML and CSS topics, particularly CSS grid and flexbox
+
+[Traversy Media](Shttps://www.youtube.com/c/TraversyMedia) – YouTube Channel – for providing informative videos on various HTMl and CSS topis – particularly CSS grid and flexbox
+
+[Stack Overflow](https://stackoverflow.com/) – for trouble shooting and resolving code issues
+
+[Google Fonts](https://fonts.google.com/) – for fonts used throughout the website
+
+[Font Awesome](https://fontawesome.com/) – for social media icons
+
+[Canva](https://www.canva.com/)– for choosing a colour scheme
+
 Balsamiq wireframe – for creating wireframes in the design process
-W3school – for HTML and CSS coding information and trouble shooting
+
+[W3school](https://www.w3schools.com/) – for HTML and CSS coding information and trouble shooting
+
 Unsplash – for images taken from unsplash
-HTML Validator – for testing validity of HTML code
-CSS Validator – for testing validity of CSS code
-Am I Responsive – for checking responsiveness on different screen sizes
+
+[HTML Validator](https://validator.w3.org/) – for testing validity of HTML code
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/) – for testing validity of CSS code
+
+[Am I Responsive](http://ami.responsivedesign.is/) – for checking responsiveness on different screen sizes
 
 
 ***
