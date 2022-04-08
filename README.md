@@ -453,7 +453,7 @@ Am I Responsive – for checking responsiveness on different screen sizes
 
 ### Content
 
-Code and Content (not already attributed) Michelle Griffiths
+Code and Content (not already attributed): Michelle Griffiths
 
 
 
