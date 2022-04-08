@@ -242,7 +242,7 @@ DevTools was used to test and create responsiveness of all pages on the website.
 
 ### Features on all pages
 
-#### Header 
+### Header 
 The header appears on all four pages of the website and includes the company logo, an 'order online' button and the wesbite navigation bar. The bakery logo is on the left side of the header, which returns to user to the homepage when clicked. There is an ‘order online’ button in the center which enables the user to easily find out how to place an online order. This button is linked to the menu page. The website navigation bar is on the right side of the header, which enables the user to easily move between pages without having to use the ‘back’ function. It includes inks to all four pages of the website: Home, Menu, Gallery, and Contact Us. The header is responsive on multiple screen sizes. The 'order online' button and the navigation bar move to under the logo on small screens, such as tablets and mobile devices. 
 
 
@@ -250,7 +250,7 @@ The header appears on all four pages of the website and includes the company log
 
 
 
-#### Footer
+### Footer
 The footer is featured on all four pages of the website. It is identical on all pages and appears at the bottom of the page. There are three sections included within the footer:
 
 * Opening Times – this section gives information regarding the business opening and closing days and times. This is important as customers need to be aware of when to visit or order online from the bakery. 
@@ -265,23 +265,23 @@ The footer is featured on all four pages of the website. It is identical on all 
 
 ### Specific Features
 
-#### Homepage / Landing page
+### Homepage / Landing page
 
-##### Landing Page image 
+### Landing Page image 
 The landing page image is a photo of four cupcakes lined up horizontally. It aims to capture the visitors attention and encourage them to investigate further. The vibrant yet subtle colours on the main image, set against a light grey background colour, intend to entice the user to visit or order from the bakery. The fruits on the main image gives the impression of freshness and well-being. 
 
 
 ![Homepage Image](README-files/homepage-image.JPG)
 
 
-##### About Us section
+### About Us section
 Set in the middle of the page, this section aims to provide a little information about the bakery. It informs the user that the bakery is based in London and began operating in 1998. The ‘cakes and croissants’ and ‘sweet and savoury’ words have been highlighted in blue (the company logo colour) to place emphasis that the bakery is able to cater for the needs of people wanting to consume either sweet or salty baked goods. The bakery image on the right is a watercolour painting of the bakery from the outside. This aims to give the bakery a character and sense of ‘old-fashioned’ heritage. 
 
 
 ![About Us Section](README-files/about-us-section.JPG)
 
 
-##### Bakery Menu section
+### Bakery Menu section
 The bakery menu is located at the bottom of the landing page. It presents four images of different types of products sold at La Boulangerie: Breads and Savouries, Sweets and Desserts, Cakes, and Drinks. Each of the images and product categories link to the relevant part of the section on the main bakery Menu page. There is a hover effect on the bakery category images which aims to add interest in the website. The effect includes the names of the categories set on a white background with an opacity so that the image below is slightly visible on hover. 
 
 
@@ -290,7 +290,9 @@ The bakery menu is located at the bottom of the landing page. It presents four i
 
 ### Menu page
 
-The menu page includes a list of products sold at the bakery and their prices. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the product and price list, without being overwhelmed by images or colours. Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the contact us page.  
+The menu page includes a list of products sold at the bakery and their prices. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the products and price list, without being overwhelmed by images or colours. Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the delivery service website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the contact us page.  
+
+
 
 
 ### Gallery Page
