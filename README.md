@@ -6,21 +6,25 @@
 
 ***
 
-The La Boulangerie website advertises a fictional bakery business. Based in London, the business sells sweet and savoury baked goods, and cold and hot drinks. The target customers for the bakery are people looking for a wide variety of delicious freshly baked food in a single bakery, made from quality ingredients. La Boulangerie is a family-run business that prides in providing distinctly tasty food and beverages made from secret family recipes. Customers have the option to either ‘take away’ their order or there is seating available for customers who want to enjoy their food and/or beverages in the tranquil environment of the bakery. The website has links to home delivery services and also a click and collect service. 
+## About
 
-The website provides information regarding the wide range of products available, the bakery location, contact information (phone number, email address, and a form to send messages), and the business opening and closing days and times. 
+The La Boulangerie website is based on a fictional bakery business in London. The website’s overall goal is to attract customers to the bakery and to make sales through online ordering. It aims to highlight the unique selling points of the bakery, make ordering easy and convenient, attract new customers, and encourage loyalty among existing customers. 
+La Boulangerie began operating in 1998 and is an independent family-run bakery. It sells breads, sweet and savoury baked goods, desserts, cakes, and cold and hot drinks. The bakery prides in providing distinctly tasty food and beverages made from secret family recipes.
+The target customers for the bakery are people looking for a wide variety of delicious freshly baked food in a single bakery, made from quality ingredients. Customers have the option to either ‘take away’ their order or there is seating available for customers who want to enjoy their food and/or beverages in the tranquil environment of the bakery. There is also an option to place orders online through popular delivery services – UberEats, Deliveroo, and Just Eat. To add convenience, a ‘click and collect’ service is also available, where customers are able to place orders online and collect it at the bakery.
+The website provides a brief introduction to the bakery; information regarding the wide range of products available and prices; ways to order online; social media links; the bakery’s location, contact information (phone number, email address, and a form to send messages), and the business opening and closing days and times.
 
 ***
 
 ## Index - Table of Contents
-* User Experience (UX)
-* Features
-* Design
-* Technologies Used
-* Testing
-* Known Bugs
-* Deployment
-* Acknowledgements
+
+* [User Experience (UX)](#user-experience) 
+* [Features](#features)
+* [Designs](#designs)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Known Bugs](#known-bugs)
+* [Deployment](#deployment)
+* [Acknowledgements](#credit)
 
 ***
 
@@ -29,63 +33,143 @@ The website provides information regarding the wide range of products available,
 ## Strategy
 ### User Stories
 
-#### Reasons to visit the bakery website
-* A user looking for more information regarding the products sold at the bakery and prices.
-* A user looking to find out more about the bakery background, ambience, and environment.
-* A user looking for the bakery's location, opening and closing times, and links to social media platforms.
-*A user wanting to send a message and/or provide feedback relevant to the bakery.
+#### Reasons to visit the website
+
+* A user looking for more information regarding the products sold by the bakery and their prices.
+* A user wanting to place an order online for delivery or collection.
+* A user looking to find out more about the bakery’s ambience and environment.
+* A user looking for the bakery’s location.
+* A user looking for the opening and closing days and times of the bakery. 
+* A user wanting to send a message or provide feedback relevant to the bakery.
 
 #### Aims of the website
+
 * Increase customers
-* Inform customers
-* Provide information for bakery location and opening times
-* Provide information on how to contact the bakery
+* Inform customers 
+* Maintain loyalty among existing customers through encouraging repeat purchase
+* Provide information regarding the products sold at the bakery and their prices
+* Provide information for bakery location
+* Provide information for bakery operating days and hours 
+* Provide information to contact the bakery
+* Provide information for the bakery’s social media pages
 
-#### Visitor Goals
-##### First Time Visitor Goals
-* To be able to understand the primary purpose of the website and learn about the business.
-* To be able to easily navigate through the website and find content.
-* To be able to easily find a list of products offered at the bakery and their prices (this section is not currently added to the website)
-* To be able to easily find the location, opening times, and links to social media pages.
-
-##### Returning Visitor Goals
-* To be able to find and view the menu easily and quickly.
-* TO be able to find bakery opening times.
-* To be able to contact the bakery through the contact us form and provide feedback and/or ask questions.
-
-##### Frequent User Goals
-* Sign up for special promotional offers and discounts.
 
 ## Scope
-### User expectations
+
+#### User expectations
 * Being able to easily navigate through the website
+* Being able to easily place orders online
+* Being able to easily find the menu and price list
 * Visually appealing on different screen sizes
 * Functions and links to be working as expected
-* Find information about La Boulangerie bakery
-* Find contact information, location, and bakery opening times
-
-### Further user expectations
-    (these may be user expectations that are not included in the website yet)
-* Ordering online for 'click and collect' or delivery
+* Information about La Boulangerie bakery
+* Contact information, location, and business operating days and times
+* Find links to social media pages
 * Special promotional offers and discounts
-* Special events taking place at the bakery
 
-### As a developer / business, I want to provide
+#### First Time Visitor Goals
+* To be able to understand the primary purpose of the website and learn about the business.
+* To be able to easily place an order for delivery or collection.
+* To be able to easily navigate through the website and find content. 
+* To be able to easily find a list of all products offered at the bakery and their prices. 
+* To be able to find the location and operating days and times of the bakery.
+
+#### Returning Visitor Goals
+* To be able to find and view the menu easily and quickly.
+* To be able to easily place orders online for delivery or collection.
+* To be able to find business operating days and hours.
+* To be able to contact the bakery through the contact us form and provide feedback and/or ask questions. 
+
+#### Frequent User Goals
+* Sign up for special promotional offers and discounts.
+* Create customer account to easily place orders online.
+
+#### As a developer / business, I want to provide
 * A simple and easy to navigate website with all functions and links working as expected
+* A comprehensive menu with prices
 * Information regarding the bakery
 * Photos of the bakery and the products sold
-* A comprehensive menu with prices
 * An easy way to contact the bakery
+* Information regarding the bakery location and business operating days and hours
+* Links to social media pages
 
-*Note: Due to the scope of this project and the time-frame available, the bakery menu page has not been included on the website yet. This may be included at a later stage. 
 
-### Structure
-The website consists of 4 separate pages:
-* A homepage with a hero-image, a brief about-us section, and a menu section.
-* A gallery page with photos of inside of the bakery and its products.
-* A contact us page with a form, a map, address, phone number, and email address for the bakery.
+## Structure
+The website consists of 4 separate pages
+* A homepage with a hero-image, a brief about-us section, and a menu section
+* A menu page with a list of products and their prices, and links to online ordering options
+* A gallery page with photos of inside of the bakery and its products
+* A contact us page with a form, a map, address, phone number, and email address for the bakery
+
 
 ***
+
+## Designs
+
+## Surface
+
+#### Colour Scheme
+The site was created with a very simple colour scheme of shades of blues and greys. It was important to use subtle colours on the site as the images are bright and vibrant. This ensures that the user is not overwhelmed by many and contrasting colours. A colour picker was used on this specific part of the hero image to select the colours:
+
+![Colour image](README-files/colours-image.jpg)
+
+Four colours were chosen for the colour palette using the website www.canva.com/colors. 
+
+![Colour scheme](README-files/colour-scheme.jpg)
+
+Midnight blue (#191970) – this colour is used for the logo and to highlight certain phrases on the about-us section. It is also used for the box-shadow effect on the ‘Order Online’ button. 
+Grape (#494454) – this colour is used for text on the site. 
+Light blue-grey (#CDDEEE) – this colour is used for the footer background, and the ‘Order Online’ button background. 
+White Smoke (#F0F0F0) – this colour is used for background of the whole site. 
+The suitability of these colours for accessibility and readability purposes was checked using contrast checker tool on https://webaim.org/resources/contrastchecker/. 
+
+The main background colour (#F0F0F0) was checked against the main text colour (#494454).
+
+![Colour scheme](README-files/contrast-checker1.JPG)
+
+The main background colour (#F0F0F0) was checked against the logo and emphasised text colour (#494454).
+
+![Colour scheme](README-files/contrast-checker2.JPG)
+
+The footer and 'Order Online' button background colour (#CDDEEE) was checked against the main text colour (#494454).
+
+![Colour scheme](README-files/contrast-checker3.JPG)
+
+
+#### Typography
+
+Three fonts were imported from Google Fonts into the style.css file. These include 'Shadows Into Light', 'Poppins', and 'Manrope'.
+
+
+Shadows Into Light – this font was used for the bakery Logo only. This font aims to add style and distinctiveness to the bakery logo. 
+
+
+![Font](README-files/shadows-into-light.JPG)
+
+
+Poppins – this font has been used for all headings on the website.
+
+
+![Font](README-files/poppins.JPG)
+
+
+Manrope – this font has been used for all other text on the website.
+
+
+![Font](README-files/manrope.jpg)
+
+
+Manrope and Poppins were chosen for headings and other text as they compliment each other and are easily readable. 
+
+Letter spacing has been included to almost all text to increase readability of the text. 
+
+All fonts have been set to default to sans-serif in case they are unable to load or be applied to the text. 
+
+A variety of font sizes have been used throughout the website to ensure text is in proportion to other elements on the page, such as images. 
+
+
+
+
 
 ## Features
 
