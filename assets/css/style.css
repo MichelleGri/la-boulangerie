@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&family=Shadows+Into+Light&display=swap');
 
 
-:root {
-    --midnight-blue: #191970;
-    --light-grey: #f0f0f0;
-    --medium-grey: #494454;
-    --blue-grey: #CDDEEE;
-}
-
 /* set default margin/padding/border to 0/none, and boxsizing to border-box*/
 
 * {
@@ -53,7 +46,7 @@ a {
     color: #494454;
 }
 
-/* headings and logo */
+/* styling for header and logo */
 
 header {
     display: flex;
@@ -121,7 +114,7 @@ button:hover {
     border-bottom: 0.125rem solid #494454;
 }
 
-/* hero image */
+/* styling for hero image */
 
 #hero-image-section {
     display: flex;

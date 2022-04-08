@@ -237,6 +237,7 @@ The ‘send message’ button on the contact us page is styled differently to th
 
 DevTools was used to test and create responsiveness of all pages on the website. This includes desktop screen sizes, laptops, tablets, and smart phones. Media queries have been added at different break-points. 
 
+***
 
 ## Features
 
@@ -265,30 +266,30 @@ The footer is featured on all four pages of the website. It is identical on all 
 
 ### Specific Features
 
-### Homepage / Landing page
+### Homepage
 
-### Landing Page image 
+#### Image 
 The landing page image is a photo of four cupcakes lined up horizontally. It aims to capture the visitors attention and encourage them to investigate further. The vibrant yet subtle colours on the main image, set against a light grey background colour, intend to entice the user to visit or order from the bakery. The fruits on the main image gives the impression of freshness and well-being. 
 
 
 ![Homepage Image](README-files/homepage-image.JPG)
 
 
-### About Us section
+#### About Us
 Set in the middle of the page, this section aims to provide a little information about the bakery. It informs the user that the bakery is based in London and began operating in 1998. The ‘cakes and croissants’ and ‘sweet and savoury’ words have been highlighted in blue (the company logo colour) to place emphasis that the bakery is able to cater for the needs of people wanting to consume either sweet or salty baked goods. The bakery image on the right is a watercolour painting of the bakery from the outside. This aims to give the bakery a character and sense of ‘old-fashioned’ heritage. 
 
 
 ![About Us Section](README-files/about-us-section.JPG)
 
 
-### Bakery Menu section
+#### Bakery Menu
 The bakery menu is located at the bottom of the landing page. It presents four images of different types of products sold at La Boulangerie: Breads and Savouries, Sweets and Desserts, Cakes, and Drinks. Each of the images and product categories link to the relevant part of the section on the main bakery Menu page. There is a hover effect on the bakery category images which aims to add interest in the website. The effect includes the names of the categories set on a white background with an opacity so that the image below is slightly visible on hover. 
 
 
 ![Menu Section](README-files/menu-section.JPG)
 
 
-### Menu page
+### Menu Page
 
 The menu page includes a list of products sold at the bakery and their prices. As La Boulaungerie is a fictional business, the products and prices are invented. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the products and price list, without being overwhelmed by images or colours. 
 
@@ -317,14 +318,14 @@ The gallery page includes 14 photos relevant to the bakery, presented in a mason
 
 The contact us page includes two panels. There is a background image of pancakes in watercolours. This gives the page a nice touch and adds interest. 
 
-### Contact Us - left panel
+#### Contact Us
 
 The left panel enables the user to complete a short and simple form with their name and contact details, and to send a message to the company. There is also a question that allows the user to either opt-in or opt-out to the mailing list to receive email newsletters, offers and vouchers. The name, phone number, and email address inputs are set to required so that the user is unable to send the message unless these fields have been completed. The message/feedback input field is set to optional. By default, the option to opt-in or opt-out of the mailing list is set to ‘No’. This is to avoid anyone being accidently added to the mailing list if they do not wish to do so. Sending a message will result in the user being informed that their message has been sent and someone will be in contact with them shortly. However, as this website is for educational purposes only, submitting a message currently leads to the formdump.codeinstitute.net page. 
 
 ![Contact Us Page](README-files/contact-us-left.JPG)
 
 
-### How to Find Us - right panel
+#### How To Find Us
 
 The ‘How to Find Us’ panel is on the right side of the page and includes a google map of the bakery’s location, the bakery address, phone number, and email address. The map includes a ‘View larger map’ link that opens in a new tab where the user can input their own postcode to receive travel instructions to the bakery.
 
@@ -364,14 +365,14 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 * Gitpod.io – creating the website by writing code; creating a progress log by making commits using the command line and pushing to GitHub
 * GitHub – create a project repository
 
-Design
+#### Design
 
 * Google Fonts – for styling the typography 
 * Balsamiq Wireframe – to create wireframes
 * Font Awesome – for social media icons
 * Microsoft Paint 3D – to resize and crop images 
 
-Testing 
+#### Testing 
 
 * HTML Validator – testing validity of HTML code
 * CSS Validator - testing validity of CSS code
@@ -383,7 +384,7 @@ Testing
 
 ## Testing
 
-The website was tested by the wesbite developer, specific testing methods and tools, and other people. This was done to ensure the wesbite is in working order and performs as expected. 
+The website was tested by the wesbite developer, specific testing methods and tools, and other people. This was done to ensure the website is in working order and performs as expected. 
 
 #### Checks carried out by the website developer
 
@@ -414,15 +415,36 @@ The website link was sent to a number of family and friends to check its usabili
 
 All individuals gave positive responses and a few highlighted some issues to be considered: 
 
-* Remove order online button from menu page as it is not necessary. One person thought the link was not working as it was not directing to another page or section. This suggestion has been implemented. 
+* Remove 'order online' button from menu page as it is not necessary. One person thought the link was not working as it was not directing to another page or section. This suggestion has been implemented. 
 
-* The click and collect links direct to the contact us page but there are no further instructions given on how to order. This issue has not been resolved as it is not within the scope of the project at this stage. One method of resolving this issue would be to direct the user to a customer account page, where further instructions can be given on how to place an order. 
+* The 'click and collect' links direct the user to the contact us page but there are no further instructions given on how to order. This issue has not been resolved as it is not within the scope of the project at this stage. One method of resolving this issue would be to direct the user to a customer account page, where further instructions can be given on how to place an order. Another option is to create another page that gives detailed instructions and options on how the user can place an order, for example - by calling the bakery. 
 
 #### HTML Validator
+
+The [W3c Markup Validation Service](https://validator.w3.org/) was used to check the validity of HTML markup of all four pages of the website. The results are displayed below.
+
+Homepage
+
+![Homepage HTML](README-files/homepage-html.JPG)
+
+Menu Page
+
+![Menu Page HTML](README-files/menu-html.JPG)
+
+Gallery Page
+
+![Gallery Page HTML](README-files/gallery-html.JPG)
+
+Contact Us Page
+
+![Contact Us Page HTML](README-files/contact-us-html.JPG)
 
 
 
 #### CSS Validator
+
+
+
 
 
 #### Am I responsive?
