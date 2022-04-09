@@ -196,7 +196,6 @@ To add style and subtlety throughout the website, the border of all images have 
 
 * [Coffee](https://pixabay.com/illustrations/coffee-cup-drink-art-abstract-2368790/)
 
-
 ##### Gallery page
 
 * [Bakery-Woman](https://unsplash.com/photos/_Gd1biLbIU0)
@@ -482,12 +481,9 @@ The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test
 
 ![Homepage Responsiveness](README-files/responsiveness/homepage-responsiveness.JPG)
 
-
 ![Menu Responsiveness](README-files/responsiveness/menu-responsiveness.JPG)
 
-
 ![Gallery Responsiveness](README-files/responsiveness/gallery-responsiveness.JPG)
-
 
 ![Contact Us Responsiveness](README-files/responsiveness/contact-responsiveness.JPG)
 
