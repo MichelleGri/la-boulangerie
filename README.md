@@ -398,6 +398,7 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 * [Google Fonts](https://fonts.google.com/)– for styling the typography 
 * Balsamiq Wireframe – to create wireframes
 * [Font Awesome](https://fontawesome.com/) – for social media icons
+* [Canva](https://www.canva.com/) - for colour scheme and image editing
 * Microsoft Paint 3D – to resize and crop images 
 
 #### Testing 
@@ -406,7 +407,8 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) - testing validity of CSS code
 * [Am I Responsive](http://ami.responsivedesign.is/#) – checking responsiveness of the site
 * [Wave](https://wave.webaim.org/) - checking accessibility of the site
-* DEV Tools – Lighthouse check
+* [Browser Stack](https://www.browserstack.com/) - checking browser compatibility
+* DEV Tools – Lighthouse check and responsiveness check on various screen sizes
 
 ***
 
@@ -473,6 +475,8 @@ The [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used 
 
 ![CSS Validation](README-files/validation/css-validation.JPG)
 
+The warning refers to the import of Google Fonts into style.css. However, this does not cause any significant issues to functioning of the site. 
+
 ### Am I responsive?
 
 The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test the responsive nature of the website's pages.
@@ -492,7 +496,7 @@ The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test
 
 The Lighthouse Test available on Developer Tools was used to test specific aspects of the website. The tool was used to check the website on desktop and mobile devices. 
 The performance score has been inconsistent and gives a different score each time the test is run. Upon further research and suggestions from tutors, it was determined that the Lighthouse performance score is unreliable and will not be considered an important issue with the website. 
-The accessibility and SEO scores are 100 on each page. The best practices score is 92 on the homepage because of a low resolution image (bakery-image). However, since the image appears as intended on various screen sizes, this is not considered an important issue to be resolved. 
+The accessibility and SEO scores are 100 on each page. The best practices score is 92 on the homepage because of a low resolution image (bakery-image). However, since the image appears as intended on various screen sizes and browsers, this is not considered an important issue to be resolved. 
 
 #### Desktop
 
@@ -537,7 +541,6 @@ Four of the Alerts on this page refer to the use of the word 'click' in referenc
 One of the Alerts on this page refers to the lack of a 'legend' for the radio input field on this page. However, as there are only two options on this field, a legend is not considered necessary. 
 
 ![Wave Contact Us Page](README-files/wave/wave-contact-us.JPG)
-
 
 #### Browser Compatibility
 
@@ -625,6 +628,8 @@ Balsamiq wireframe – for creating wireframes in the design process
 [Am I Responsive](http://ami.responsivedesign.is/) – for checking responsiveness on different screen sizes
 
 [Wave](https://wave.webaim.org/) - for checking accessibility of the site
+
+[Browser Stack](https://www.browserstack.com/) - checking browser compatibility
 
 ***
 
