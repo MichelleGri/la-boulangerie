@@ -452,37 +452,37 @@ The [W3c Markup Validation Service](https://validator.w3.org/) was used to check
 
 Homepage
 
-![Homepage HTML](README-files/homepage-html.JPG)
+![Homepage HTML](README-files/validation/homepage-html.JPG)
 
 Menu Page
 
-![Menu Page HTML](README-files/menu-html.JPG)
+![Menu Page HTML](README-files/validation/menu-html.JPG)
 
 Gallery Page
 
-![Gallery Page HTML](README-files/gallery-html.JPG)
+![Gallery Page HTML](README-files/validation/gallery-html.JPG)
 
 Contact Us Page
 
-![Contact Us Page HTML](README-files/contact-us-html.JPG)
+![Contact Us Page HTML](README-files/validation/contact-us-html.JPG)
 
 ### CSS Validator
 
 The [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the validity of CSS code. The results are displayed below.
 
-![CSS Validation](README-files/css-validation.JPG)
+![CSS Validation](README-files/validation/css-validation.JPG)
 
 ### Am I responsive?
 
 The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test the responsive nature of the website's pages.
 
-![Homepage Responsiveness](README-files/homepage-responsiveness.JPG)
+![Homepage Responsiveness](README-files/responsiveness/homepage-responsiveness.JPG)
 
 
-![Menu Responsiveness](README-files/menu-responsiveness.JPG)
+![Menu Responsiveness](README-files/responsiveness/menu-responsiveness.JPG)
 
 
-![Gallery Responsiveness](README-files/gallery-responsiveness.JPG)
+![Gallery Responsiveness](README-files/responsiveness/gallery-responsiveness.JPG)
 
 
 ![Contact Us Responsiveness](README-files/contact-responsiveness.JPG)
@@ -505,13 +505,13 @@ The accessibility and SEO scores are 100 on each page. The best practices score 
 
 #### Mobile
 
-![Mobile Homepage](README-files/Lighthouse/mobile-homepage.JPG)
+![Mobile Homepage](README-files/lighthouse/mobile-homepage.JPG)
 
-![Mobile Menu](README-files/Lighthouse/mobile-menu.JPG)
+![Mobile Menu](README-files/lighthouse/mobile-menu.JPG)
 
-![Mobile Gallery](README-files/Lighthouse/mobile-gallery.JPG)
+![Mobile Gallery](README-files/lighthouse/mobile-gallery.JPG)
 
-![Mobile Contact Us](README-files/Lighthouse/mobile-contact.JPG)
+![Mobile Contact Us](README-files/lighthouse/mobile-contact.JPG)
 
 Wave
 The Lighthouse test in DevTools gave a 100 score for accessibility of the website. However, another test was carried out using the Wave website. The results are presented below.
