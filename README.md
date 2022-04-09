@@ -404,7 +404,8 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 
 * [HTML Validator](https://validator.w3.org/) – testing validity of HTML code
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) - testing validity of CSS code
-* [Am I Responsive](http://ami.responsivedesign.is/#)– checking responsiveness of the site
+* [Am I Responsive](http://ami.responsivedesign.is/#) – checking responsiveness of the site
+* [Wave](https://wave.webaim.org/) - checking accessibility of the site
 * DEV Tools – Lighthouse check
 
 ***
@@ -485,7 +486,7 @@ The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test
 ![Gallery Responsiveness](README-files/responsiveness/gallery-responsiveness.JPG)
 
 
-![Contact Us Responsiveness](README-files/contact-responsiveness.JPG)
+![Contact Us Responsiveness](README-files/responsiveness/contact-responsiveness.JPG)
 
 ### Lighthouse Test
 
@@ -495,13 +496,13 @@ The accessibility and SEO scores are 100 on each page. The best practices score 
 
 #### Desktop
 
-![Desktop Homepage](README-files/Lighthouse/desktop-homepage.JPG)
+![Desktop Homepage](README-files/lighthouse/desktop-homepage.JPG)
 
-![Desktop Menu](README-files/Lighthouse/desktop-menu.JPG)
+![Desktop Menu](README-files/lighthouse/desktop-menu.JPG)
 
-![Desktop Gallery](README-files/Lighthouse/desktop-gallery.JPG)
+![Desktop Gallery](README-files/lighthouse/desktop-gallery.JPG)
 
-![Desktop Contact Us](README-files/Lighthouse/desktop-contact.JPG)
+![Desktop Contact Us](README-files/lighthouse/desktop-contact.JPG)
 
 #### Mobile
 
@@ -515,17 +516,15 @@ The accessibility and SEO scores are 100 on each page. The best practices score 
 
 ### Wave Test
 
-The Lighthouse test in DevTools gave a 100 score for accessibility of all pages. However, another test was carried out using the [Wave](https://wave.webaim.org/) (Web Accessiblity Evaluation Tool) website. The results are presented below.
+The Lighthouse test in DevTools gave a 100 score for accessibility of all pages. However, another test was carried out using the [Wave](https://wave.webaim.org/) (Web Accessiblity Evaluation Tool). There is 1 Alert appearing on tests for all pages which refers to the presence of two adjacent links on the header that lead to the homepage - Logo and Home on the navigation bar. Since this is an intentional design element, it is not considered a significant alert to reqiure attention. 
 
 #### Homepage
-
-There is 1 Alert appearing on tests for all pages which refers to the presence of two adjacent links on the header that lead to the homepage - Logo and Home on the navigation bar. Since this is an intentional design element, this is not considered a significant alert to reqiure attention. 
 
 ![Wave Homepage](README-files/wave/wave-homepage.JPG)
 
 #### Menu Page
 
-One of the Alerts on this page refers to the header, as explained above. The other four Alerts refer to the use of the word 'click' in reference to the 'click & collect' links. Upon further research, it was determined that these alerts mainly refer to vague and ambiguous links that ask users to "click here". However, as the links on this website are specific and clear, it is not neccessary to change this aspect. 
+Four of the Alerts on this page refer to the use of the word 'click' in reference to the 'click & collect' links. Upon further research, it was determined that these alerts mainly refer to vague and ambiguous links that ask users to "click here". However, as the links on this page are specific and clear, it is not neccessary to change this aspect. 
 
 ![Wave Menu Page](README-files/wave/wave-menu.JPG)
 
@@ -609,7 +608,7 @@ Tutor Support – I would like to thank the various tutors at the Code Institute
 
 [Font Awesome](https://fontawesome.com/) – for social media icons
 
-[Canva](https://www.canva.com/)– for choosing a colour scheme
+[Canva](https://www.canva.com/) – for choosing a colour scheme
 
 [Pixabay](https://pixabay.com/) - for free images taken from Pixabay
 
@@ -624,6 +623,8 @@ Balsamiq wireframe – for creating wireframes in the design process
 [CSS Validator](https://jigsaw.w3.org/css-validator/) – for testing validity of CSS code
 
 [Am I Responsive](http://ami.responsivedesign.is/) – for checking responsiveness on different screen sizes
+
+[Wave](https://wave.webaim.org/) - for checking accessibility of the site
 
 ***
 
