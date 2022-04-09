@@ -513,8 +513,32 @@ The accessibility and SEO scores are 100 on each page. The best practices score 
 
 ![Mobile Contact Us](README-files/lighthouse/mobile-contact.JPG)
 
-Wave
-The Lighthouse test in DevTools gave a 100 score for accessibility of the website. However, another test was carried out using the Wave website. The results are presented below.
+### Wave Test
+
+The Lighthouse test in DevTools gave a 100 score for accessibility of all pages. However, another test was carried out using the [Wave](https://wave.webaim.org/) (Web Accessiblity Evaluation Tool) website. The results are presented below.
+
+#### Homepage
+
+There is 1 Alert appearing on tests for all pages which refers to the presence of two adjacent links on the header that lead to the homepage - Logo and Home on the navigation bar. Since this is an intentional design element, this is not considered a significant alert to reqiure attention. 
+
+![Wave Homepage](README-files/wave/wave-homepage.JPG)
+
+#### Menu Page
+
+One of the Alerts on this page refers to the header, as explained above. The other four Alerts refer to the use of the word 'click' in reference to the 'click & collect' links. Upon further research, it was determined that these alerts mainly refer to vague and ambiguous links that ask users to "click here". However, as the links on this website are specific and clear, it is not neccessary to change this aspect. 
+
+![Wave Menu Page](README-files/wave/wave-menu.JPG)
+
+#### Gallery Page 
+
+![Wave Gallery Page](README-files/wave/wave-gallery.JPG)
+
+#### Contact Us Page
+
+One of the Alerts on this page refers to the lack of a 'legend' for the radio input field on this page. However, as there are only two options on this field, a legend is not considered necessary. 
+
+![Wave Contact Us Page](README-files/wave/wave-contact-us.JPG)
+
 
 #### Browser Compatibility
 
