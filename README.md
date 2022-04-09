@@ -40,7 +40,7 @@ The website provides a brief introduction to the bakery; information regarding t
 
 #### Reasons to visit the website
 
-* A user looking for more information regarding the products sold by the bakery and their prices.
+* A user looking for information regarding products sold by the bakery and their prices.
 * A user wanting to place an order online for delivery or collection.
 * A user looking to find out more about the bakery’s ambience and environment.
 * A user looking for the bakery’s location.
@@ -57,7 +57,6 @@ The website provides a brief introduction to the bakery; information regarding t
 * Provide information for bakery operating days and hours 
 * Provide information to contact the bakery
 * Provide information for the bakery’s social media pages
-
 
 ## Scope
 
@@ -547,6 +546,30 @@ One of the Alerts on this page refers to the lack of a 'legend' for the radio in
 The site was tested on Chrome, Firefox, Internet Explorer, Microsoft Edge, and Safari. The developer carried out manual tests by installing theses browsers and checking the site's compatibility. In addition, the [Browser Stack](https://www.browserstack.com/) website was also used. However, the free version of Browser Stack allows for 1 minute of usage only on each browser. The tests revealed that the site is compatible with all Chrome, Firefox, and Microsoft Edge browsers. The site images appear as different sizes on older versions of Safari and Internet Explorer. However, the content is readable and the user is able to navigate through the website.
 
 #### Testing User Stories
+
+* A user looking for information regarding products sold by the bakery and their prices.
+
+A user is able to locate this information on the menu page. There are links to the menu page on the header navigation bar of each page. A user can also find links to the menu page at the bottom of the landing page. 
+
+* A user wanting to place an order online for delivery or collection.
+
+There is an 'Order Online' button on every page (except for the menu page) which directs the user to the menu page. There are further options on the menu page to either order from a delivery service, or for collection from the bakery.
+
+* A user looking to find out more about the bakery’s ambience and environment.
+
+The gallery page displays images of the bakery. This gives the user a sense of the ambience and environment of the bakery.
+
+* A user looking for the bakery’s location.
+
+The bakery's address is on the footer of the site which appears on every page. The contact us page includes information regarding the bakery's location. There is Google map that can be used to find directions. 
+
+* A user looking for the opening and closing days and times of the bakery. 
+
+The footer provides information regarding the bakery's opening and closing days and times.
+
+* A user wanting to send a message or provide feedback relevant to the bakery.
+
+There is a form on the contact us page where the user can input their personal information with a message and/or feedback. The bakery's email address is also included in the footer and on the contact us page.
 
 ***
 
