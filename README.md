@@ -367,16 +367,16 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 
 #### Design
 
-* Google Fonts – for styling the typography 
+* [Google Fonts](https://fonts.google.com/)– for styling the typography 
 * Balsamiq Wireframe – to create wireframes
-* Font Awesome – for social media icons
+* [Font Awesome](https://fontawesome.com/) – for social media icons
 * Microsoft Paint 3D – to resize and crop images 
 
 #### Testing 
 
-* HTML Validator – testing validity of HTML code
-* CSS Validator - testing validity of CSS code
-* Am I Responsive – checking responsiveness of the pages
+* [HTML Validator](https://validator.w3.org/) – testing validity of HTML code
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - testing validity of CSS code
+* [Am I Responsive](http://ami.responsivedesign.is/#)– checking responsiveness of the site
 * DEV Tools – Lighthouse check
 
 
@@ -443,11 +443,16 @@ Contact Us Page
 
 #### CSS Validator
 
+The [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the validity of CSS code. The results are displayed below.
 
-
+![CSS Validation](README-files/css-validation.JPG)
 
 
 #### Am I responsive?
+
+Homepage
+
+
 
 
 
