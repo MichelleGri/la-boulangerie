@@ -197,9 +197,61 @@ Image Links –
 
 Homepage
 
+[Hero](https://pixabay.com/photos/cupcakes-fruits-dessert-food-1283821/)
+
+[Bakery](https://pixabay.com/illustrations/watercolor-paris-shops-bakery-5212789/)
+
+[Bread](https://pixabay.com/illustrations/bread-bakery-food-loaf-sandwich-6713845/)
+
+[Macarons](https://pixabay.com/illustrations/macarons-dessert-food-nutrition-7059669/)
+
+[Cake](https://pixabay.com/illustrations/cake-dessert-food-bakery-products-7070335/)
+
+[Coffee](https://pixabay.com/illustrations/coffee-cup-drink-art-abstract-2368790/)
+
+
 Gallery 
 
+[Bakery-Woman](https://unsplash.com/photos/_Gd1biLbIU0)
+
+[Biscuits](https://unsplash.com/photos/upY7FPFfMNo)
+
+[Bread](https://unsplash.com/photos/IUk1S6n2s0o)
+
+[Cakes-Display](https://unsplash.com/photos/1WmlAiYgnoI)
+
+[Cakes](https://unsplash.com/photos/0uBlylsBuWk)
+
+[Cinnamon-rolls](https://pixabay.com/photos/to-bake-cakes-nut-wreath-pastries-5022110/)
+
+[Croissants](https://unsplash.com/photos/m9pzwmxm2rk)
+
+[Cupcakes](https://unsplash.com/photos/FIxdY7jOBus)
+
+[Donuts-box](https://unsplash.com/photos/c8ovzYe3z0s)
+
+[Eating-cake](https://unsplash.com/photos/n3Y2_Ohql28)
+
+[Kitchen](https://unsplash.com/photos/oWtV-CQcs1o)
+
+[Raisin-cake](https://unsplash.com/photos/29D6U5sZfjk)
+
+[Savouries-display](https://unsplash.com/photos/R3iAcQxylmE)
+
+[Shop-inside](https://unsplash.com/photos/RndRFJ1v1kk)
+
+Menu
+
+[Uber-Eats-logo](https://images.app.goo.gl/YGU18qPjAAH8A9nF8)
+
+[Deliveroo-logo](https://images.app.goo.gl/SdtfqY78zQWdpyNt6)
+
+[Just-Eat-logo](https://images.app.goo.gl/eCh6si9yZTsrBagK6)
+
+
 Contact Us
+
+[Pancakes](https://pixabay.com/illustrations/pancakes-strawberry-blueberry-7054658/)
 
 
 ### Logo
@@ -532,9 +584,15 @@ Tutor Support – I would like to thank the various tutors at the Code Institute
 
 [Google Fonts](https://fonts.google.com/) – for fonts used throughout the website
 
+[Google Images](https://www.google.co.uk/imghp?hl=en&ogbl) - for delivery services logos
+
 [Font Awesome](https://fontawesome.com/) – for social media icons
 
 [Canva](https://www.canva.com/)– for choosing a colour scheme
+
+[Pixabay](https://pixabay.com/) - for images
+
+[Unsplash](https://unsplash.com/) - for images
 
 Balsamiq wireframe – for creating wireframes in the design process
 
