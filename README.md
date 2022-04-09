@@ -4,6 +4,8 @@
 
 [GitHub Repo](https://github.com/MichelleGri/la-boulangerie)
 
+![About image](README-files/about-image.JPG)
+
 ***
 
 ## About
@@ -114,33 +116,33 @@ The website consists of 4 separate pages
 ### Colour Scheme
 The site was created with a very simple colour scheme of shades of blues and greys. It was important to use subtle colours on the site as the images are bright and vibrant. This ensures that the user is not overwhelmed by many and contrasting colours. A colour picker was used on this specific part of the hero image to select the colours:
 
-![Colour image](README-files/colours-image.jpg)
+![Colour image](README-files/design/colours-image.jpg)
 
-Four colours were chosen for the colour palette using the website [Canva](http://canva.com/colors). The image below displays the four colours with their HEX, RGB, and CMYK values. 
+Four colours were chosen for the colour palette using the website [Canva](http://canva.com/colors). The image below displays the four colours with their HEX, RGB, and CMYK values. HEX values have been used in style.css file to add colours. RGB value has been for white to add opacity. 
 
-![Colour scheme](README-files/colour-scheme.jpg)
+![Colour scheme](README-files/design/colour-scheme.jpg)
 
-Midnight blue (#191970) – this colour is used for the logo and to highlight certain phrases on the about-us section. It is also used for the box-shadow effect on the ‘Order Online’ button. 
+* Midnight blue (#191970) – this colour is used for the logo and to highlight certain phrases on the about-us section. It is also used for the box-shadow effect on the ‘Order Online’ button. 
 
-Grape (#494454) – this colour is used for text on the site. 
+* Grape (#494454) – this colour is used for text on the site. 
 
-Light blue-grey (#CDDEEE) – this colour is used for the footer background, and the ‘Order Online’ button background. 
+* Light blue-grey (#CDDEEE) – this colour is used for the footer background, and the ‘Order Online’ button background. 
 
-White Smoke (#F0F0F0) – this colour is used for background of the whole site. 
+* White Smoke (#F0F0F0) – this colour is used for background of the whole site. 
 
 The suitability of these colours for accessibility and readability purposes was checked using the contrast checker tool on the [WebAim](https://webaim.org/resources/contrastchecker/) website. 
 
 The main background colour (#F0F0F0) was checked against the main text colour (#494454). 
 
-![Colour scheme](README-files/contrast-checker1.JPG)
+![Colour scheme](README-files/design/contrast-checker1.JPG)
 
 The main background colour (#F0F0F0) was checked against the logo and emphasised text colour (#494454).
 
-![Colour scheme](README-files/contrast-checker2.JPG)
+![Colour scheme](README-files/design/contrast-checker2.JPG)
 
 The footer and 'Order Online' button background colour (#CDDEEE) was checked against the main text colour (#494454).
 
-![Colour scheme](README-files/contrast-checker3.JPG)
+![Colour scheme](README-files/design/contrast-checker3.JPG)
 
 
 
@@ -148,31 +150,17 @@ The footer and 'Order Online' button background colour (#CDDEEE) was checked aga
 
 Three fonts were imported from [Google Fonts](https://fonts.google.com/) into the style.css file. These include 'Shadows Into Light', 'Poppins', and 'Manrope'.
 
-
-
 [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shadows+in) – this font was used for the bakery Logo only. This font aims to add style and distinctiveness to the bakery logo. 
 
-
-
-![Font](README-files/shadows-into-light.JPG)
-
-
+![Font](README-files/design/shadows-into-light.JPG)
 
 [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) – this font has been used for all headings on the website.
 
-
-
-![Font](README-files/poppins.JPG)
-
-
+![Font](README-files/design/poppins.JPG)
 
 [Manrope](https://fonts.google.com/specimen/Manrope?query=manrope) – this font has been used for all other text on the website.
 
-
-
-![Font](README-files/manrope.jpg)
-
-
+![Font](README-files/design/manrope.jpg)
 
 * Manrope and Poppins were chosen for headings and other text as they compliment each other and are easily readable. 
 
@@ -193,9 +181,9 @@ Since La Boulangerie is a fictional bakery, the images on the gallery page were 
 
 To add style and subtlety throughout the website, the border of all images have been rounded. All images on the website have “alt” attributes. This is to ensure accessibility of the website, and enhance ‘search engine optimisation’. It also ensures there is a description of the image if it fails to load, and screen readers can describe the image to the user. 
 
-Image Links –
+#### Image Links
 
-Homepage
+##### Homepage
 
 * [Hero](https://pixabay.com/photos/cupcakes-fruits-dessert-food-1283821/)
 
@@ -210,7 +198,7 @@ Homepage
 * [Coffee](https://pixabay.com/illustrations/coffee-cup-drink-art-abstract-2368790/)
 
 
-Gallery page
+##### Gallery page
 
 * [Bakery-Woman](https://unsplash.com/photos/_Gd1biLbIU0)
 
@@ -240,7 +228,7 @@ Gallery page
 
 * [Shop-inside](https://unsplash.com/photos/RndRFJ1v1kk)
 
-Menu
+##### Menu
 
 * [Uber-Eats-logo](https://images.app.goo.gl/YGU18qPjAAH8A9nF8)
 
@@ -248,28 +236,25 @@ Menu
 
 * [Just-Eat-logo](https://images.app.goo.gl/eCh6si9yZTsrBagK6)
 
-
-Contact Us
+##### Contact Us
 
 * [Pancakes](https://pixabay.com/illustrations/pancakes-strawberry-blueberry-7054658/)
 
-
 ### Logo
 
-The logo was designed using the ‘Shadows Into Light’ font, imported from Google Fonts. This font gives a style and character to the logo to make it distinctive. The colour ‘midnight blue’ (#191970) was selected for the logo using the colour picker on the hero image. 
+The logo was designed using the ‘Shadows Into Light’ font, imported from [Google Fonts](https://fonts.google.com/). This font gives a style and character to the logo to make it distinctive. The colour ‘midnight blue’ (#191970) was selected for the logo using the colour picker on the hero image. 
 
-![Logo](README-files/logo.JPG)
-
+![Logo](README-files/design/logo.JPG)
 
 ### Call to Action
 
 The main call to action on the website is the ‘Order Online’ button on the header of every page. This leads the user to the menu page which gives further details on how to make a purchase. The button is designed using the light blue-grey (#CDDEEE) colour as its background, which is the same colour used for the footer background. The corners have been rounded - inline with the images on the website. The button outline colour is midnight-blue (#191970), which is the same colour as the Logo. There is a subtle box-shadow created that further emphasises the button. The text is all uppercase, in the colour grape (#494454), and the font-family is the set to default font Ariel (this font provides the best visibility for this specific feature). There is a hover effect that makes the background colour white on hover. The hover effect enables the user to clearly see that this is a link.
 
-![order-Online-button](README-files/order-online-button.JPG)
+![order-Online-button](README-files/design/order-online-button.JPG)
 
 The ‘send message’ button on the contact us page is styled differently to the order online button. This is to ensure there are distinct differences between the two buttons so that they do not cause confusion. The background colour on the ‘send message’ button is grey, with white text. There is a hover effect that changes the background colour to white and the text to grey. 
 
-![send-message-button](README-files/send-message-button.JPG)
+![send-message-button](README-files/design/send-message-button.JPG)
 
 ## Skeleton
 
@@ -298,10 +283,7 @@ DevTools was used to test and create responsiveness of all pages on the website.
 ### Header 
 The header appears on all four pages of the website and includes the company logo, an 'order online' button and the wesbite navigation bar. The bakery logo is on the left side of the header, which returns to user to the homepage when clicked. There is an ‘order online’ button in the center which enables the user to easily find out how to place an online order. This button is linked to the menu page. The website navigation bar is on the right side of the header, which enables the user to easily move between pages without having to use the ‘back’ function. It includes inks to all four pages of the website: Home, Menu, Gallery, and Contact Us. The header is responsive on multiple screen sizes. The 'order online' button and the navigation bar move to under the logo on small screens, such as tablets and mobile devices. 
 
-
-![header](README-files/header.JPG)
-
-
+![header](README-files/features/header.JPG)
 
 ### Footer
 The footer is featured on all four pages of the website. It is identical on all pages and appears at the bottom of the page. There are three sections included within the footer:
@@ -312,9 +294,7 @@ The footer is featured on all four pages of the website. It is identical on all 
 
 * Social Media – this part of the footer provides links to the bakery’s social media platforms – Facebook, Twitter, and Instagram. This encourages the user to stay connected and interact with the bakery. These pages enable the business to advertise the bakery and announce promotional offers, discounts, and events. The social media icons are clickable links to the relevant page which opens in a new tab.  As La Boulangerie is a fictional business, the links currently lead to the social media website homepage.
 
-
-![footer](README-files/footer.JPG)
-
+![footer](README-files/features/footer.JPG)
 
 ### Specific Features
 
@@ -323,23 +303,17 @@ The footer is featured on all four pages of the website. It is identical on all 
 #### Image 
 The landing page image is a photo of four cupcakes lined up horizontally. It aims to capture the visitors attention and encourage them to investigate further. The vibrant yet subtle colours on the main image, set against a light grey background colour, intend to entice the user to visit or order from the bakery. The fruits on the main image gives the impression of freshness and well-being. 
 
-
-![Homepage Image](README-files/homepage-image.JPG)
-
+![Homepage Image](README-files/features/homepage-image.JPG)
 
 #### About Us
 Set in the middle of the page, this section aims to provide a little information about the bakery. It informs the user that the bakery is based in London and began operating in 1998. The ‘cakes and croissants’ and ‘sweet and savoury’ words have been highlighted in blue (the company logo colour) to place emphasis that the bakery is able to cater for the needs of people wanting to consume either sweet or salty baked goods. The bakery image on the right is a watercolour painting of the bakery from the outside. This aims to give the bakery a character and sense of ‘old-fashioned’ heritage. 
 
-
-![About Us Section](README-files/about-us-section.JPG)
-
+![About Us Section](README-files/features/about-us-section.JPG)
 
 #### Bakery Menu
 The bakery menu is located at the bottom of the landing page. It presents four images of different types of products sold at La Boulangerie: Breads and Savouries, Sweets and Desserts, Cakes, and Drinks. Each of the images and product categories link to the relevant part of the section on the main bakery Menu page. There is a hover effect on the bakery category images which aims to add interest in the website. The effect includes the names of the categories set on a white background with an opacity so that the image below is slightly visible on hover. 
 
-
-![Menu Section](README-files/menu-section.JPG)
-
+![Menu Section](README-files/features/menu-section.JPG)
 
 ### Menu Page
 
@@ -347,24 +321,22 @@ The menu page includes a list of products sold at the bakery and their prices. A
 
 Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the delivery service website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the contact us page.  
 
-![Menu Page](README-files/menu-page.JPG)
+![Menu Page](README-files/features/menu-page.JPG)
 
 
-![Menu Page](README-files/menu-page1.JPG)
+![Menu Page](README-files/features/menu-page1.JPG)
 
 
-![Menu Page](README-files/menu-page2.JPG)
+![Menu Page](README-files/features/menu-page2.JPG)
 
 
-![Menu Page](README-files/menu-page3.JPG)
-
+![Menu Page](README-files/features/menu-page3.JPG)
 
 ### Gallery Page
 
 The gallery page includes 14 photos relevant to the bakery, presented in a masonry style. This pages aims to give the user an idea of the bakery’s environment and the products sold. Its purpose is to convince the user to visit or order online from the bakery and have an enjoyable experience. The user is able to visualise the bakery and therefore set their expectations accordingly. 
 
-![Gallery Page](README-files/gallery-page.JPG)
-
+![Gallery Page](README-files/features/gallery-page.JPG)
 
 ### Contact Us Page
 
@@ -374,15 +346,13 @@ The contact us page includes two panels. There is a background image of pancakes
 
 The left panel enables the user to complete a short and simple form with their name and contact details, and to send a message to the company. There is also a question that allows the user to either opt-in or opt-out to the mailing list to receive email newsletters, offers and vouchers. The name, phone number, and email address inputs are set to required so that the user is unable to send the message unless these fields have been completed. The message/feedback input field is set to optional. By default, the option to opt-in or opt-out of the mailing list is set to ‘No’. This is to avoid anyone being accidently added to the mailing list if they do not wish to do so. Sending a message will result in the user being informed that their message has been sent and someone will be in contact with them shortly. However, as this website is for educational purposes only, submitting a message currently leads to the formdump.codeinstitute.net page. 
 
-![Contact Us Page](README-files/contact-us-left.JPG)
-
+![Contact Us Page](README-files/features/contact-us-left.JPG)
 
 #### How To Find Us
 
 The ‘How to Find Us’ panel is on the right side of the page and includes a google map of the bakery’s location, the bakery address, phone number, and email address. The map includes a ‘View larger map’ link that opens in a new tab where the user can input their own postcode to receive travel instructions to the bakery.
 
-![Contact Us Page](README-files/contact-us-right.JPG)
-
+![Contact Us Page](README-files/features/contact-us-right.JPG)
 
 ### Future pages and features 
 
@@ -414,9 +384,7 @@ A page or feature can be created that includes special offers, promotions, disco
 
 To assist the navigation menu responsiveness on mobile devices, a feature can be added that collapses the navigation on mobile devices. 
 
-
 ***
-
 
 ## Technologies Used
 
@@ -439,14 +407,13 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 * [Am I Responsive](http://ami.responsivedesign.is/#)– checking responsiveness of the site
 * DEV Tools – Lighthouse check
 
-
 ***
 
 ## Testing
 
-The website was tested by the wesbite developer, specific testing methods and tools, and other people. This was done to ensure the website is in working order and performs as expected. 
+The website was tested by the developer, specific testing methods and tools, and other people. This was done to ensure the website is in working order and performs as expected. 
 
-#### Checks carried out by the website developer
+### Checks carried out by the developer
 
 * The navigations links are linked to the corresponding pages and direct the user to the relevant page.
 * The logo on each pages directs the user back to the homepage.
@@ -461,7 +428,7 @@ The website was tested by the wesbite developer, specific testing methods and to
 * Hover over effects on all relevant elements are working as expected.
 * Social media links are working as expected. They open in a new tab and direct the user to the relevant social media homepage.
 
-#### Usability Testing
+### Usability Testing
 
 The website link was sent to a number of family and friends to check its usability. These individuals were given a checklist to carry out the same checks conduced by the website developer. They were asked to also provide feedback on the following aspects of the website: 
 
@@ -479,7 +446,7 @@ All individuals gave positive responses and a few highlighted some issues to be 
 
 * The 'click and collect' links direct the user to the contact us page but there are no further instructions given on how to order. This issue has not been resolved as it is not within the scope of the project at this stage. One method of resolving this issue would be to direct the user to a customer account page, where further instructions can be given on how to place an order. Another option is to create another page that gives detailed instructions and options on how the user can place an order, for example - by calling the bakery. 
 
-#### HTML Validator
+### HTML Validator
 
 The [W3c Markup Validation Service](https://validator.w3.org/) was used to check the validity of HTML markup of all four pages of the website. The results are displayed below.
 
@@ -499,17 +466,13 @@ Contact Us Page
 
 ![Contact Us Page HTML](README-files/contact-us-html.JPG)
 
-
-
-#### CSS Validator
+### CSS Validator
 
 The [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the validity of CSS code. The results are displayed below.
 
 ![CSS Validation](README-files/css-validation.JPG)
 
-
-#### Am I responsive?
-
+### Am I responsive?
 
 The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test the responsive nature of the website's pages.
 
@@ -524,13 +487,13 @@ The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test
 
 ![Contact Us Responsiveness](README-files/contact-responsiveness.JPG)
 
+### Lighthouse Test
 
-#### Lighthouse Test
 The Lighthouse Test available on Developer Tools was used to test specific aspects of the website. The tool was used to check the website on desktop and mobile devices. 
 The performance score has been inconsistent and gives a different score each time the test is run. Upon further research and suggestions from tutors, it was determined that the Lighthouse performance score is unreliable and will not be considered an important issue with the website. 
 The accessibility and SEO scores are 100 on each page. The best practices score is 92 on the homepage because of a low resolution image (bakery-image). However, since the image appears as intended on various screen sizes, this is not considered an important issue to be resolved. 
 
-##### Desktop
+#### Desktop
 
 ![Desktop Homepage](README-files/Lighthouse/desktop-homepage.JPG)
 
@@ -540,7 +503,7 @@ The accessibility and SEO scores are 100 on each page. The best practices score 
 
 ![Desktop Contact Us](README-files/Lighthouse/desktop-contact.JPG)
 
-##### Mobile
+#### Mobile
 
 ![Mobile Homepage](README-files/Lighthouse/mobile-homepage.JPG)
 
@@ -553,15 +516,11 @@ The accessibility and SEO scores are 100 on each page. The best practices score 
 Wave
 The Lighthouse test in DevTools gave a 100 score for accessibility of the website. However, another test was carried out using the Wave website. The results are presented below.
 
-
-
 #### Browser Compatibility
 
 The website was tested on Chrome, Firefox, Brave, Internet Explorer, Microsoft Edge, and Safari. It works well with most browsers. 
 
-
 #### Testing User Stories
-
 
 ***
 
@@ -616,7 +575,7 @@ Tutor Support – I would like to thank the various tutors at the Code Institute
 
 [Kevin Powell](https://www.youtube.com/kepowob) – YouTube Channel – for providing valuable videos on various HTML and CSS topics, particularly CSS grid and flexbox
 
-[Traversy Media](Shttps://www.youtube.com/c/TraversyMedia) – YouTube Channel – for providing informative videos on various HTMl and CSS topis – particularly CSS grid and flexbox
+[Traversy Media](https://www.youtube.com/c/TraversyMedia) – YouTube Channel – for providing informative videos on various HTMl and CSS topis – particularly CSS grid and flexbox
 
 [Stack Overflow](https://stackoverflow.com/) – for trouble shooting and resolving code issues
 
@@ -628,22 +587,19 @@ Tutor Support – I would like to thank the various tutors at the Code Institute
 
 [Canva](https://www.canva.com/)– for choosing a colour scheme
 
-[Pixabay](https://pixabay.com/) - for images
+[Pixabay](https://pixabay.com/) - for free images taken from Pixabay
 
-[Unsplash](https://unsplash.com/) - for images
+[Unsplash](https://unsplash.com/) - for free images taken from Unsplash
 
 Balsamiq wireframe – for creating wireframes in the design process
 
 [W3school](https://www.w3schools.com/) – for HTML and CSS coding information and trouble shooting
-
-Unsplash – for images taken from unsplash
 
 [HTML Validator](https://validator.w3.org/) – for testing validity of HTML code
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/) – for testing validity of CSS code
 
 [Am I Responsive](http://ami.responsivedesign.is/) – for checking responsiveness on different screen sizes
-
 
 ***
 
