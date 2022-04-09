@@ -260,7 +260,9 @@ The ‘send message’ button on the contact us page is styled differently to th
 
 #### Wireframes
 
-##### Homepage
+##### Homepage Wireframes
+
+![Homepage Wireframes](README-files/wireframes/homepage-wireframes.JPG)
 
 ##### Menu
 
