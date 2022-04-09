@@ -541,7 +541,7 @@ One of the Alerts on this page refers to the lack of a 'legend' for the radio in
 
 #### Browser Compatibility
 
-The website was tested on Chrome, Firefox, Brave, Internet Explorer, Microsoft Edge, and Safari. It works well with most browsers. 
+The site was tested on Chrome, Firefox, Internet Explorer, Microsoft Edge, and Safari. The developer carried out manual tests by installing theses browsers and checking the site's compatibility. In addition, the [Browser Stack](https://www.browserstack.com/) website was also used. However, the free version of Browser Stack allows for 1 minute of usage only on each browser. The tests revealed that the site is compatible with all Chrome, Firefox, and Microsoft Edge browsers. The site images appear as different sizes on older versions of Safari and Internet Explorer. However, the content is readable and the user is able to navigate through the website.
 
 #### Testing User Stories
 
