@@ -197,61 +197,61 @@ Image Links –
 
 Homepage
 
-[Hero](https://pixabay.com/photos/cupcakes-fruits-dessert-food-1283821/)
+* [Hero](https://pixabay.com/photos/cupcakes-fruits-dessert-food-1283821/)
 
-[Bakery](https://pixabay.com/illustrations/watercolor-paris-shops-bakery-5212789/)
+* [Bakery](https://pixabay.com/illustrations/watercolor-paris-shops-bakery-5212789/)
 
-[Bread](https://pixabay.com/illustrations/bread-bakery-food-loaf-sandwich-6713845/)
+* [Bread](https://pixabay.com/illustrations/bread-bakery-food-loaf-sandwich-6713845/)
 
-[Macarons](https://pixabay.com/illustrations/macarons-dessert-food-nutrition-7059669/)
+* [Macarons](https://pixabay.com/illustrations/macarons-dessert-food-nutrition-7059669/)
 
-[Cake](https://pixabay.com/illustrations/cake-dessert-food-bakery-products-7070335/)
+* [Cake](https://pixabay.com/illustrations/cake-dessert-food-bakery-products-7070335/)
 
-[Coffee](https://pixabay.com/illustrations/coffee-cup-drink-art-abstract-2368790/)
+* [Coffee](https://pixabay.com/illustrations/coffee-cup-drink-art-abstract-2368790/)
 
 
-Gallery 
+Gallery page
 
-[Bakery-Woman](https://unsplash.com/photos/_Gd1biLbIU0)
+* [Bakery-Woman](https://unsplash.com/photos/_Gd1biLbIU0)
 
-[Biscuits](https://unsplash.com/photos/upY7FPFfMNo)
+* [Biscuits](https://unsplash.com/photos/upY7FPFfMNo)
 
-[Bread](https://unsplash.com/photos/IUk1S6n2s0o)
+* [Bread](https://unsplash.com/photos/IUk1S6n2s0o)
 
-[Cakes-Display](https://unsplash.com/photos/1WmlAiYgnoI)
+* [Cakes-Display](https://unsplash.com/photos/1WmlAiYgnoI)
 
-[Cakes](https://unsplash.com/photos/0uBlylsBuWk)
+* [Cakes](https://unsplash.com/photos/0uBlylsBuWk)
 
-[Cinnamon-rolls](https://pixabay.com/photos/to-bake-cakes-nut-wreath-pastries-5022110/)
+* [Cinnamon-rolls](https://pixabay.com/photos/to-bake-cakes-nut-wreath-pastries-5022110/)
 
-[Croissants](https://unsplash.com/photos/m9pzwmxm2rk)
+* [Croissants](https://unsplash.com/photos/m9pzwmxm2rk)
 
-[Cupcakes](https://unsplash.com/photos/FIxdY7jOBus)
+* [Cupcakes](https://unsplash.com/photos/FIxdY7jOBus)
 
-[Donuts-box](https://unsplash.com/photos/c8ovzYe3z0s)
+* [Donuts-box](https://unsplash.com/photos/c8ovzYe3z0s)
 
-[Eating-cake](https://unsplash.com/photos/n3Y2_Ohql28)
+* [Eating-cake](https://unsplash.com/photos/n3Y2_Ohql28)
 
-[Kitchen](https://unsplash.com/photos/oWtV-CQcs1o)
+* [Kitchen](https://unsplash.com/photos/oWtV-CQcs1o)
 
-[Raisin-cake](https://unsplash.com/photos/29D6U5sZfjk)
+* [Raisin-cake](https://unsplash.com/photos/29D6U5sZfjk)
 
-[Savouries-display](https://unsplash.com/photos/R3iAcQxylmE)
+* [Savouries-display](https://unsplash.com/photos/R3iAcQxylmE)
 
-[Shop-inside](https://unsplash.com/photos/RndRFJ1v1kk)
+* [Shop-inside](https://unsplash.com/photos/RndRFJ1v1kk)
 
 Menu
 
-[Uber-Eats-logo](https://images.app.goo.gl/YGU18qPjAAH8A9nF8)
+* [Uber-Eats-logo](https://images.app.goo.gl/YGU18qPjAAH8A9nF8)
 
-[Deliveroo-logo](https://images.app.goo.gl/SdtfqY78zQWdpyNt6)
+* [Deliveroo-logo](https://images.app.goo.gl/SdtfqY78zQWdpyNt6)
 
-[Just-Eat-logo](https://images.app.goo.gl/eCh6si9yZTsrBagK6)
+* [Just-Eat-logo](https://images.app.goo.gl/eCh6si9yZTsrBagK6)
 
 
 Contact Us
 
-[Pancakes](https://pixabay.com/illustrations/pancakes-strawberry-blueberry-7054658/)
+* [Pancakes](https://pixabay.com/illustrations/pancakes-strawberry-blueberry-7054658/)
 
 
 ### Logo
@@ -398,6 +398,14 @@ A page can be created that enables customers to order cakes for birthdays, weddi
 
 A ‘Customer Account’ page can be added that will enable the customers to login to their account while making purchases online. The ‘Click & Collect’ option can direct the customer to their personal account where they can place orders easily. This may be accompanied with an account card that can be used at the bakery to accumulate points and receive special offers and discounts. 
 
+#### Gallery Page
+
+The gallery page can be further developed to add captions and descriptions of the images.
+
+#### Menu Page
+
+The menu page can be further developed to include images and descriptions of items on sale.
+
 #### Special offers / promotions / events page or feature
 
 A page or feature can be created that includes special offers, promotions, discounts or any events happening at the bakery. 
@@ -502,16 +510,46 @@ The [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used 
 
 #### Am I responsive?
 
-Homepage
+
+The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test the responsive nature of the website's pages.
+
+![Homepage Responsiveness](README-files/homepage-responsiveness.JPG)
 
 
+![Menu Responsiveness](README-files/menu-responsiveness.JPG)
 
+
+![Gallery Responsiveness](README-files/gallery-responsiveness.JPG)
+
+
+![Contact Us Responsiveness](README-files/contact-responsiveness.JPG)
 
 
 #### Lighthouse Test
 The Lighthouse Test available on Developer Tools was used to test specific aspects of the website. The tool was used to check the website on desktop and mobile devices. 
-The performance score has been inconsistent and gives different score each time the test is run. Upon further research and suggestions for tutors, it was determined that the Lighthouse performance score is unreliable and will not be considered an important issue with the website. 
+The performance score has been inconsistent and gives a different score each time the test is run. Upon further research and suggestions from tutors, it was determined that the Lighthouse performance score is unreliable and will not be considered an important issue with the website. 
 The accessibility and SEO scores are 100 on each page. The best practices score is 92 on the homepage because of a low resolution image (bakery-image). However, since the image appears as intended on various screen sizes, this is not considered an important issue to be resolved. 
+
+##### Desktop
+
+![Desktop Homepage](README-files/Lighthouse/desktop-homepage.JPG)
+
+![Desktop Menu](README-files/Lighthouse/desktop-menu.JPG)
+
+![Desktop Gallery](README-files/Lighthouse/desktop-gallery.JPG)
+
+![Desktop Contact Us](README-files/Lighthouse/desktop-contact.JPG)
+
+##### Mobile
+
+![Mobile Homepage](README-files/Lighthouse/mobile-homepage.JPG)
+
+![Mobile Menu](README-files/Lighthouse/mobile-menu.JPG)
+
+![Mobile Gallery](README-files/Lighthouse/mobile-gallery.JPG)
+
+![Mobile Contact Us](README-files/Lighthouse/mobile-contact.JPG)
+
 Wave
 The Lighthouse test in DevTools gave a 100 score for accessibility of the website. However, another test was carried out using the Wave website. The results are presented below.
 
