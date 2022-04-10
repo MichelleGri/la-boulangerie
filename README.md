@@ -264,11 +264,17 @@ The ‘send message’ button on the contact us page is styled differently to th
 
 ![Homepage Wireframes](README-files/wireframes/homepage-wireframes.JPG)
 
-##### Menu
+##### Menu Wireframes
+
+![Menu Wireframes](README-files/wireframes/menu-wireframes.JPG)
 
 ##### Gallery
 
+![Gallery Wireframes](README-files/wireframes/gallery-wireframes.JPG)
+
 ##### Contact Us
+
+![Contact Us Wireframes](README-files/wireframes/contact-us-wireframes.JPG)
 
 ### Responsiveness
 
