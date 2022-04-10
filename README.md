@@ -258,6 +258,12 @@ The ‘send message’ button on the contact us page is styled differently to th
 
 ### Layout
 
+* The layout of the site was designed with careful consideration to symmetry and spacing between all elements. The site follows symmetrical values of between 1 to 4 columns, depending on the device it is being viewed on. 
+
+* The max-width for the entire site is set to 1500 pixels. This is to ensure the it displays well on larger screen sizes. 
+
+* Media queries have been applied at different screen-width break-points to ensure the website is responsive. The break-points have been set at points where the website layout begins to distort. DevTools has been used to determine the break-points. Elements on each page are stacked on top of each other as the screen width decreases. 
+
 #### Wireframes
 
 ##### Homepage Wireframes
@@ -268,17 +274,13 @@ The ‘send message’ button on the contact us page is styled differently to th
 
 ![Menu Wireframes](README-files/wireframes/menu-wireframes.JPG)
 
-##### Gallery
+##### Gallery Wireframes
 
 ![Gallery Wireframes](README-files/wireframes/gallery-wireframes.JPG)
 
-##### Contact Us
+##### Contact Us Wireframes
 
 ![Contact Us Wireframes](README-files/wireframes/contact-us-wireframes.JPG)
-
-### Responsiveness
-
-DevTools was used to test and create responsiveness of all pages on the website. This includes desktop screen sizes, laptops, tablets, and smart phones. Media queries have been added at different break-points. 
 
 ***
 
