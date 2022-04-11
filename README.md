@@ -22,13 +22,13 @@ The website provides a brief introduction to the bakery; information regarding t
 
 ## Index - Table of Contents
 
-* [User Experience (UX)](#user-experience) 
-* [Features](#features)
+* [User Experience (UX)](#user-experience)
 * [Designs](#designs)
+* [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
-* [Known Bugs](#known-bugs)
 * [Deployment](#deployment)
+* [Known Bugs](#known-bugs)
 * [Acknowledgements](#credit)
 
 ***
