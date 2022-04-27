@@ -745,7 +745,7 @@ textarea {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left: 1rem;
-        align-items: start;
+        margin-top: 1rem;
     }
 
     button {
