@@ -249,7 +249,7 @@ The main call to action on the website is the ‘Order Online’ button on heade
 
 ![order-Online-button](README-files/design/order-online-button.JPG)
 
-The ‘send message’ button on the contact us page is styled differently to the order online button. This is to ensure there are distinct differences between the two buttons so that they do not cause confusion. The background colour on the ‘send message’ button is grey, with white text. There is a hover effect that changes the background colour to white and the text to grey. 
+The ‘Send Message’ button on the contact us page is styled differently to the order online button. This is to ensure there are distinct differences between the two buttons so that they do not cause confusion. The background colour on the ‘Send Message’ button is grey, with white text. There is a hover effect that changes the background colour to white and the text to grey. The corners have been rounded to match with all images on the site.
 
 ![send-message-button](README-files/design/send-message-button.JPG)
 
@@ -257,11 +257,11 @@ The ‘send message’ button on the contact us page is styled differently to th
 
 ### Layout
 
-* The layout of the site was designed with careful consideration to symmetry and spacing between all elements. The site follows symmetrical values of between 1 to 4 columns, depending on the device it is being viewed on. 
+* Layout of the site was designed with careful consideration to symmetry and spacing between all elements. The site follows symmetrical values of between 1 to 4 columns, depending on the device it is being viewed on. 
 
 * The max-width for the entire site is set to 1500 pixels. This is to ensure the it displays well on larger screen sizes. 
 
-* Media queries have been applied at different screen-width break-points to ensure the website is responsive. The break-points have been set at points where the website layout begins to distort. DevTools has been used to determine the break-points. Elements on each page are stacked on top of each other as the screen width decreases. 
+* Media queries have been applied at different screen-width break-points to ensure responsiveness. DevTools has been used to determine the break-points, which are set at points where the layout begins to distort.  Elements on each page are stacked on top of each other as the screen width decreases. 
 
 #### Wireframes
 
@@ -288,18 +288,18 @@ The ‘send message’ button on the contact us page is styled differently to th
 ### Features on all pages
 
 ### Header 
-The header appears on all four pages of the website and includes the company logo, an 'order online' button and the navigation bar. The bakery logo is on the left side of the header, which returns the user to the homepage when clicked. There is an ‘order online’ button in the center which enables the user to easily find out how to place an online order. This button is linked to the menu page. The website navigation bar is on the right side of the header, which enables the user to easily move between pages without having to use the ‘back’ function. It includes links to all four pages of the website: Home, Menu, Gallery, and Contact Us. The header is responsive on multiple screen sizes. The 'order online' button and the navigation bar move to under the logo on small screens, such as tablets and mobile devices. 
+The header appears on all four pages of the site and includes the company logo, an 'order online' button and the navigation bar. The bakery logo is on the left side of the header, which returns user to the homepage when clicked. There is an ‘order online’ button in the center which enables user to easily find out how to place an online order. This button is linked to the Menu page. The website navigation bar is on the right side of the header, which enables user to easily move between pages without having to use the ‘back’ function. It includes links to all four pages of the site: Home, Menu, Gallery, and Contact Us. The header is responsive on multiple screen sizes. The 'order online' button and the navigation bar move to under the logo on small screens, such as tablets and mobile devices. 
 
 ![header](README-files/features/header.JPG)
 
 ### Footer
-The footer is featured on all four pages of the website. It is identical on all pages and appears at the bottom of the page. There are three sections included within the footer:
+The footer is featured on all four pages of the site. It is identical on all pages and appears at the bottom of the page. There are three sections included within the footer:
 
 * Opening Times – this section gives information regarding the business opening and closing days and times. This is important as customers need to be aware of when to visit or order online from the bakery. 
 
-* Contact Us – this section lists the bakery phone number, address, and email address. 
+* Contact Us – this section lists the bakery phone number and address. 
 
-* Social Media – this part of the footer provides links to the bakery’s social media platforms – Facebook, Twitter, and Instagram. This encourages the user to stay connected and interact with the bakery. These pages enable the business to advertise the bakery and announce promotional offers, discounts, and events. The social media icons are clickable links to the relevant page which opens in a new tab.  As La Boulangerie is a fictional business, the links currently lead to the social media website homepage.
+* Social Media – this part of the footer provides links to the bakery’s social media platforms – Facebook, Twitter, and Instagram. This encourages users to stay connected and interact with the bakery. These pages enable the business to advertise the bakery and announce promotional offers, discounts, and events. The social media icons are clickable links to the relevant page which opens in a new tab.  As La Boulangerie is a fictional business, the links currently lead to the social media website homepage.
 
 ![footer](README-files/features/footer.JPG)
 
@@ -308,12 +308,12 @@ The footer is featured on all four pages of the website. It is identical on all 
 ### Homepage
 
 #### Image 
-The landing page image is a photo of four cupcakes lined up horizontally. It aims to capture the visitors attention and encourage them to investigate further. The vibrant yet subtle colours on the main image, set against a light grey background colour, intend to entice the user to visit or order from the bakery. The fruits on the main image gives the impression of freshness and well-being. 
+The landing page image is a photo of four cupcakes lined up horizontally. It aims to capture the visitors attention and encourage them to investigate further. The vibrant yet subtle colours on the main image, set against a light grey background colour, intend to entice the user to visit or order from the bakery. The fruits on the main image give the impression of freshness and well-being. 
 
 ![Homepage Image](README-files/features/homepage-image.JPG)
 
 #### About Us
-Set in the middle of the page, this section aims to provide a little information about the bakery. It informs the user that the bakery is based in London and began operating in 1998. The ‘cakes and croissants’ and ‘sweet and savoury’ words have been highlighted in blue (the company logo colour) to place emphasis that the bakery is able to cater for the needs of people wanting to consume either sweet or salty baked goods. The bakery image on the right is a watercolour painting of the bakery from the outside. This aims to give the bakery a character and sense of ‘old-fashioned’ heritage. 
+Set in the middle of the page, this section aims to provide a little information about the bakery. It informs the user that the bakery is based in London and began operating in 1998. The ‘cakes and croissants’ and ‘sweet and savoury’ words have been highlighted in blue (the company logo colour) to place emphasis that the bakery is able to cater for the needs of people wanting to consume either sweet or salty baked goods. The image on the right is a watercolour painting of the bakery from the outside. This aims to give the bakery a character and sense of ‘old-fashioned’ heritage. 
 
 ![About Us Section](README-files/features/about-us-section.JPG)
 
@@ -324,9 +324,9 @@ The bakery menu is located at the bottom of the landing page. It presents four i
 
 ### Menu Page
 
-The menu page includes a list of products sold at the bakery and their prices. As La Boulaungerie is a fictional business, the products and prices are invented. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the products and price list, without being overwhelmed by images or colours. 
+The Menu page includes a list of products sold at the bakery and their prices. As La Boulaungerie is a fictional business, the products and prices are invented. The products are presented in four categories: breads and savouries, sweets and desserts, cakes, and beverages. This page has a very simple design layout without any images or colours. This is to ensure the user is able to clearly see the products and price list, without being overwhelmed by images or colours. 
 
-Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the delivery service website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the contact us page.  
+Each product category has two horizontal panels with a list of 10 products on each panel. The category heading is placed on top of the left panel, and options for online ordering are placed on top of the right panel. The online ordering options include icons to popular food delivery services – UberEats, Deliveroo, and Just Eat. These appear next to each product category heading. They are clickable links that open in a new tab. As La Boulangerie is a fictional bakery, the links currently open on the delivery service website homepage. There is also a ‘click & collect’ option included next to the delivery options. This is also a clickable link that directs the user to the Contact Us page.  
 
 ![Menu Page](README-files/features/menu-page.JPG)
 
@@ -351,13 +351,13 @@ The contact us page includes two panels. There is a background image of pancakes
 
 #### Contact Us
 
-The left panel enables the user to complete a short and simple form with their name and contact details, and to send a message to the company. There is also a question that allows the user to either opt-in or opt-out to the mailing list to receive email newsletters, offers and vouchers. The name, phone number, and email address inputs are set to required so that the user is unable to send the message unless these fields have been completed. The message/feedback input field is set to optional. By default, the option to opt-in or opt-out of the mailing list is set to ‘No’. This is to avoid anyone being accidently added to the mailing list if they do not wish to do so. Sending a message will result in the user being informed that their message has been sent and someone will be in contact with them shortly. However, as this website is for educational purposes only, submitting a message currently leads to the formdump.codeinstitute.net page. 
+The left panel enables user to complete a short and simple form with their name and contact details, and to send a message to the company. There is also a question that allows user to either opt-in or opt-out to the mailing list to receive email newsletters, offers and vouchers. The name, phone number, and email address inputs are set to required so that user is unable to send a message unless these fields have been completed. The message/feedback input field is set to optional. By default, the option to opt-in or opt-out of the mailing list is set to ‘No’. This is to avoid anyone being accidently added to the mailing list if they do not wish to do so. Sending a message will result in the user being informed that their message has been sent and someone will be in contact with them shortly. However, as this website is for educational purposes only, submitting a message currently leads to the formdump.codeinstitute.net page. 
 
 ![Contact Us Page](README-files/features/contact-us-left.JPG)
 
 #### How To Find Us
 
-The ‘How to Find Us’ panel is on the right side of the page and includes a google map of the bakery’s location, the bakery address, phone number, and email address. The map includes a ‘View larger map’ link that opens in a new tab where the user can input their own postcode to receive travel instructions to the bakery.
+The ‘How to Find Us’ panel is on the right side of the page and includes a google map of the bakery’s location, the bakery address, phone number, and email address. The map includes a ‘View larger map’ and 'directions' links. These open the Google map wesbite in a new tab where the user can input their own postcode to receive travel instructions to the bakery.
 
 ![Contact Us Page](README-files/features/contact-us-right.JPG)
 
@@ -365,7 +365,7 @@ The ‘How to Find Us’ panel is on the right side of the page and includes a g
 
 #### Company History
 
-A ‘Company History’ page can be included to provide more information about the company’s history – how it all began and its evolution. This may include a section about the company values, its involvement in the community, and the sourcing of its ingredients. 
+A ‘Company History’ page can be included to provide more information about the company’s history – how it all began and its evolution. This may include a section about the company values, its involvement in the community, and sourcing of its ingredients. 
 
 #### Cake Orders
 
@@ -377,11 +377,11 @@ A ‘Customer Account’ page can be added that will enable the customers to log
 
 #### Gallery Page
 
-The gallery page can be further developed to add captions and descriptions of the images.
+The Gallery page can be further developed to add captions and descriptions of the images. It can be updated regularly with images of new products, and any events taking place at the bakery. 
 
 #### Menu Page
 
-The menu page can be further developed to include images and descriptions of items on sale.
+The Menu page can be further developed to include images and descriptions of products.
 
 #### Special offers / promotions / events page or feature
 
@@ -416,14 +416,13 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 * [Wave](https://wave.webaim.org/) - checking accessibility of the site
 * [Browser Stack](https://www.browserstack.com/) - checking browser compatibility
 * DEV Tools – Lighthouse check and responsiveness check on various screen sizes
+* Microsoft Excel - to create testing plan and instructions
 
 ***
 
 ## Testing
 
-The website was tested by the developer, specific testing methods and tools, and other people. This was done to ensure the website is in working order and performs as expected. 
-
-The following checklist includes a plan and instructions for steps carried out to test the website.
+The website was tested by the developer, specific testing methods and tools, and other people. This was done to ensure the website is in working order and performs as expected. The following checklist includes a plan and instructions for steps carried out for testing.
 
 ![Testing plan and instructions](README-files/testing-plan.PNG)
 
@@ -436,6 +435,7 @@ The following checklist includes a plan and instructions for steps carried out t
 * Links to online delivery services are working and direct user to the delivery service website homepage which opens in a new tab.
 * Links to ‘click and collect’ are working and direct user to Contact Us page.
 * Contact us form is working as expected. User is unable to send a message without completing all required inputs. 
+* Message is not sent if incorrect email format in entered in contact us form. 
 * Sending a message with completion of all required inputs opens a new tab with comfirmation of form/message sent.
 * The google map is working as expected. It opens in a new tab with an option for the user to input their own postcode to receive directions.
 * Links are styled to the main grey text colour, and are not blue.
@@ -444,7 +444,7 @@ The following checklist includes a plan and instructions for steps carried out t
 
 ### Usability Testing
 
-The website link was sent to a number of family and friends to check its usability. These individuals were given a checklist to carry out the same checks carried out by the developer. They were asked to also provide feedback on the following aspects of the website: 
+The website link was sent to a number of family and friends to check its usability. These individuals were given the same checklist of tests carried out by the developer. They were asked to also provide feedback on the following aspects of the website: 
 
 * Easy to navigate through the website
 * All links are working as expected
@@ -462,7 +462,7 @@ All individuals gave positive responses and a few highlighted some issues to be 
 
 ### HTML Validator
 
-The [W3c Markup Validation Service](https://validator.w3.org/) was used to check the validity of HTML markup of all four pages of the website. The results are displayed below.
+The [W3c Markup Validation Service](https://validator.w3.org/) was used to check validity of HTML markup of all four pages of the site. The results are displayed below.
 
 Homepage
 
@@ -482,7 +482,7 @@ Contact Us Page
 
 ### CSS Validator
 
-The [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the validity of CSS code. The results are displayed below.
+The [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check validity of CSS code. The results are displayed below.
 
 ![CSS Validation](README-files/validation/css-validation.JPG)
 
@@ -490,7 +490,7 @@ The warning refers to the import of Google Fonts into style.css. However, this d
 
 ### Am I responsive?
 
-The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test the responsive nature of the website's pages.
+The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test the responsive nature of the site's pages.
 
 ![Homepage Responsiveness](README-files/responsiveness/homepage-responsiveness.JPG)
 
@@ -526,7 +526,7 @@ The Lighthouse Test on Developer Tools was used to test specific aspects of the 
 
 ### Wave Test
 
-The Lighthouse test in DevTools gave a 100 score for accessibility of all pages. However, another test was carried out using the [Wave](https://wave.webaim.org/) (Web Accessiblity Evaluation Tool). There is 1 Alert appearing on tests for all pages which refers to the presence of two adjacent links on the header that lead to the homepage - Logo and Home on the navigation bar. Since this is an intentional design element, it is not considered a significant alert to reqiure attention. 
+The [Wave](https://wave.webaim.org/) (Web Accessiblity Evaluation Tool) was used to test accessibility of all pages. There is 1 Alert appearing on tests for all pages which refers to the presence of two adjacent links on the header that lead to the homepage - Logo and Home on the navigation bar. Since this is an intentional design element, it is not considered a significant alert to reqiure attention. 
 
 #### Homepage
 
@@ -534,7 +534,7 @@ The Lighthouse test in DevTools gave a 100 score for accessibility of all pages.
 
 #### Menu Page
 
-Four of the Alerts on this page refer to the use of the word 'click' in reference to the 'click & collect' links. Upon further research, it was determined that these alerts mainly refer to vague and ambiguous links that ask users to "click here". However, as the links on this page are specific and clear, it is not neccessary to change this aspect. 
+Four of the Alerts on this page refer to the use of the word 'click' in reference to the 'click & collect' links. However, these alerts mainly refer to vague and ambiguous links that ask users to "click here". Since the links on this page are specific and clear, it is not neccessary to change this aspect. 
 
 ![Wave Menu Page](README-files/wave/wave-menu.JPG)
 
@@ -560,7 +560,7 @@ A user is able to locate this information on the Menu page. There are links to t
 
 * A user wanting to place an order online for delivery or collection.
 
-There is an 'Order Online' button on every page (except for the menu page) which directs the user to the menu page. There are further options on the menu page to either order from a delivery service, or for collection from the bakery.
+There is an 'Order Online' button on every page (except for Menu page) which directs user to the Menu page. There are further options on the Menu page to either order from a delivery service, or for collection from the bakery.
 
 * A user looking to find out more about the bakery’s ambience and environment.
 
@@ -568,7 +568,7 @@ The gallery page displays images of the bakery. This gives the user a sense of t
 
 * A user looking for the bakery’s location.
 
-The bakery's address is on the footer of the site which appears on every page. The contact us page includes information regarding the bakery's location. There is Google map that can be used to find directions. 
+The bakery's address is on the footer which appears on every page. The contact us page includes information regarding the bakery's location. There is Google map that can be used to find directions. 
 
 * A user looking for the opening and closing days and times of the bakery. 
 
@@ -576,7 +576,7 @@ The footer provides information regarding the bakery's opening and closing days 
 
 * A user wanting to send a message or provide feedback relevant to the bakery.
 
-There is a form on the contact us page where the user can input their personal information with a message and/or feedback. The bakery's email address is also included in the footer and on the contact us page.
+There is a form on the Contact Us page where the user can input their personal information with a message and/or feedback. The bakery's email address is also included on the Contact Us page.
 
 ***
 
@@ -591,7 +591,7 @@ Type ‘git push’
 
 The git commit message should clearly describe the changes made. 
 
-Pushing will send all work to the GitHub repository. 
+Pushing will send all work to the GitHub repository and automatically update changes made in GitPod to the deployed website. 
 
 ### Deployment
 
@@ -609,11 +609,9 @@ The steps below were followed to deploy this project:
 
 ## Known Bugs
 
-* The HTML Validation testing revealed that anchor tags are not to be placed before a button element. The bug was fixed by including an ‘onclick’ attribute to the button element. 
+* There was no space between the footer and the ‘beverages’ menu section on the Menu page. The bug was fixed by adding a margin-bottom to the ‘beverages’ id. 
 
-* There was no space between the footer and the ‘beverages’ menu section on the menu page. The bug was fixed by adding a margin-bottom to the ‘beverages’ id. 
-
-* Links to specific sections on menu page from the homepage menu sectionwere opening with no space above the category heading. The bug was fixed by adding a padding on top of the headings. 
+* Links to specific sections on Menu page from the homepage menu section were opening with no space above the category heading. The bug was fixed by adding a padding on top of the headings. 
 
 * There are no other known bugs.
 
@@ -631,7 +629,7 @@ Tutor Support – I would like to thank the various tutors at the Code Institute
 
 [Kevin Powell](https://www.youtube.com/kepowob) – YouTube Channel – for providing valuable videos on various HTML and CSS topics, particularly CSS grid and flexbox
 
-[Traversy Media](https://www.youtube.com/c/TraversyMedia) – YouTube Channel – for providing informative videos on various HTMl and CSS topis – particularly CSS grid and flexbox
+[Traversy Media](https://www.youtube.com/c/TraversyMedia) – YouTube Channel – for providing informative videos on various HTML and CSS topis – particularly CSS grid and flexbox
 
 [Stack Overflow](https://stackoverflow.com/) – for trouble shooting and resolving code issues
 
@@ -659,7 +657,7 @@ Tutor Support – I would like to thank the various tutors at the Code Institute
 
 [Wave](https://wave.webaim.org/) - for checking accessibility of the site
 
-[Browser Stack](https://www.browserstack.com/) - checking browser compatibility
+[Browser Stack](https://www.browserstack.com/) - for checking browser compatibility
 
 ***
 
