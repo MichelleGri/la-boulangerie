@@ -424,16 +424,20 @@ To assist the navigation menu responsiveness on mobile devices, a feature can be
 
 The website was tested by the developer, specific testing methods and tools, and other people. This was done to ensure the website is in working order and performs as expected. 
 
+The following checklist includes a plan and instructions for steps carried out to test the website.
+
+![Testing plan and instructions](README-files/testing-plan.PNG)
+
 ### Checks carried out by the developer
 
-* The navigations links are linked to the corresponding pages and direct the user to the relevant page.
-* The logo on each pages directs the user back to the homepage.
-* The order online button directs the user to the menu page.
-* Bakery menu images and categories direct the user to the relevant section on the menu page.
-* Links to online delivery services are working as expected and direct the user to the delivery service website homepage.
-* Links to ‘click and collect’ are working and direct the user to the contact us page.
+* Navigations links are linked to corresponding pages and direct user to relevant page.
+* Logo on each page directs user back to homepage.
+* Order online button directs user to Menu page.
+* Bakery menu images and categories direct user to relevant section on Menu page.
+* Links to online delivery services are working and direct user to the delivery service website homepage which opens in a new tab.
+* Links to ‘click and collect’ are working and direct user to Contact Us page.
 * Contact us form is working as expected. User is unable to send a message without completing all required inputs. 
-* The ‘send message’ button directs the user to the relevant message acknowledgement page.
+* Sending a message with completion of all required inputs opens a new tab with comfirmation of form/message sent.
 * The google map is working as expected. It opens in a new tab with an option for the user to input their own postcode to receive directions.
 * Links are styled to the main grey text colour, and are not blue.
 * Hover over effects on all relevant elements are working as expected.
@@ -441,7 +445,7 @@ The website was tested by the developer, specific testing methods and tools, and
 
 ### Usability Testing
 
-The website link was sent to a number of family and friends to check its usability. These individuals were given a checklist to carry out the same checks conduced by the website developer. They were asked to also provide feedback on the following aspects of the website: 
+The website link was sent to a number of family and friends to check its usability. These individuals were given a checklist to carry out the same checks carried out by the developer. They were asked to also provide feedback on the following aspects of the website: 
 
 * Easy to navigate through the website
 * All links are working as expected
@@ -455,7 +459,7 @@ All individuals gave positive responses and a few highlighted some issues to be 
 
 * Remove 'order online' button from menu page as it is not necessary. One person thought the link was not working as it was not directing to another page or section. This suggestion has been implemented. 
 
-* The 'click and collect' links direct the user to the contact us page but there are no further instructions given on how to order. This issue has not been resolved as it is not within the scope of the project at this stage. One method of resolving this issue would be to direct the user to a customer account page, where further instructions can be given on how to place an order. Another option is to create another page that gives detailed instructions and options on how the user can place an order, for example - by calling the bakery. 
+* The 'click and collect' links direct the user to Contact Us page but there are no further instructions given on how to order. This issue has not been resolved as it is not within the scope of the project at this stage. One method of resolving this issue would be to direct the user to a customer account page, where further instructions can be given on how to place an order. Another option is to create a page that gives detailed instructions and options on how the user can place an order, for example - by calling the bakery. 
 
 ### HTML Validator
 
@@ -499,7 +503,7 @@ The [Am I responsive](http://ami.responsivedesign.is/#) checker was used to test
 
 ### Lighthouse Test
 
-The Lighthouse Test on Developer Tools was used to test specific aspects of the website on desktop and mobile devices. The site scored well in on all pages for desktop and mobile. The lowest score achieved was for performance on gallery page for mobile devices. As there are 14 images on this page, the low score is due to low resolution of some images. However, further investigation revealed that these images appear as intended on mobile devices and therefore this is not considered an significant issue to require further attention. 
+The Lighthouse Test on Developer Tools was used to test specific aspects of the website on desktop and mobile devices. The site scored well on all pages for desktop and mobile. The lowest score achieved was for performance on Contact Us page. This is due to the Google Map included on this page. However, further investigation revealed that the map is clearly visible and working as intended on mobile devices and therefore this is not considered a significant issue to require further attention. 
 
 #### Desktop
 
@@ -553,7 +557,7 @@ The site was tested on Chrome, Firefox, Internet Explorer, Microsoft Edge, and S
 
 * A user looking for information regarding products sold by the bakery and their prices.
 
-A user is able to locate this information on the menu page. There are links to the menu page on the header navigation bar of each page. A user can also find links to the menu page at the bottom of the landing page. 
+A user is able to locate this information on the Menu page. There are links to the Menu page on the header navigation bar of each page. A user can also find links to the Menu page at the bottom of the landing page. The Order Online button also directs user to the Menu page.
 
 * A user wanting to place an order online for delivery or collection.
 
