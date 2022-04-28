@@ -621,8 +621,11 @@ textarea {
     #footer i {
         font-size: 2.3rem;
     }
-}
 
+    #footer div{
+        line-height: 1.5rem;
+    }
+}
 
 /* For screen size from 850px and down*/
 
@@ -667,18 +670,6 @@ textarea {
 
     .menu-heading {
         gap: 1rem;
-    }
-
-    #footer p {
-        font-size: 0.9rem;
-    }
-
-    #footer h2 {
-        font-size: 1.2rem;
-    }
-
-    #footer i {
-        font-size: 2.3rem;
     }
 }
 
