@@ -66,31 +66,32 @@ The website provides a brief introduction to the bakery; information regarding t
 * Being able to easily find the menu and price list
 * Visually appealing on different screen sizes
 * Functions and links to be working as expected
-* Information about La Boulangerie bakery
-* Contact information, location, and business operating days and times
+* Find information about La Boulangerie bakery
+* Find contact information, location, and business operating days and times
 * Find links to social media pages
-* Special promotional offers and discounts
+* Find special promotional offers and discounts
 
 #### First Time Visitor Goals
-* To be able to understand the primary purpose of the website and learn about the business.
-* To be able to easily place an order for delivery or collection.
-* To be able to easily navigate through the website and find content. 
-* To be able to easily find a list of all products offered at the bakery and their prices. 
-* To be able to find the location and operating days and times of the bakery.
+* To be able to understand the primary purpose of the website and learn about the business
+* To be able to easily place an order for delivery or collection
+* To be able to easily navigate through the website and find content
+* To be able to easily find a list of all products offered at the bakery and their prices
+* To be able to find the location and operating days and times of the bakery
 
 #### Returning Visitor Goals
-* To be able to find and view the menu easily and quickly.
-* To be able to easily place orders online for delivery or collection.
-* To be able to find business operating days and hours.
-* To be able to contact the bakery through the contact us form and provide feedback and/or ask questions. 
+* To be able to find and view the menu easily and quickly
+* To be able to easily place orders online for delivery or collection
+* To be able to find business operating days and hours
+* To be able to contact the bakery through the contact us form and provide feedback and/or ask questions
 
 #### Frequent User Goals
-* Sign up for special promotional offers and discounts.
-* Create customer account to easily place orders online.
+* Sign up for special promotional offers and discounts
+* Create customer account to easily place orders online
 
 #### As a developer / business, I want to provide
 * A simple and easy to navigate website with all functions and links working as expected
 * A comprehensive menu with prices
+* A method to place orders online for delivery or collection
 * Information regarding the bakery
 * Photos of the bakery and the products sold
 * An easy way to contact the bakery
@@ -99,11 +100,11 @@ The website provides a brief introduction to the bakery; information regarding t
 
 
 ## Structure
-The website consists of 4 separate pages
-* A homepage with a hero-image, a brief about-us section, and a menu section
-* A menu page with a list of products and their prices, and links to online ordering options
-* A gallery page with photos of inside of the bakery and its products
-* A contact us page with a form, a map, address, phone number, and email address for the bakery
+The website consists of 4 separate pages:
+* A Homepage with a hero-image, a brief about-us section, and a menu section
+* A Menu page with a list of products and their prices, and links to online ordering options
+* A Gallery page with photos of the bakery and its products
+* A Contact Us page with a form, a map, address, phone number, and email address for the bakery
 
 
 ***
@@ -117,7 +118,7 @@ The site was created with a very simple colour scheme of shades of blues and gre
 
 ![Colour image](README-files/design/colours-image.jpg)
 
-Four colours were chosen for the colour palette using the website [Canva](http://canva.com/colors). The image below displays the four colours with their HEX, RGB, and CMYK values. HEX values have been used in style.css file to add colours. RGB value has been for white to add opacity. 
+Four colours were chosen for the colour palette using the website [Canva](http://canva.com/colors). The image below displays the four colours with their HEX, RGB, and CMYK values. HEX values have been used in style.css file. RGB value has been used for white to add opacity. 
 
 ![Colour scheme](README-files/design/colour-scheme.jpg)
 
@@ -131,15 +132,15 @@ Four colours were chosen for the colour palette using the website [Canva](http:/
 
 The suitability of these colours for accessibility and readability purposes was checked using the contrast checker tool on the [WebAim](https://webaim.org/resources/contrastchecker/) website. 
 
-The main background colour (#F0F0F0) was checked against the main text colour (#494454). 
+The main background colour (#F0F0F0) was checked against the main text colour (#494454). The check was passed.
 
 ![Colour scheme](README-files/design/contrast-checker1.JPG)
 
-The main background colour (#F0F0F0) was checked against the logo and emphasised text colour (#494454).
+The main background colour (#F0F0F0) was checked against the logo and emphasised text colour (#494454). The check was passed.
 
 ![Colour scheme](README-files/design/contrast-checker2.JPG)
 
-The footer and 'Order Online' button background colour (#CDDEEE) was checked against the main text colour (#494454).
+The footer and 'Order Online' button background colour (#CDDEEE) was checked against the main text colour (#494454). The check was passed.
 
 ![Colour scheme](README-files/design/contrast-checker3.JPG)
 
@@ -149,36 +150,34 @@ The footer and 'Order Online' button background colour (#CDDEEE) was checked aga
 
 Three fonts were imported from [Google Fonts](https://fonts.google.com/) into the style.css file. These include 'Shadows Into Light', 'Poppins', and 'Manrope'.
 
-[Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shadows+in) – this font was used for the bakery Logo only. This font aims to add style and distinctiveness to the bakery logo. 
+[Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shadows+in) – this font was used for the bakery Logo only, which aims to add style and distinctiveness to the logo. 
 
 ![Font](README-files/design/shadows-into-light.JPG)
 
-[Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) – this font has been used for all headings on the website.
+[Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) – this font has been used for all headings.
 
 ![Font](README-files/design/poppins.JPG)
 
-[Manrope](https://fonts.google.com/specimen/Manrope?query=manrope) – this font has been used for all other text on the website.
+[Manrope](https://fonts.google.com/specimen/Manrope?query=manrope) – this font has been used for all other text.
 
 ![Font](README-files/design/manrope.jpg)
 
 * Manrope and Poppins were chosen for headings and other text as they compliment each other and are easily readable. 
 
-* Letter spacing has been included to almost all text to increase readability of the text. 
+* Letter spacing has been included to almost all text to increase readability. 
 
-* All fonts have been set to default to sans-serif in case they are unable to load or be applied to the text. 
+* All fonts have been set to default to Sans-Serif font in case they are unable to load or be applied to the text. 
 
 * A variety of font sizes have been used throughout the website to ensure text is in proportion to other elements on the page, such as images. 
 
 
 ### Imagery
 
-The main hero-image on the homepage has been included as it provides a simple combination to the bakery’s unique selling points – fresh, unique, prestige and quality. The brightly coloured fruits provide a vibrant energy, while the grey background adds depth to the overall website. 
+The main hero-image on the homepage provides a simple combination to the bakery’s unique selling points – fresh, unique, prestige and quality. The brightly coloured fruits provide a vibrant energy, while the grey background adds depth to the overall site. The remaining images are of paintings and drawings to provide character to the bakery. This also provides consistency of images throughout the site. 
 
-The remaining images on the website are of paintings and drawings to provide character to the bakery. This also provides consistency of images throughout the website. 
+Since La Boulangerie is a fictional bakery, images on the Gallery page were taken from free images websites. However, the idea is for the Gallery page to display images of the bakery’s outside and inside environment, its products, and its customers. These images will inform the user of the bakery’s ambience, environment, quality and tasty products, and satisfied customers. 
 
-Since La Boulangerie is a fictional bakery, the images on the gallery page were taken from free images websites. However, the idea is that the gallery will include images of the bakery’s outside and inside environment, its products, and its customers. These images will inform the user of the bakery’s ambience, environment, quality and tasty products, and satisfied customers. The gallery page may be updated on a regular basis to introduce new product images and brief descriptions. 
-
-To add style and subtlety throughout the website, the border of all images have been rounded. All images on the website have “alt” attributes. This is to ensure accessibility of the website, and enhance ‘search engine optimisation’. It also ensures there is a description of the image if it fails to load, and screen readers can describe the image to the user. 
+Border of all images have been rounded to add style and subtlety. All images have “alt” attributes to ensure accessibility and enhance ‘search engine optimisation’. It also ensures there is a description of the image if it fails to load, and screen readers can describe images to user. 
 
 #### Image Links
 
@@ -246,7 +245,7 @@ The logo was designed using the ‘Shadows Into Light’ font, imported from [Go
 
 ### Call to Action
 
-The main call to action on the website is the ‘Order Online’ button on the header of every page. This leads the user to the menu page which gives further details on how to make a purchase. The button is designed using the light blue-grey (#CDDEEE) colour as its background, which is the same colour used for the footer background. The corners have been rounded - inline with the images on the website. The button outline colour is midnight-blue (#191970), which is the same colour as the Logo. There is a subtle box-shadow created that further emphasises the button. The text is all uppercase, in the colour grape (#494454), and the font-family is the set to default font Ariel (this font provides the best visibility for this specific feature). There is a hover effect that makes the background colour white on hover. The hover effect enables the user to clearly see that this is a link.
+The main call to action on the website is the ‘Order Online’ button on header of every page. This leads user to Menu page which gives further details on how to make a purchase. The button is designed using the light blue-grey (#CDDEEE) colour as its background, which is the same colour used for the footer background. The corners have been rounded to match with all images on the site. The button outline colour is midnight-blue (#191970), which is the same colour as the Logo. There is a subtle box-shadow created that further emphasises the button. The text is all uppercase, in the colour grape (#494454), and the font is Manrope. There is a hover effect that makes the background colour white on hover. The hover effect enables the user to clearly see that this is a link.
 
 ![order-Online-button](README-files/design/order-online-button.JPG)
 

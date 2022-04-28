@@ -78,7 +78,7 @@ header {
     box-shadow: 0rem 0rem 0.313rem 0.063rem #191970;
 }
 
-button:hover {
+.button:hover {
     background-color: #ffffff;
     color: #494454;
 }
